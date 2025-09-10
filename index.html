@@ -130,14 +130,18 @@
                 </div>
                 <div class="lg:col-span-4">
                     <div class="flex flex-col sm:flex-row gap-3">
-                        <label class="flex-1">
-                            <select id="leaderboardFilter"
-                                class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
-                                <option value="all">All Leaderboards</option>
-                                <option value="KOM">KOM Only</option>
-                                <option value="QOM">QOM Only</option>
-                            </select>
-                        </label>
+                        <div class="flex gap-2">
+                            <button id="komBtn"
+                                class="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm shadow-sm hover:bg-slate-50">
+                                <i class="fa-solid fa-chess-king"></i>
+                                KOM
+                            </button>
+                            <button id="qomBtn"
+                                class="inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm shadow-sm hover:bg-slate-50">
+                                <i class="fa-solid fa-chess-queen"></i>
+                                QOM
+                            </button>
+                        </div>
                         <label class="flex-1">
                             <select id="sortSelect"
                                 class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
@@ -227,13 +231,15 @@
             markersLayer: null,
             currentPage: 1,
             itemsPerPage: 12,
-            woodburyFilterActive: false
+            woodburyFilterActive: false,
+            selectedLeaderboard: 'all' // 'all', 'KOM', or 'QOM'
         };
 
         const els = {
             year: document.getElementById('year'),
             searchInput: document.getElementById('searchInput'),
-            leaderboardFilter: document.getElementById('leaderboardFilter'),
+            komBtn: document.getElementById('komBtn'),
+            qomBtn: document.getElementById('qomBtn'),
             sortSelect: document.getElementById('sortSelect'),
             resetBtn: document.getElementById('resetBtn'),
             woodburyFilterBtn: document.getElementById('woodburyFilterBtn'),
@@ -343,12 +349,11 @@
         function applyFiltersAndSort(groups) {
             const q = els.searchInput.value.trim().toLowerCase();
             const sort = els.sortSelect.value;
-            const leaderboardFilter = els.leaderboardFilter.value;
 
             let filtered = groups.filter((g) => {
                 // Leaderboard filter: KOM, QOM, or All
-                if (leaderboardFilter !== 'all') {
-                    const hasMatchingLeaderboard = g.entries.some((e) => e.leaderboard === leaderboardFilter);
+                if (state.selectedLeaderboard !== 'all') {
+                    const hasMatchingLeaderboard = g.entries.some((e) => e.leaderboard === state.selectedLeaderboard);
                     if (!hasMatchingLeaderboard) return false;
                 }
 
@@ -400,7 +405,11 @@
         }
 
         function createSegmentCard(group) {
-            const displayedEntries = group.entries;
+            // Filter entries based on leaderboard selection
+            let displayedEntries = group.entries;
+            if (state.selectedLeaderboard !== 'all') {
+                displayedEntries = group.entries.filter(entry => entry.leaderboard === state.selectedLeaderboard);
+            }
 
             const card = document.createElement('article');
             card.className = 'rounded-xl border border-slate-200 bg-white shadow-sm overflow-hidden flex flex-col';
@@ -429,7 +438,7 @@
             const best = document.createElement('span');
             best.innerHTML = `<i class="fa-solid fa-stopwatch text-slate-400"></i> Best: ${formatTime(group.best_time)}`;
             const count = document.createElement('span');
-            count.innerHTML = `<i class="fa-solid fa-list-ol text-slate-400"></i> ${group.entries.length} entries`;
+            count.innerHTML = `<i class="fa-solid fa-list-ol text-slate-400"></i> ${displayedEntries.length} entries`;
             meta.append(miles, best, count);
 
             titleWrap.append(title, meta);
@@ -458,7 +467,11 @@
                 tdRank.className = 'py-2 pr-3 w-16 text-slate-700';
                 tdName.className = 'py-2 pr-3 text-slate-800';
                 tdTime.className = 'py-2 text-slate-700';
-                tdRank.textContent = Number.isFinite(e.leaderboard_rank) ? `#${e.leaderboard_rank}` : '—';
+
+                // Use overall_rank for "All Leaderboards", leaderboard_rank for KOM/QOM
+                const rankToShow = state.selectedLeaderboard === 'all' ? e.overall_rank : e.leaderboard_rank;
+                tdRank.textContent = Number.isFinite(rankToShow) ? `#${rankToShow}` : '—';
+
                 tdName.textContent = e.person_name ?? 'Unknown';
                 tdTime.textContent = formatTime(e.timing);
                 tr.append(tdRank, tdName, tdTime);
@@ -621,6 +634,23 @@
             }
         }
 
+        function updateLeaderboardButtons() {
+            // Reset both buttons to default state
+            [els.komBtn, els.qomBtn].forEach(btn => {
+                btn.classList.remove('bg-orange-500', 'text-white', 'border-orange-500');
+                btn.classList.add('border-slate-300', 'bg-white', 'text-slate-700');
+            });
+
+            // Set active button
+            if (state.selectedLeaderboard === 'KOM') {
+                els.komBtn.classList.add('bg-orange-500', 'text-white', 'border-orange-500');
+                els.komBtn.classList.remove('border-slate-300', 'bg-white', 'text-slate-700');
+            } else if (state.selectedLeaderboard === 'QOM') {
+                els.qomBtn.classList.add('bg-orange-500', 'text-white', 'border-orange-500');
+                els.qomBtn.classList.remove('border-slate-300', 'bg-white', 'text-slate-700');
+            }
+        }
+
         function updateWoodburyButton() {
             if (state.woodburyFilterActive) {
                 els.woodburyFilterBtn.classList.add('bg-orange-500', 'text-white', 'border-orange-500');
@@ -667,8 +697,25 @@
                 state.currentPage = 1; // Reset to first page on search
                 render();
             }, 200));
-            els.leaderboardFilter.addEventListener('change', () => {
-                state.currentPage = 1; // Reset to first page on filter change
+            els.komBtn.addEventListener('click', () => {
+                if (state.selectedLeaderboard === 'KOM') {
+                    state.selectedLeaderboard = 'all'; // Toggle off if already selected
+                } else {
+                    state.selectedLeaderboard = 'KOM';
+                }
+                state.currentPage = 1;
+                updateLeaderboardButtons();
+                render();
+            });
+
+            els.qomBtn.addEventListener('click', () => {
+                if (state.selectedLeaderboard === 'QOM') {
+                    state.selectedLeaderboard = 'all'; // Toggle off if already selected
+                } else {
+                    state.selectedLeaderboard = 'QOM';
+                }
+                state.currentPage = 1;
+                updateLeaderboardButtons();
                 render();
             });
             els.sortSelect.addEventListener('change', () => {
@@ -684,10 +731,11 @@
 
             els.resetBtn.addEventListener('click', () => {
                 els.searchInput.value = '';
-                els.leaderboardFilter.value = 'all';
+                state.selectedLeaderboard = 'all';
                 els.sortSelect.value = 'name-asc';
                 state.woodburyFilterActive = false;
                 state.currentPage = 1;
+                updateLeaderboardButtons();
                 updateWoodburyButton();
                 render();
             });
