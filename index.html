@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Local KOM/QOM Leaderboards</title>
+
+    <!-- Tailwind CSS (CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkfKTSdI4ZtOBaY1zJ8N9GMWvYIq1vE5bY8Z6Qx4Ck7q0gqUNShypHbFw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Leaflet CSS/JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <style>
+        /* Ensure map has a height */
+        #map {
+            height: 420px;
+        }
+
+        /* Smooth scrolling for anchor-like interactions */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800">
+    <header class="sticky top-0 z-30 backdrop-blur bg-white/80 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <span
+                    class="inline-flex h-10 w-10 items-center justify-center rounded-lg bg-orange-500 text-white text-xl font-bold shadow"><i
+                        class="fa-solid fa-person-biking"></i></span>
+                <div>
+                    <h1 class="text-xl sm:text-2xl font-semibold">Local KOM/QOM Leaderboards</h1>
+                    <p class="text-xs sm:text-sm text-slate-500">Live view of our area's Strava segments and top times
+                    </p>
+                </div>
+            </div>
+            <a href="https://www.strava.com"
+                class="hidden sm:inline-flex items-center gap-2 text-sm text-slate-600 hover:text-orange-600"
+                target="_blank" rel="noopener">
+                <i class="fa-brands fa-strava"></i>
+                <span>Powered by Strava segments</span>
+            </a>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+        <!-- Controls -->
+        <section class="mb-6">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-4">
+                <div class="lg:col-span-8">
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <label class="relative flex-1">
+                            <input id="searchInput" type="search" placeholder="Search segments or riders..."
+                                class="w-full rounded-lg border border-slate-300 bg-white px-4 py-2.5 pr-10 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500" />
+                            <span class="absolute right-3 top-1/2 -translate-y-1/2 text-slate-400"><i
+                                    class="fa-solid fa-magnifying-glass"></i></span>
+                        </label>
+                        <label class="flex items-center gap-2">
+                            <span class="text-sm text-slate-600 whitespace-nowrap">Min miles</span>
+                            <input id="minMilesInput" type="number" step="0.1" min="0"
+                                class="w-24 rounded-lg border border-slate-300 bg-white px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500" />
+                        </label>
+                        <label class="flex items-center gap-2">
+                            <span class="text-sm text-slate-600 whitespace-nowrap">Max miles</span>
+                            <input id="maxMilesInput" type="number" step="0.1" min="0"
+                                class="w-24 rounded-lg border border-slate-300 bg-white px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500" />
+                        </label>
+                    </div>
+                </div>
+                <div class="lg:col-span-4">
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <label class="flex-1">
+                            <select id="sortSelect"
+                                class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
+                                <option value="name-asc">Sort: Segment name (A→Z)</option>
+                                <option value="distance-asc">Sort: Distance (short→long)</option>
+                                <option value="distance-desc">Sort: Distance (long→short)</option>
+                                <option value="besttime-asc">Sort: Fastest best time</option>
+                                <option value="leaderboard-desc">Sort: Most leaderboard entries</option>
+                            </select>
+                        </label>
+                        <label>
+                            <select id="limitSelect"
+                                class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
+                                <option value="5">Top 5 per segment</option>
+                                <option value="10" selected>Top 10 per segment</option>
+                                <option value="25">Top 25 per segment</option>
+                                <option value="0">Show all per segment</option>
+                            </select>
+                        </label>
+                        <button id="resetBtn"
+                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm shadow-sm hover:bg-slate-50">
+                            <i class="fa-solid fa-rotate"></i>
+                            Reset
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map -->
+        <section class="mb-6">
+            <div class="rounded-xl border border-slate-200 bg-white shadow-sm overflow-hidden">
+                <div class="flex items-center justify-between px-4 py-3 border-b border-slate-200">
+                    <div class="flex items-center gap-2 text-slate-700"><i
+                            class="fa-solid fa-map-location-dot text-orange-600"></i><span class="font-medium">Segments
+                            Map</span></div>
+                    <div class="text-sm text-slate-500" id="mapStatus">Loading map…</div>
+                </div>
+                <div id="map" class="w-full"></div>
+            </div>
+        </section>
+
+        <!-- Results info -->
+        <section class="mb-3">
+            <div class="text-sm text-slate-600" id="resultsInfo">Loading leaderboards…</div>
+        </section>
+
+        <!-- Segments Container -->
+        <section id="segmentsContainer" class="grid grid-cols-1 md:grid-cols-2 gap-4"></section>
+    </main>
+
+    <footer class="border-t border-slate-200 py-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-sm text-slate-500 flex items-center justify-between">
+            <div>&copy; <span id="year"></span> Let's Roll LLC dba Chipotle Riders</div>
+            <a class="inline-flex items-center gap-2 hover:text-orange-600" href="https://www.strava.com"
+                target="_blank" rel="noopener">
+                <i class="fa-brands fa-strava"></i> View on Strava
+            </a>
+        </div>
+    </footer>
+
+    <script type="module">
+        const METER_TO_MILE = 0.000621371;
+
+        const state = {
+            segmentsIndex: new Map(), // strava_id -> segment meta from segments.json
+            grouped: [], // array of grouped segments with leaderboard
+            markersById: new Map(),
+            map: null,
+            markersLayer: null
+        };
+
+        const els = {
+            year: document.getElementById('year'),
+            searchInput: document.getElementById('searchInput'),
+            minMilesInput: document.getElementById('minMilesInput'),
+            maxMilesInput: document.getElementById('maxMilesInput'),
+            sortSelect: document.getElementById('sortSelect'),
+            limitSelect: document.getElementById('limitSelect'),
+            resetBtn: document.getElementById('resetBtn'),
+            segmentsContainer: document.getElementById('segmentsContainer'),
+            resultsInfo: document.getElementById('resultsInfo'),
+            mapStatus: document.getElementById('mapStatus')
+        };
+
+        els.year.textContent = new Date().getFullYear();
+
+        // Simple debounce
+        function debounce(fn, delay = 200) {
+            let t;
+            return (...args) => {
+                clearTimeout(t);
+                t = setTimeout(() => fn(...args), delay);
+            };
+        }
+
+        function formatMiles(meters) {
+            if (meters == null || Number.isNaN(meters)) return '—';
+            const miles = meters * METER_TO_MILE;
+            return miles.toFixed(2);
+        }
+
+        function parseMiles(value) {
+            const n = Number(value);
+            return Number.isFinite(n) ? n : null;
+        }
+
+        function formatTime(totalSeconds) {
+            if (totalSeconds == null || !Number.isFinite(totalSeconds)) return '—';
+            const seconds = Math.floor(totalSeconds % 60);
+            const minutes = Math.floor((totalSeconds / 60) % 60);
+            const hours = Math.floor(totalSeconds / 3600);
+            const pad = (n) => String(n).padStart(2, '0');
+            if (hours > 0) return `${hours}:${pad(minutes)}:${pad(seconds)}`;
+            return `${minutes}:${pad(seconds)}`;
+        }
+
+        function buildSegmentsIndex(segmentsArr) {
+            const map = new Map();
+            for (const seg of segmentsArr) {
+                if (!seg || seg.strava_id == null) continue;
+                map.set(String(seg.strava_id), {
+                    segment_name: seg.segment_name ?? null,
+                    strava_id: String(seg.strava_id),
+                    distance_m: Number(seg.distance) ?? null,
+                    latitude: seg.latitude ?? null,
+                    longitude: seg.longitude ?? null
+                });
+            }
+            return map;
+        }
+
+        function groupLeaderboardBySegment(leaderboardArr, segmentsIndex) {
+            const byId = new Map();
+            for (const row of leaderboardArr) {
+                const stravaId = String(row.strava_id);
+                if (!byId.has(stravaId)) {
+                    const meta = segmentsIndex.get(stravaId) ?? null;
+                    byId.set(stravaId, {
+                        strava_id: stravaId,
+                        segment_name: meta?.segment_name ?? row.segment_name ?? `Segment ${stravaId}`,
+                        distance_m: meta?.distance_m ?? null,
+                        latitude: meta?.latitude ?? null,
+                        longitude: meta?.longitude ?? null,
+                        entries: []
+                    });
+                }
+                byId.get(stravaId).entries.push({
+                    person_name: row.person_name ?? 'Unknown',
+                    leaderboard_rank: Number(row.leaderboard_rank) ?? null,
+                    timing: Number(row.timing) ?? null
+                });
+            }
+            const grouped = Array.from(byId.values()).map((g) => {
+                g.entries.sort((a, b) => {
+                    // Sort by rank if present, else by timing ascending
+                    if (Number.isFinite(a.leaderboard_rank) && Number.isFinite(b.leaderboard_rank)) {
+                        return a.leaderboard_rank - b.leaderboard_rank;
+                    }
+                    if (Number.isFinite(a.timing) && Number.isFinite(b.timing)) {
+                        return a.timing - b.timing;
+                    }
+                    return 0;
+                });
+                g.best_time = g.entries.find((e) => Number.isFinite(e.timing))?.timing ?? null;
+                g.distance_miles = Number.isFinite(g.distance_m) ? g.distance_m * METER_TO_MILE : null;
+                return g;
+            });
+            return grouped;
+        }
+
+        function applyFiltersAndSort(groups) {
+            const q = els.searchInput.value.trim().toLowerCase();
+            const minMiles = parseMiles(els.minMilesInput.value);
+            const maxMiles = parseMiles(els.maxMilesInput.value);
+            const sort = els.sortSelect.value;
+
+            let filtered = groups.filter((g) => {
+                // Text match: segment or rider
+                const matchesText = q.length === 0 ||
+                    g.segment_name?.toLowerCase().includes(q) ||
+                    g.entries.some((e) => e.person_name?.toLowerCase().includes(q));
+
+                if (!matchesText) return false;
+
+                // Distance filter (miles)
+                if (minMiles != null && (g.distance_miles == null || g.distance_miles < minMiles)) return false;
+                if (maxMiles != null && (g.distance_miles == null || g.distance_miles > maxMiles)) return false;
+                return true;
+            });
+
+            // Sorting
+            const cmp = new Intl.Collator(undefined, { sensitivity: 'base', numeric: true });
+            filtered.sort((a, b) => {
+                switch (sort) {
+                    case 'name-asc':
+                        return cmp.compare(a.segment_name ?? '', b.segment_name ?? '');
+                    case 'distance-asc': {
+                        const da = a.distance_miles ?? Number.POSITIVE_INFINITY;
+                        const db = b.distance_miles ?? Number.POSITIVE_INFINITY;
+                        return da - db;
+                    }
+                    case 'distance-desc': {
+                        const da = a.distance_miles ?? Number.NEGATIVE_INFINITY;
+                        const db = b.distance_miles ?? Number.NEGATIVE_INFINITY;
+                        return db - da;
+                    }
+                    case 'besttime-asc': {
+                        const ta = Number.isFinite(a.best_time) ? a.best_time : Number.POSITIVE_INFINITY;
+                        const tb = Number.isFinite(b.best_time) ? b.best_time : Number.POSITIVE_INFINITY;
+                        return ta - tb;
+                    }
+                    case 'leaderboard-desc':
+                        return b.entries.length - a.entries.length;
+                    default:
+                        return 0;
+                }
+            });
+            return filtered;
+        }
+
+        function createSegmentCard(group) {
+            const limit = Number(els.limitSelect.value);
+            const showAll = limit === 0;
+            const displayedEntries = showAll ? group.entries : group.entries.slice(0, limit);
+
+            const card = document.createElement('article');
+            card.className = 'rounded-xl border border-slate-200 bg-white shadow-sm overflow-hidden flex flex-col';
+            card.dataset.stravaId = group.strava_id;
+
+            const header = document.createElement('div');
+            header.className = 'px-4 pt-4 flex items-start justify-between gap-3';
+
+            const titleWrap = document.createElement('div');
+            titleWrap.className = 'min-w-0';
+
+            const title = document.createElement('a');
+            title.href = `https://www.strava.com/segments/${encodeURIComponent(group.strava_id)}`;
+            title.target = '_blank';
+            title.rel = 'noopener';
+            title.className = 'group inline-flex items-center gap-2 text-base font-semibold text-slate-800 hover:text-orange-600';
+            title.textContent = group.segment_name ?? `Segment ${group.strava_id}`;
+            const ext = document.createElement('i');
+            ext.className = 'fa-solid fa-arrow-up-right-from-square text-xs opacity-0 group-hover:opacity-100 transition-opacity';
+            title.appendChild(ext);
+
+            const meta = document.createElement('div');
+            meta.className = 'mt-1 text-sm text-slate-500 flex items-center gap-3';
+            const miles = document.createElement('span');
+            miles.innerHTML = `<i class="fa-solid fa-ruler-horizontal text-slate-400"></i> ${group.distance_miles != null ? formatMiles(group.distance_m) : '—'} mi`;
+            const best = document.createElement('span');
+            best.innerHTML = `<i class="fa-solid fa-stopwatch text-slate-400"></i> Best: ${formatTime(group.best_time)}`;
+            const count = document.createElement('span');
+            count.innerHTML = `<i class="fa-solid fa-list-ol text-slate-400"></i> ${group.entries.length} entries`;
+            meta.append(miles, best, count);
+
+            titleWrap.append(title, meta);
+
+            const mapBtn = document.createElement('button');
+            mapBtn.className = 'inline-flex items-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm hover:bg-slate-50 disabled:opacity-50';
+            mapBtn.innerHTML = '<i class="fa-solid fa-location-crosshairs"></i> View on map';
+            mapBtn.disabled = !(Number.isFinite(group.latitude) && Number.isFinite(group.longitude));
+            mapBtn.addEventListener('click', () => focusSegmentOnMap(group.strava_id));
+
+            header.append(titleWrap, mapBtn);
+
+            const tableWrap = document.createElement('div');
+            tableWrap.className = 'px-4 pb-4 mt-3';
+            const table = document.createElement('table');
+            table.className = 'w-full text-sm';
+            const thead = document.createElement('thead');
+            thead.innerHTML = '<tr class="text-slate-500"><th class="text-left font-medium py-2">Rank</th><th class="text-left font-medium py-2">Rider</th><th class="text-left font-medium py-2">Time</th></tr>';
+            const tbody = document.createElement('tbody');
+            for (const e of displayedEntries) {
+                const tr = document.createElement('tr');
+                tr.className = 'border-t border-slate-100';
+                const tdRank = document.createElement('td');
+                const tdName = document.createElement('td');
+                const tdTime = document.createElement('td');
+                tdRank.className = 'py-2 pr-3 w-16 text-slate-700';
+                tdName.className = 'py-2 pr-3 text-slate-800';
+                tdTime.className = 'py-2 text-slate-700';
+                tdRank.textContent = Number.isFinite(e.leaderboard_rank) ? `#${e.leaderboard_rank}` : '—';
+                tdName.textContent = e.person_name ?? 'Unknown';
+                tdTime.textContent = formatTime(e.timing);
+                tr.append(tdRank, tdName, tdTime);
+                tbody.appendChild(tr);
+            }
+            table.append(thead, tbody);
+            tableWrap.appendChild(table);
+
+            if (!showAll && group.entries.length > displayedEntries.length) {
+                const more = document.createElement('div');
+                more.className = 'px-4 pb-4 -mt-2 text-xs text-slate-500';
+                more.textContent = `${group.entries.length - displayedEntries.length} more not shown…`;
+                card.append(header, tableWrap, more);
+            } else {
+                card.append(header, tableWrap);
+            }
+            return card;
+        }
+
+        function render() {
+            const filtered = applyFiltersAndSort(state.grouped);
+            els.resultsInfo.textContent = `${filtered.length} segment${filtered.length === 1 ? '' : 's'} shown`;
+
+            // Update list
+            els.segmentsContainer.innerHTML = '';
+            const frag = document.createDocumentFragment();
+            for (const group of filtered) {
+                frag.appendChild(createSegmentCard(group));
+            }
+            els.segmentsContainer.appendChild(frag);
+
+            // Update markers layer
+            updateMarkersVisibility(new Set(filtered.map((g) => g.strava_id)));
+        }
+
+        function initMap() {
+            state.map = L.map('map');
+            const tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                maxZoom: 19,
+                attribution: '&copy; OpenStreetMap contributors'
+            });
+            tiles.addTo(state.map);
+            state.markersLayer = L.layerGroup().addTo(state.map);
+            els.mapStatus.textContent = 'Loading segments…';
+        }
+
+        function addMarkers(groups) {
+            state.markersLayer.clearLayers();
+            state.markersById.clear();
+            const bounds = [];
+            for (const g of groups) {
+                if (!Number.isFinite(g.latitude) || !Number.isFinite(g.longitude)) continue;
+                const marker = L.marker([g.latitude, g.longitude]);
+                const popupHtml = `
+            <div class="text-sm">
+              <div class="font-semibold">${escapeHtml(g.segment_name ?? `Segment ${g.strava_id}`)}</div>
+              <div class="text-slate-600">${g.distance_miles != null ? formatMiles(g.distance_m) : '—'} mi · Best ${formatTime(g.best_time)}</div>
+              <a href="https://www.strava.com/segments/${encodeURIComponent(g.strava_id)}" target="_blank" rel="noopener" class="text-orange-600 hover:underline">Open on Strava</a>
+            </div>`;
+                marker.bindPopup(popupHtml);
+                marker.on('click', () => scrollToSegmentCard(g.strava_id));
+                marker.addTo(state.markersLayer);
+                state.markersById.set(g.strava_id, marker);
+                bounds.push([g.latitude, g.longitude]);
+            }
+            if (bounds.length > 0) {
+                state.map.fitBounds(bounds, { padding: [30, 30] });
+                els.mapStatus.textContent = `${bounds.length} segment${bounds.length === 1 ? '' : 's'} on map`;
+            } else {
+                state.map.setView([39.5, -98.35], 4); // USA fallback
+                els.mapStatus.textContent = 'No mappable segments';
+            }
+        }
+
+        function updateMarkersVisibility(visibleIds) {
+            for (const [id, marker] of state.markersById.entries()) {
+                const shouldShow = visibleIds.has(id);
+                const hasLayer = state.markersLayer.hasLayer(marker);
+                if (shouldShow && !hasLayer) {
+                    marker.addTo(state.markersLayer);
+                } else if (!shouldShow && hasLayer) {
+                    state.markersLayer.removeLayer(marker);
+                }
+            }
+        }
+
+        function focusSegmentOnMap(stravaId) {
+            const marker = state.markersById.get(String(stravaId));
+            if (!marker || !state.map) return;
+            state.map.setView(marker.getLatLng(), 15, { animate: true });
+            marker.openPopup();
+        }
+
+        function scrollToSegmentCard(stravaId) {
+            const card = els.segmentsContainer.querySelector(`[data-strava-id="${CSS.escape(String(stravaId))}"]`);
+            if (!card) return;
+            card.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            card.classList.add('ring', 'ring-orange-500');
+            setTimeout(() => card.classList.remove('ring', 'ring-orange-500'), 1200);
+        }
+
+        function escapeHtml(str) {
+            return String(str)
+                .replaceAll('&', '&amp;')
+                .replaceAll('<', '&lt;')
+                .replaceAll('>', '&gt;')
+                .replaceAll('"', '&quot;')
+                .replaceAll("'", '&#039;');
+        }
+
+        async function loadData() {
+            els.resultsInfo.textContent = 'Loading data…';
+            const [segmentsResp, leaderboardResp] = await Promise.all([
+                fetch('./segments.json'),
+                fetch('./komqom.json')
+            ]);
+
+            if (!segmentsResp.ok) throw new Error(`Failed to load segments.json (${segmentsResp.status})`);
+            if (!leaderboardResp.ok) throw new Error(`Failed to load komqom.json (${leaderboardResp.status})`);
+
+            const [segmentsArr, leaderboardArr] = await Promise.all([
+                segmentsResp.json(),
+                leaderboardResp.json()
+            ]);
+
+            state.segmentsIndex = buildSegmentsIndex(segmentsArr);
+            state.grouped = groupLeaderboardBySegment(leaderboardArr, state.segmentsIndex);
+
+            // Pre-fill miles bounds based on data
+            const milesList = state.grouped.map((g) => g.distance_miles).filter((v) => Number.isFinite(v));
+            const min = milesList.length ? Math.floor(Math.min(...milesList) * 10) / 10 : '';
+            const max = milesList.length ? Math.ceil(Math.max(...milesList) * 10) / 10 : '';
+            els.minMilesInput.placeholder = milesList.length ? String(min) : '';
+            els.maxMilesInput.placeholder = milesList.length ? String(max) : '';
+
+            addMarkers(state.grouped);
+            render();
+        }
+
+        function attachEvents() {
+            els.searchInput.addEventListener('input', debounce(render, 200));
+            els.minMilesInput.addEventListener('input', debounce(render, 200));
+            els.maxMilesInput.addEventListener('input', debounce(render, 200));
+            els.sortSelect.addEventListener('change', render);
+            els.limitSelect.addEventListener('change', render);
+            els.resetBtn.addEventListener('click', () => {
+                els.searchInput.value = '';
+                els.minMilesInput.value = '';
+                els.maxMilesInput.value = '';
+                els.sortSelect.value = 'name-asc';
+                els.limitSelect.value = '10';
+                render();
+            });
+        }
+
+        // Initialize
+        initMap();
+        attachEvents();
+        loadData().catch((err) => {
+            console.error(err);
+            els.resultsInfo.innerHTML = `<span class="text-red-600"><i class=\"fa-solid fa-triangle-exclamation\"></i> ${escapeHtml(err.message)}</span>`;
+            els.mapStatus.innerHTML = `<span class="text-red-600"><i class=\"fa-solid fa-triangle-exclamation\"></i> Map may be incomplete</span>`;
+        });
+    </script>
+</body>
+
+</html>
