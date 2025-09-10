@@ -1,38 +1,10 @@
 [
 	{
-		"segment_name": "1st South to TaHa",
-		"strava_id": 32827884,
-		"distance": 697.9000244140625,
-		"latitude": 42.010426,
-		"longitude": -97.407097
-	},
-	{
-		"segment_name": "The good feel crown",
-		"strava_id": 31817626,
-		"distance": 874.5,
-		"latitude": 42.018211,
-		"longitude": -97.390343
-	},
-	{
-		"segment_name": "Victory Hill Sprint",
-		"strava_id": 22935052,
-		"distance": 1184,
-		"latitude": 42.062218,
-		"longitude": -97.387795
-	},
-	{
-		"segment_name": "Dinkel Bottoms",
-		"strava_id": 16003066,
-		"distance": 1291.199951171875,
-		"latitude": 42.018845,
-		"longitude": -97.465562
-	},
-	{
-		"segment_name": "Red Bull Rising",
-		"strava_id": 16331402,
-		"distance": 669.4000244140625,
-		"latitude": 42.058693,
-		"longitude": -97.353748
+		"segment_name": "Stanton to Norfolk",
+		"strava_id": 675157,
+		"distance": 16492.19921875,
+		"latitude": 41.948439,
+		"longitude": -97.22403
 	},
 	{
 		"segment_name": "NRS Crit 7-5-11 full race",
@@ -42,46 +14,11 @@
 		"longitude": -97.392857
 	},
 	{
-		"segment_name": "Stanton to Norfolk",
-		"strava_id": 675157,
-		"distance": 16492.19921875,
-		"latitude": 41.948439,
-		"longitude": -97.22403
-	},
-	{
-		"segment_name": "Ta Ha Zouka To Battle Creek Ride",
-		"strava_id": 2622253,
-		"distance": 15684.099609375,
-		"latitude": 42.003511,
-		"longitude": -97.426461
-	},
-	{
-		"segment_name": "Cowboy Trail: Norfolk to Battle Creek (Out and Back)",
-		"strava_id": 4151766,
-		"distance": 31369.69921875,
-		"latitude": 42.003957,
-		"longitude": -97.425308
-	},
-	{
-		"segment_name": "Winside Climb",
-		"strava_id": 7754871,
-		"distance": 1387.300048828125,
-		"latitude": 42.177745,
-		"longitude": -97.184658
-	},
-	{
-		"segment_name": "Top of Forest Drive",
-		"strava_id": 32711172,
-		"distance": 535.7999877929688,
-		"latitude": 42.058042,
-		"longitude": -97.34881
-	},
-	{
-		"segment_name": "Home Stretch",
-		"strava_id": 22935188,
-		"distance": 310.79998779296875,
-		"latitude": 42.055717,
-		"longitude": -97.440613
+		"segment_name": "7-23-11 gravel",
+		"strava_id": 689341,
+		"distance": 48199.30078125,
+		"latitude": 42.036281,
+		"longitude": -97.448201
 	},
 	{
 		"segment_name": "25th Street",
@@ -91,123 +28,298 @@
 		"longitude": -97.445821
 	},
 	{
-		"segment_name": "Dinkel Bottoms South",
-		"strava_id": 23837853,
-		"distance": 1463,
-		"latitude": 42.031425,
-		"longitude": -97.465683
+		"segment_name": "Pierce Loop",
+		"strava_id": 701578,
+		"distance": 44301.30078125,
+		"latitude": 42.061885,
+		"longitude": -97.426544
 	},
 	{
-		"segment_name": "Decline of the Benjamin",
-		"strava_id": 26441044,
-		"distance": 466.8999938964844,
-		"latitude": 42.047096,
-		"longitude": -97.426751
+		"segment_name": "Stanton Loop",
+		"strava_id": 702607,
+		"distance": 38792.80078125,
+		"latitude": 42.018489,
+		"longitude": -97.381092
 	},
 	{
-		"segment_name": "Full throttle to roundabout",
-		"strava_id": 24720335,
-		"distance": 420.3999938964844,
-		"latitude": 42.032822,
-		"longitude": -97.392265
+		"segment_name": "BC loop from Cleveland Bike",
+		"strava_id": 707787,
+		"distance": 36918.80078125,
+		"latitude": 42.032258,
+		"longitude": -97.41266
 	},
 	{
-		"segment_name": "Bridge to Nucor",
-		"strava_id": 26440702,
-		"distance": 3763.10009765625,
-		"latitude": 42.068428,
-		"longitude": -97.421048
+		"segment_name": "NRS TT ",
+		"strava_id": 714653,
+		"distance": 7999.41015625,
+		"latitude": 42.018064,
+		"longitude": -97.44613
 	},
 	{
-		"segment_name": "RiverPointe Underpass North",
-		"strava_id": 17587059,
-		"distance": 392.8999938964844,
-		"latitude": 42.030789,
-		"longitude": -97.402072
+		"segment_name": "Secret CX training grounds",
+		"strava_id": 756949,
+		"distance": 681.385009765625,
+		"latitude": 42.03508,
+		"longitude": -97.406484
 	},
 	{
-		"segment_name": "7-23-11 gravel",
-		"strava_id": 689341,
-		"distance": 48199.30078125,
-		"latitude": 42.036281,
-		"longitude": -97.448201
+		"segment_name": "Skyview XC Course",
+		"strava_id": 766344,
+		"distance": 3933.699951171875,
+		"latitude": 42.036132,
+		"longitude": -97.437257
 	},
 	{
-		"segment_name": "Wait For The Green Light",
-		"strava_id": 37886026,
-		"distance": 501.8999938964844,
-		"latitude": 42.047096,
-		"longitude": -97.424107
+		"segment_name": "Hill Loop",
+		"strava_id": 806401,
+		"distance": 1903.3699951171875,
+		"latitude": 42.036099,
+		"longitude": -97.446034
 	},
 	{
-		"segment_name": "Cowboy Trail Paved portion West",
-		"strava_id": 35167857,
-		"distance": 4965.2998046875,
-		"latitude": 42.00303,
-		"longitude": -97.407476
+		"segment_name": "Hill climb, west Benjamin",
+		"strava_id": 1149406,
+		"distance": 1552.030029296875,
+		"latitude": 42.046802,
+		"longitude": -97.484576
 	},
 	{
-		"segment_name": "Shake Rattle and Roll",
-		"strava_id": 18687812,
-		"distance": 594.9000244140625,
-		"latitude": 41.996103,
-		"longitude": -97.484359
+		"segment_name": "27th St",
+		"strava_id": 1191576,
+		"distance": 832.5499877929688,
+		"latitude": 42.033127,
+		"longitude": -97.450982
 	},
 	{
-		"segment_name": "Intercontinental ",
-		"strava_id": 24001362,
-		"distance": 2727.60009765625,
-		"latitude": 42.017815,
-		"longitude": -97.478842
+		"segment_name": "NW Hill loop",
+		"strava_id": 1218625,
+		"distance": 6466.919921875,
+		"latitude": 42.046968,
+		"longitude": -97.445857
 	},
 	{
-		"segment_name": "Roundabout rodeo",
-		"strava_id": 23581200,
-		"distance": 4953.60009765625,
-		"latitude": 42.017914,
-		"longitude": -97.465714
+		"segment_name": "SS segment",
+		"strava_id": 1276390,
+		"distance": 8173.39013671875,
+		"latitude": 42.032531,
+		"longitude": -97.543074
+	},
+	{
+		"segment_name": "SS segment 2",
+		"strava_id": 1276403,
+		"distance": 9562.8603515625,
+		"latitude": 42.02511,
+		"longitude": -97.598675
+	},
+	{
+		"segment_name": "Gravel segment 1",
+		"strava_id": 1453037,
+		"distance": 3181.830078125,
+		"latitude": 42.061649,
+		"longitude": -97.446031
+	},
+	{
+		"segment_name": "2012 Maskenthine full loop",
+		"strava_id": 1680000,
+		"distance": 10195.400390625,
+		"latitude": 41.988197,
+		"longitude": -97.241238
+	},
+	{
+		"segment_name": "61st Street - the meat of the hill",
+		"strava_id": 2412099,
+		"distance": 1118.1600341796875,
+		"latitude": 42.040921,
+		"longitude": -97.504332
+	},
+	{
+		"segment_name": "Ta Ha Zouka To Battle Creek Ride",
+		"strava_id": 2622253,
+		"distance": 15684.099609375,
+		"latitude": 42.003511,
+		"longitude": -97.426461
+	},
+	{
+		"segment_name": "N 81 ramp up",
+		"strava_id": 3618736,
+		"distance": 2010.3599853515625,
+		"latitude": 42.109152,
+		"longitude": -97.426335
+	},
+	{
+		"segment_name": " 25th St. hill",
+		"strava_id": 3729514,
+		"distance": 475.8030090332031,
+		"latitude": 42.042001,
+		"longitude": -97.44608
+	},
+	{
+		"segment_name": "Cowboy Trail: Norfolk to Battle Creek (Out and Back)",
+		"strava_id": 4151766,
+		"distance": 31369.69921875,
+		"latitude": 42.003957,
+		"longitude": -97.425308
+	},
+	{
+		"segment_name": "Home to Battle Creek Ride",
+		"strava_id": 4161720,
+		"distance": 11911.400390625,
+		"latitude": 42.013004,
+		"longitude": -97.445972
+	},
+	{
+		"segment_name": "2013 Maskenthine Race Loop",
+		"strava_id": 4194447,
+		"distance": 10614.7998046875,
+		"latitude": 41.982941,
+		"longitude": -97.242264
+	},
+	{
+		"segment_name": "Maskenthing Race Loop",
+		"strava_id": 4291838,
+		"distance": 10993,
+		"latitude": 41.982407,
+		"longitude": -97.242273
 	},
 	{
 		"segment_name": "Norfolk TT",
-		"strava_id": 23581169,
-		"distance": 28977.900390625,
-		"latitude": 42.032218,
-		"longitude": -97.41193
+		"strava_id": 4644718,
+		"distance": 16092.5,
+		"latitude": 42.018066,
+		"longitude": -97.445079
 	},
 	{
-		"segment_name": "The Dreaded Dale!",
-		"strava_id": 34141256,
-		"distance": 570.2999877929688,
-		"latitude": 42.047859,
-		"longitude": -97.387746
+		"segment_name": "Stanton Hill Climb",
+		"strava_id": 4659311,
+		"distance": 839.2000122070312,
+		"latitude": 41.95135,
+		"longitude": -97.223761
 	},
 	{
-		"segment_name": "Nicole's Hill",
-		"strava_id": 34080620,
-		"distance": 505.79998779296875,
-		"latitude": 42.04483,
-		"longitude": -97.449112
+		"segment_name": "Maskenthine from TH 1",
+		"strava_id": 4837728,
+		"distance": 10364.400390625,
+		"latitude": 41.98825,
+		"longitude": -97.241157
 	},
 	{
-		"segment_name": "South in a Roundabout Way",
-		"strava_id": 34080560,
-		"distance": 507.70001220703125,
-		"latitude": 42.052077,
-		"longitude": -97.446071
+		"segment_name": "37th St.",
+		"strava_id": 5033192,
+		"distance": 766.2000122070312,
+		"latitude": 42.037322,
+		"longitude": -97.465581
 	},
 	{
-		"segment_name": "the Fanta-stic Fairway",
-		"strava_id": 34141185,
-		"distance": 1063.4000244140625,
-		"latitude": 42.034183,
-		"longitude": -97.387878
+		"segment_name": "275 Maskentine Valley: East Side",
+		"strava_id": 5055037,
+		"distance": 657.4000244140625,
+		"latitude": 42.018227,
+		"longitude": -97.23378
 	},
 	{
-		"segment_name": "Kami's Hill",
-		"strava_id": 33824239,
-		"distance": 501.1000061035156,
-		"latitude": 42.052855,
-		"longitude": -97.454916
+		"segment_name": "Tahazouka CX",
+		"strava_id": 5403933,
+		"distance": 2609.10009765625,
+		"latitude": 42.003293,
+		"longitude": -97.419462
+	},
+	{
+		"segment_name": "Cowboy Trail: Meadow Grove to Norfolk",
+		"strava_id": 6923469,
+		"distance": 27602.599609375,
+		"latitude": 42.027726,
+		"longitude": -97.734311
+	},
+	{
+		"segment_name": "South 1st Loop",
+		"strava_id": 7009044,
+		"distance": 38394.5,
+		"latitude": 42.031476,
+		"longitude": -97.407132
+	},
+	{
+		"segment_name": "2014 Maskenthine full loop",
+		"strava_id": 7271183,
+		"distance": 11234.7998046875,
+		"latitude": 41.982841,
+		"longitude": -97.242234
+	},
+	{
+		"segment_name": "gravel hill lead in",
+		"strava_id": 7351262,
+		"distance": 426.20001220703125,
+		"latitude": 41.984076,
+		"longitude": -97.23965
+	},
+	{
+		"segment_name": "tech section",
+		"strava_id": 7351273,
+		"distance": 819,
+		"latitude": 41.983028,
+		"longitude": -97.242261
+	},
+	{
+		"segment_name": "tight and tangly",
+		"strava_id": 7351284,
+		"distance": 679.2999877929688,
+		"latitude": 41.985464,
+		"longitude": -97.242811
+	},
+	{
+		"segment_name": "pine forest",
+		"strava_id": 7351300,
+		"distance": 836.7000122070312,
+		"latitude": 41.974898,
+		"longitude": -97.242797
+	},
+	{
+		"segment_name": "dark forest",
+		"strava_id": 7351326,
+		"distance": 1412.300048828125,
+		"latitude": 41.976471,
+		"longitude": -97.241536
+	},
+	{
+		"segment_name": "prarie to trailhead",
+		"strava_id": 7351335,
+		"distance": 1112.199951171875,
+		"latitude": 41.980141,
+		"longitude": -97.242409
+	},
+	{
+		"segment_name": "Skyview Lake Loop: Clockwise",
+		"strava_id": 7462116,
+		"distance": 3172.699951171875,
+		"latitude": 42.038715,
+		"longitude": -97.441061
+	},
+	{
+		"segment_name": "Queen City Blvd: South to North",
+		"strava_id": 7462123,
+		"distance": 1147.5999755859375,
+		"latitude": 42.036627,
+		"longitude": -97.416913
+	},
+	{
+		"segment_name": "Eisenhower Block",
+		"strava_id": 7558128,
+		"distance": 1552.199951171875,
+		"latitude": 42.06177,
+		"longitude": -97.40677
+	},
+	{
+		"segment_name": "Climb Out of Carrol",
+		"strava_id": 7754686,
+		"distance": 2554.89990234375,
+		"latitude": 42.278692,
+		"longitude": -97.193461
+	},
+	{
+		"segment_name": "Nice Southerly Climb",
+		"strava_id": 7754805,
+		"distance": 2957.5,
+		"latitude": 42.297937,
+		"longitude": -97.601204
 	},
 	{
 		"segment_name": "Final few miles back to Norfolk",
@@ -217,11 +329,39 @@
 		"longitude": -97.407025
 	},
 	{
+		"segment_name": "Winside Climb",
+		"strava_id": 7754871,
+		"distance": 1387.300048828125,
+		"latitude": 42.177745,
+		"longitude": -97.184658
+	},
+	{
 		"segment_name": "Lets head North on 35",
 		"strava_id": 7754882,
 		"distance": 1498.5,
 		"latitude": 42.105137,
 		"longitude": -97.201953
+	},
+	{
+		"segment_name": "2014 Skyview",
+		"strava_id": 7797830,
+		"distance": 3062,
+		"latitude": 42.042581,
+		"longitude": -97.439562
+	},
+	{
+		"segment_name": "Loop 2",
+		"strava_id": 7802748,
+		"distance": 5325.2998046875,
+		"latitude": 41.982965,
+		"longitude": -97.24269
+	},
+	{
+		"segment_name": "Eisenhower up from 13th",
+		"strava_id": 8025292,
+		"distance": 698,
+		"latitude": 42.061652,
+		"longitude": -97.42863
 	},
 	{
 		"segment_name": "river valley scenic view",
@@ -238,6 +378,27 @@
 		"longitude": -97.242141
 	},
 	{
+		"segment_name": "S. 81 up and down",
+		"strava_id": 9683954,
+		"distance": 3844.39990234375,
+		"latitude": 41.945848,
+		"longitude": -97.425775
+	},
+	{
+		"segment_name": "Nasty little hill",
+		"strava_id": 9759470,
+		"distance": 167,
+		"latitude": 41.985824,
+		"longitude": -97.242685
+	},
+	{
+		"segment_name": "2015 FULL LAP",
+		"strava_id": 9835425,
+		"distance": 9392.400390625,
+		"latitude": 41.982913,
+		"longitude": -97.242687
+	},
+	{
 		"segment_name": "Highway 35 on trail",
 		"strava_id": 9859006,
 		"distance": 3117.39990234375,
@@ -250,6 +411,13 @@
 		"distance": 108142,
 		"latitude": 42.032323,
 		"longitude": -97.412533
+	},
+	{
+		"segment_name": "Madison to Hwy-81",
+		"strava_id": 10066731,
+		"distance": 12142.7998046875,
+		"latitude": 41.828876,
+		"longitude": -97.454919
 	},
 	{
 		"segment_name": "trailhead start",
@@ -266,109 +434,11 @@
 		"longitude": -97.215084
 	},
 	{
-		"segment_name": "College Curves",
-		"strava_id": 33242150,
-		"distance": 710.4000244140625,
-		"latitude": 42.049166,
-		"longitude": -97.398687
-	},
-	{
-		"segment_name": "Put Some Corn in Your Tank",
-		"strava_id": 33242111,
-		"distance": 1625.0999755859375,
-		"latitude": 42.066562,
-		"longitude": -97.386369
-	},
-	{
-		"segment_name": "Stone Cold Finish",
-		"strava_id": 32826659,
-		"distance": 505.70001220703125,
-		"latitude": 42.013266,
-		"longitude": -97.446105
-	},
-	{
-		"segment_name": "Monarchs to  Old Glory ",
-		"strava_id": 33010018,
-		"distance": 676.7000122070312,
-		"latitude": 42.013351,
-		"longitude": -97.446388
-	},
-	{
-		"segment_name": "Don't Get Clipped On HiWay 24 Curve",
-		"strava_id": 33102682,
-		"distance": 575.5,
-		"latitude": 42.018047,
-		"longitude": -97.381241
-	},
-	{
-		"segment_name": "Sam Walton Way",
-		"strava_id": 32497702,
-		"distance": 504.3999938964844,
-		"latitude": 42.027796,
-		"longitude": -97.446936
-	},
-	{
-		"segment_name": "Georgia Jam",
-		"strava_id": 32496556,
-		"distance": 500.79998779296875,
-		"latitude": 42.043599,
-		"longitude": -97.419971
-	},
-	{
-		"segment_name": "25th South to Cowboy Trail",
-		"strava_id": 32394383,
-		"distance": 504.79998779296875,
-		"latitude": 42.017952,
-		"longitude": -97.446035
-	},
-	{
-		"segment_name": "East Poo Flats",
-		"strava_id": 32394229,
-		"distance": 1353.199951171875,
-		"latitude": 42.011017,
-		"longitude": -97.405471
-	},
-	{
-		"segment_name": "Valli Hi Sprint",
-		"strava_id": 32380443,
-		"distance": 657.9000244140625,
-		"latitude": 42.047955,
-		"longitude": -97.441338
-	},
-	{
-		"segment_name": "TaHa Loop",
-		"strava_id": 31865612,
-		"distance": 15238.099609375,
-		"latitude": 42.003346,
-		"longitude": -97.4073
-	},
-	{
-		"segment_name": "Let’s get some crowns.",
-		"strava_id": 31817684,
-		"distance": 1012.2999877929688,
-		"latitude": 42.031673,
-		"longitude": -97.402924
-	},
-	{
-		"segment_name": "Kit Kat Club",
-		"strava_id": 31817636,
-		"distance": 1432.800048828125,
-		"latitude": 42.029385,
-		"longitude": -97.394112
-	},
-	{
-		"segment_name": "Methodist speedway",
-		"strava_id": 31817536,
-		"distance": 691.5999755859375,
-		"latitude": 42.034978,
-		"longitude": -97.407316
-	},
-	{
-		"segment_name": "Y Not",
-		"strava_id": 30481402,
-		"distance": 570.0999755859375,
-		"latitude": 42.04706,
-		"longitude": -97.413352
+		"segment_name": "Couboy trail east to west from 37th",
+		"strava_id": 10300451,
+		"distance": 4723.60009765625,
+		"latitude": 42.012613,
+		"longitude": -97.468217
 	},
 	{
 		"segment_name": "Cowboy Trail west to east",
@@ -376,496 +446,6 @@
 		"distance": 6767.7998046875,
 		"latitude": 42.009958,
 		"longitude": -97.541873
-	},
-	{
-		"segment_name": "2015 Skyview CX",
-		"strava_id": 10872676,
-		"distance": 1870.5999755859375,
-		"latitude": 42.043193,
-		"longitude": -97.440374
-	},
-	{
-		"segment_name": "Rabid Dog on the Right",
-		"strava_id": 29557628,
-		"distance": 825.7999877929688,
-		"latitude": 42.003951,
-		"longitude": -97.3515
-	},
-	{
-		"segment_name": "Skyfall",
-		"strava_id": 29461616,
-		"distance": 685.2000122070312,
-		"latitude": 42.043691,
-		"longitude": -97.434363
-	},
-	{
-		"segment_name": "Porterhouse Pit",
-		"strava_id": 29391111,
-		"distance": 584.5999755859375,
-		"latitude": 42.010136,
-		"longitude": -97.387672
-	},
-	{
-		"segment_name": "The Bradford Exchange",
-		"strava_id": 29570428,
-		"distance": 699.0999755859375,
-		"latitude": 42.018106,
-		"longitude": -97.462029
-	},
-	{
-		"segment_name": "Sherwood - Grandview to 1st",
-		"strava_id": 14635770,
-		"distance": 3120.89990234375,
-		"latitude": 41.989522,
-		"longitude": -97.368705
-	},
-	{
-		"segment_name": "Signpost Trail",
-		"strava_id": 19009624,
-		"distance": 687.9000244140625,
-		"latitude": 42.021264,
-		"longitude": -97.39303
-	},
-	{
-		"segment_name": "Victory Curve N",
-		"strava_id": 19009696,
-		"distance": 811.5999755859375,
-		"latitude": 42.011221,
-		"longitude": -97.387576
-	},
-	{
-		"segment_name": "Eisenhower monster 1",
-		"strava_id": 11573093,
-		"distance": 391.8999938964844,
-		"latitude": 42.061428,
-		"longitude": -97.480147
-	},
-	{
-		"segment_name": "HWY275 to Battle Creek",
-		"strava_id": 12535372,
-		"distance": 9698.2001953125,
-		"latitude": 42.032352,
-		"longitude": -97.48577
-	},
-	{
-		"segment_name": "Quarter Benjamin",
-		"strava_id": 12535392,
-		"distance": 3150.10009765625,
-		"latitude": 42.047394,
-		"longitude": -97.407464
-	},
-	{
-		"segment_name": "Willow Creek Rec. Blacktop",
-		"strava_id": 21632579,
-		"distance": 21738.30078125,
-		"latitude": 42.187188,
-		"longitude": -97.543357
-	},
-	{
-		"segment_name": "Norfolk Express",
-		"strava_id": 21637229,
-		"distance": 457.70001220703125,
-		"latitude": 42.032606,
-		"longitude": -97.424666
-	},
-	{
-		"segment_name": "North 121 Hills to BC",
-		"strava_id": 14176064,
-		"distance": 12086.599609375,
-		"latitude": 41.844217,
-		"longitude": -97.600662
-	},
-	{
-		"segment_name": "West Poo Flats",
-		"strava_id": 14508378,
-		"distance": 1257.5,
-		"latitude": 42.011181,
-		"longitude": -97.388841
-	},
-	{
-		"segment_name": "East Sherwood",
-		"strava_id": 14548074,
-		"distance": 3173,
-		"latitude": 41.989283,
-		"longitude": -97.40675
-	},
-	{
-		"segment_name": "Forty-Niner Climber",
-		"strava_id": 14548248,
-		"distance": 3137.199951171875,
-		"latitude": 42.002599,
-		"longitude": -97.484633
-	},
-	{
-		"segment_name": "Dam Straight - South to North",
-		"strava_id": 14557929,
-		"distance": 809.2999877929688,
-		"latitude": 42.174881,
-		"longitude": -97.554396
-	},
-	{
-		"segment_name": "Willow Lake - West Climb",
-		"strava_id": 14557813,
-		"distance": 745.7000122070312,
-		"latitude": 42.174516,
-		"longitude": -97.586946
-	},
-	{
-		"segment_name": "TaHa Elkhorn West",
-		"strava_id": 14508505,
-		"distance": 2806.5,
-		"latitude": 42.002363,
-		"longitude": -97.409407
-	},
-	{
-		"segment_name": "East Industrial Climb",
-		"strava_id": 14508553,
-		"distance": 1942.9000244140625,
-		"latitude": 42.069299,
-		"longitude": -97.367764
-	},
-	{
-		"segment_name": "Benjamin Quarter Downs",
-		"strava_id": 14508458,
-		"distance": 330.1000061035156,
-		"latitude": 42.046986,
-		"longitude": -97.444116
-	},
-	{
-		"segment_name": "Old Hadar Rd",
-		"strava_id": 14813320,
-		"distance": 5236.7001953125,
-		"latitude": 42.061783,
-		"longitude": -97.428513
-	},
-	{
-		"segment_name": "Hadar to Pierce",
-		"strava_id": 14992575,
-		"distance": 11168.2998046875,
-		"latitude": 42.106286,
-		"longitude": -97.45405
-	},
-	{
-		"segment_name": "Pierce to Wee Town",
-		"strava_id": 14992380,
-		"distance": 7051.2001953125,
-		"latitude": 42.199162,
-		"longitude": -97.509992
-	},
-	{
-		"segment_name": "Wee Town to Norfolk",
-		"strava_id": 14992446,
-		"distance": 15235,
-		"latitude": 42.205359,
-		"longitude": -97.426464
-	},
-	{
-		"segment_name": "547th parking lot to end of walking bridge",
-		"strava_id": 15141720,
-		"distance": 1391.199951171875,
-		"latitude": 42.168234,
-		"longitude": -97.58262
-	},
-	{
-		"segment_name": "BC Road - 548th to 550th Ave",
-		"strava_id": 15169153,
-		"distance": 3206.89990234375,
-		"latitude": 42.003508,
-		"longitude": -97.562196
-	},
-	{
-		"segment_name": "Taha to Northwestern on 1st",
-		"strava_id": 15279526,
-		"distance": 1352.0999755859375,
-		"latitude": 42.003504,
-		"longitude": -97.407043
-	},
-	{
-		"segment_name": "Don't Get Bit by Willy",
-		"strava_id": 23561984,
-		"distance": 3994,
-		"latitude": 42.101143,
-		"longitude": -97.450844
-	},
-	{
-		"segment_name": "Requesting permission for flyby",
-		"strava_id": 31823581,
-		"distance": 3391.89990234375,
-		"latitude": 42.047963,
-		"longitude": -97.401706
-	},
-	{
-		"segment_name": "Homestretch",
-		"strava_id": 24904269,
-		"distance": 1343.5,
-		"latitude": 42.175377,
-		"longitude": -97.575317
-	},
-	{
-		"segment_name": "Skyview XC Course",
-		"strava_id": 766344,
-		"distance": 3933.699951171875,
-		"latitude": 42.036132,
-		"longitude": -97.437257
-	},
-	{
-		"segment_name": "Private Benjamin West - South Side",
-		"strava_id": 37735973,
-		"distance": 505.6000061035156,
-		"latitude": 42.047016,
-		"longitude": -97.426906
-	},
-	{
-		"segment_name": "27th St",
-		"strava_id": 1191576,
-		"distance": 832.5499877929688,
-		"latitude": 42.033127,
-		"longitude": -97.450982
-	},
-	{
-		"segment_name": "Queen City Blvd: South to North",
-		"strava_id": 7462123,
-		"distance": 1147.5999755859375,
-		"latitude": 42.036627,
-		"longitude": -97.416913
-	},
-	{
-		"segment_name": "Welcome to Northeast!",
-		"strava_id": 37610477,
-		"distance": 556.7999877929688,
-		"latitude": 42.047467,
-		"longitude": -97.394876
-	},
-	{
-		"segment_name": "Hill climb, west Benjamin",
-		"strava_id": 1149406,
-		"distance": 1552.030029296875,
-		"latitude": 42.046802,
-		"longitude": -97.484576
-	},
-	{
-		"segment_name": "SS segment",
-		"strava_id": 1276390,
-		"distance": 8173.39013671875,
-		"latitude": 42.032531,
-		"longitude": -97.543074
-	},
-	{
-		"segment_name": "Maskenthing Race Loop",
-		"strava_id": 4291838,
-		"distance": 10993,
-		"latitude": 41.982407,
-		"longitude": -97.242273
-	},
-	{
-		"segment_name": "61st Street - the meat of the hill",
-		"strava_id": 2412099,
-		"distance": 1118.1600341796875,
-		"latitude": 42.040921,
-		"longitude": -97.504332
-	},
-	{
-		"segment_name": "Maskenthine from TH 1",
-		"strava_id": 4837728,
-		"distance": 10364.400390625,
-		"latitude": 41.98825,
-		"longitude": -97.241157
-	},
-	{
-		"segment_name": "Cowboy Trail: Meadow Grove to Norfolk",
-		"strava_id": 6923469,
-		"distance": 27602.599609375,
-		"latitude": 42.027726,
-		"longitude": -97.734311
-	},
-	{
-		"segment_name": "2014 Maskenthine full loop",
-		"strava_id": 7271183,
-		"distance": 11234.7998046875,
-		"latitude": 41.982841,
-		"longitude": -97.242234
-	},
-	{
-		"segment_name": "tight and tangly",
-		"strava_id": 7351284,
-		"distance": 679.2999877929688,
-		"latitude": 41.985464,
-		"longitude": -97.242811
-	},
-	{
-		"segment_name": "We Need a Bike Trail Here - West",
-		"strava_id": 37546713,
-		"distance": 713.7000122070312,
-		"latitude": 42.018703,
-		"longitude": -97.381482
-	},
-	{
-		"segment_name": "The Georgia Downs",
-		"strava_id": 37546754,
-		"distance": 943.7999877929688,
-		"latitude": 42.043522,
-		"longitude": -97.426204
-	},
-	{
-		"segment_name": "Posts-Gravel-and-Posts South",
-		"strava_id": 37514602,
-		"distance": 1240.300048828125,
-		"latitude": 42.013138,
-		"longitude": -97.4505
-	},
-	{
-		"segment_name": "Criminally Insane Segment",
-		"strava_id": 36815017,
-		"distance": 1484.0999755859375,
-		"latitude": 42.050471,
-		"longitude": -97.387871
-	},
-	{
-		"segment_name": "Underpass to Sara",
-		"strava_id": 37284107,
-		"distance": 505.3999938964844,
-		"latitude": 42.00619,
-		"longitude": -97.442709
-	},
-	{
-		"segment_name": "Riverside to 1st on Benjamin",
-		"strava_id": 36814867,
-		"distance": 733.7000122070312,
-		"latitude": 42.047192,
-		"longitude": -97.416701
-	},
-	{
-		"segment_name": "Woodland Parkway Eastward",
-		"strava_id": 35360006,
-		"distance": 1452.9000244140625,
-		"latitude": 42.0476,
-		"longitude": -97.387659
-	},
-	{
-		"segment_name": "Wildfire!",
-		"strava_id": 35000008,
-		"distance": 691.2999877929688,
-		"latitude": 42.047295,
-		"longitude": -97.406817
-	},
-	{
-		"segment_name": "Pierce to Plainview",
-		"strava_id": 34195461,
-		"distance": 26588.099609375,
-		"latitude": 42.206787,
-		"longitude": -97.536186
-	},
-	{
-		"segment_name": "560 rd. to 845 rd.",
-		"strava_id": 35820556,
-		"distance": 1551.5999755859375,
-		"latitude": 42.062007,
-		"longitude": -97.329926
-	},
-	{
-		"segment_name": "Sleepy Hollow",
-		"strava_id": 34133725,
-		"distance": 506.70001220703125,
-		"latitude": 42.005982,
-		"longitude": -97.442044
-	},
-	{
-		"segment_name": "Climb Out of Carrol",
-		"strava_id": 7754686,
-		"distance": 2554.89990234375,
-		"latitude": 42.278692,
-		"longitude": -97.193461
-	},
-	{
-		"segment_name": "Woodland Park Connector West",
-		"strava_id": 33942214,
-		"distance": 1367.5,
-		"latitude": 42.047577,
-		"longitude": -97.370257
-	},
-	{
-		"segment_name": "Loop 2",
-		"strava_id": 7802748,
-		"distance": 5325.2998046875,
-		"latitude": 41.982965,
-		"longitude": -97.24269
-	},
-	{
-		"segment_name": "S. 81 up and down",
-		"strava_id": 9683954,
-		"distance": 3844.39990234375,
-		"latitude": 41.945848,
-		"longitude": -97.425775
-	},
-	{
-		"segment_name": "Nasty little hill",
-		"strava_id": 9759470,
-		"distance": 167,
-		"latitude": 41.985824,
-		"longitude": -97.242685
-	},
-	{
-		"segment_name": "Madison to Hwy-81",
-		"strava_id": 10066731,
-		"distance": 12142.7998046875,
-		"latitude": 41.828876,
-		"longitude": -97.454919
-	},
-	{
-		"segment_name": "2022 NICA Maskenthine Loop",
-		"strava_id": 32892936,
-		"distance": 5463.5,
-		"latitude": 41.976009,
-		"longitude": -97.240492
-	},
-	{
-		"segment_name": "Sobering Battle Btwn the Churches",
-		"strava_id": 32573929,
-		"distance": 635.7999877929688,
-		"latitude": 42.038206,
-		"longitude": -97.378167
-	},
-	{
-		"segment_name": "100-Dollar Bill Blvd",
-		"strava_id": 32497594,
-		"distance": 505.20001220703125,
-		"latitude": 42.032492,
-		"longitude": -97.446083
-	},
-	{
-		"segment_name": "TaHa to Monroe on 1st",
-		"strava_id": 32394462,
-		"distance": 785.5999755859375,
-		"latitude": 42.003554,
-		"longitude": -97.406969
-	},
-	{
-		"segment_name": "Hose Plant East",
-		"strava_id": 32394317,
-		"distance": 1373.699951171875,
-		"latitude": 42.017899,
-		"longitude": -97.464252
-	},
-	{
-		"segment_name": "Ethanol Alley",
-		"strava_id": 32146936,
-		"distance": 1125.699951171875,
-		"latitude": 42.066522,
-		"longitude": -97.371903
-	},
-	{
-		"segment_name": "Toes in the Water",
-		"strava_id": 32023563,
-		"distance": 504.70001220703125,
-		"latitude": 42.043443,
-		"longitude": -97.440886
-	},
-	{
-		"segment_name": "I used the wind to get this crown!",
-		"strava_id": 31817567,
-		"distance": 1638.300048828125,
-		"latitude": 42.042408,
-		"longitude": -97.423553
 	},
 	{
 		"segment_name": "49th St Standing Mile",
@@ -882,18 +462,18 @@
 		"longitude": -97.466103
 	},
 	{
-		"segment_name": "Hadar Hill",
-		"strava_id": 29750145,
-		"distance": 380.79998779296875,
-		"latitude": 42.101609,
-		"longitude": -97.451143
+		"segment_name": "2015 Skyview CX",
+		"strava_id": 10872676,
+		"distance": 1870.5999755859375,
+		"latitude": 42.043193,
+		"longitude": -97.440374
 	},
 	{
-		"segment_name": "Channel it!",
-		"strava_id": 29391583,
-		"distance": 815.2000122070312,
-		"latitude": 42.006661,
-		"longitude": -97.370082
+		"segment_name": "Eisenhower monster 1",
+		"strava_id": 11573093,
+		"distance": 391.8999938964844,
+		"latitude": 42.061428,
+		"longitude": -97.480147
 	},
 	{
 		"segment_name": "Battle Creek to Meadow Grove",
@@ -910,11 +490,60 @@
 		"longitude": -97.735771
 	},
 	{
+		"segment_name": "HWY275 to Battle Creek",
+		"strava_id": 12535372,
+		"distance": 9698.2001953125,
+		"latitude": 42.032352,
+		"longitude": -97.48577
+	},
+	{
+		"segment_name": "River Raid",
+		"strava_id": 12535382,
+		"distance": 3551.10009765625,
+		"latitude": 42.01908,
+		"longitude": -97.390246
+	},
+	{
+		"segment_name": "Quarter Benjamin",
+		"strava_id": 12535392,
+		"distance": 3150.10009765625,
+		"latitude": 42.047394,
+		"longitude": -97.407464
+	},
+	{
+		"segment_name": "1st Street to Enola Cut-off",
+		"strava_id": 12826196,
+		"distance": 11132.7998046875,
+		"latitude": 42.002623,
+		"longitude": -97.407086
+	},
+	{
 		"segment_name": "Madison to Newman Grove Turn",
 		"strava_id": 12826209,
 		"distance": 25456.099609375,
 		"latitude": 41.827951,
 		"longitude": -97.466222
+	},
+	{
+		"segment_name": "Jingle Cross Race Prep",
+		"strava_id": 12826306,
+		"distance": 1623.5,
+		"latitude": 42.043394,
+		"longitude": -97.443959
+	},
+	{
+		"segment_name": "ridge road climb",
+		"strava_id": 12834350,
+		"distance": 738.2999877929688,
+		"latitude": 42.053611,
+		"longitude": -97.233888
+	},
+	{
+		"segment_name": "81 North Enola to Sherwood",
+		"strava_id": 13118812,
+		"distance": 12848.599609375,
+		"latitude": 41.874279,
+		"longitude": -97.426193
 	},
 	{
 		"segment_name": "Eisenhower From 25th",
@@ -924,11 +553,74 @@
 		"longitude": -97.445238
 	},
 	{
+		"segment_name": "Meadow Grove to Battle Creek",
+		"strava_id": 14175654,
+		"distance": 12706.900390625,
+		"latitude": 42.032225,
+		"longitude": -97.722536
+	},
+	{
+		"segment_name": "Enola to Madison",
+		"strava_id": 14175989,
+		"distance": 6932,
+		"latitude": 41.900956,
+		"longitude": -97.465435
+	},
+	{
+		"segment_name": "North 121 Hills to BC",
+		"strava_id": 14176064,
+		"distance": 12086.599609375,
+		"latitude": 41.844217,
+		"longitude": -97.600662
+	},
+	{
+		"segment_name": "Industrial Revolutions",
+		"strava_id": 14222677,
+		"distance": 539.0999755859375,
+		"latitude": 42.069031,
+		"longitude": -97.349459
+	},
+	{
 		"segment_name": "First Niner to the Elkhorn",
 		"strava_id": 14284194,
 		"distance": 14229.7001953125,
 		"latitude": 41.87359,
 		"longitude": -97.40656
+	},
+	{
+		"segment_name": "The Pinnacle",
+		"strava_id": 14389216,
+		"distance": 383.3999938964844,
+		"latitude": 42.047274,
+		"longitude": -97.456358
+	},
+	{
+		"segment_name": "West Poo Flats",
+		"strava_id": 14508378,
+		"distance": 1257.5,
+		"latitude": 42.011181,
+		"longitude": -97.388841
+	},
+	{
+		"segment_name": "Benjamin Quarter Downs",
+		"strava_id": 14508458,
+		"distance": 330.1000061035156,
+		"latitude": 42.046986,
+		"longitude": -97.444116
+	},
+	{
+		"segment_name": "TaHa Elkhorn West",
+		"strava_id": 14508505,
+		"distance": 2806.5,
+		"latitude": 42.002363,
+		"longitude": -97.409407
+	},
+	{
+		"segment_name": "East Industrial Climb",
+		"strava_id": 14508553,
+		"distance": 1942.9000244140625,
+		"latitude": 42.069299,
+		"longitude": -97.367764
 	},
 	{
 		"segment_name": "35 SW Industrial Distress",
@@ -938,11 +630,116 @@
 		"longitude": -97.344225
 	},
 	{
+		"segment_name": "Prospective Discomfort",
+		"strava_id": 14548023,
+		"distance": 856.7999877929688,
+		"latitude": 42.036176,
+		"longitude": -97.433905
+	},
+	{
+		"segment_name": "East Sherwood",
+		"strava_id": 14548074,
+		"distance": 3173,
+		"latitude": 41.989283,
+		"longitude": -97.40675
+	},
+	{
+		"segment_name": "Forty-Niner Climber",
+		"strava_id": 14548248,
+		"distance": 3137.199951171875,
+		"latitude": 42.002599,
+		"longitude": -97.484633
+	},
+	{
+		"segment_name": "Dam Straight - North to South",
+		"strava_id": 14557673,
+		"distance": 744.0999755859375,
+		"latitude": 42.182037,
+		"longitude": -97.554857
+	},
+	{
 		"segment_name": "Dam Climb",
 		"strava_id": 14557687,
 		"distance": 1176.4000244140625,
 		"latitude": 42.191862,
 		"longitude": -97.553173
+	},
+	{
+		"segment_name": "Willow Lake - West Climb",
+		"strava_id": 14557813,
+		"distance": 745.7000122070312,
+		"latitude": 42.174516,
+		"longitude": -97.586946
+	},
+	{
+		"segment_name": "W. Pierce St. Uphill",
+		"strava_id": 14557908,
+		"distance": 631.7999877929688,
+		"latitude": 42.200949,
+		"longitude": -97.532294
+	},
+	{
+		"segment_name": "Dam Straight - South to North",
+		"strava_id": 14557929,
+		"distance": 809.2999877929688,
+		"latitude": 42.174881,
+		"longitude": -97.554396
+	},
+	{
+		"segment_name": "25th Cowboy U-Turn",
+		"strava_id": 14623981,
+		"distance": 1419,
+		"latitude": 42.013289,
+		"longitude": -97.446266
+	},
+	{
+		"segment_name": "Sherwood - Grandview to 1st",
+		"strava_id": 14635770,
+		"distance": 3120.89990234375,
+		"latitude": 41.989522,
+		"longitude": -97.368705
+	},
+	{
+		"segment_name": "Valley View Drive",
+		"strava_id": 14666502,
+		"distance": 336.29998779296875,
+		"latitude": 42.032754,
+		"longitude": -97.443896
+	},
+	{
+		"segment_name": "East Cowboy Cruise",
+		"strava_id": 14788311,
+		"distance": 3843,
+		"latitude": 42.010835,
+		"longitude": -97.445941
+	},
+	{
+		"segment_name": "Old Hadar Rd",
+		"strava_id": 14813320,
+		"distance": 5236.7001953125,
+		"latitude": 42.061783,
+		"longitude": -97.428513
+	},
+	{
+		"segment_name": "Pierce to Wee Town",
+		"strava_id": 14992380,
+		"distance": 7051.2001953125,
+		"latitude": 42.199162,
+		"longitude": -97.509992
+	},
+	{
+		"segment_name": "Wee Town to Norfolk",
+		"strava_id": 14992446,
+		"distance": 15235,
+		"latitude": 42.205359,
+		"longitude": -97.426464
+	},
+	{
+		"segment_name": "Hadar to Pierce",
+		"strava_id": 14992575,
+		"distance": 11168.2998046875,
+		"latitude": 42.106286,
+		"longitude": -97.45405
 	},
 	{
 		"segment_name": "Off Road Speedway S",
@@ -952,11 +749,53 @@
 		"longitude": -97.375325
 	},
 	{
+		"segment_name": "Up and down and all around",
+		"strava_id": 15096389,
+		"distance": 22427.30078125,
+		"latitude": 42.182541,
+		"longitude": -97.554847
+	},
+	{
+		"segment_name": "Softball Alley",
+		"strava_id": 15141268,
+		"distance": 1149.699951171875,
+		"latitude": 42.002542,
+		"longitude": -97.410805
+	},
+	{
+		"segment_name": "Continental Drift",
+		"strava_id": 15141300,
+		"distance": 1351.5999755859375,
+		"latitude": 42.018021,
+		"longitude": -97.447433
+	},
+	{
 		"segment_name": "Willow Lap - Clockwise - All Trail",
 		"strava_id": 15141698,
 		"distance": 11281.2001953125,
 		"latitude": 42.182585,
 		"longitude": -97.554877
+	},
+	{
+		"segment_name": "547th parking lot to end of walking bridge",
+		"strava_id": 15141720,
+		"distance": 1391.199951171875,
+		"latitude": 42.168234,
+		"longitude": -97.58262
+	},
+	{
+		"segment_name": "W Sherwood Road to BC",
+		"strava_id": 15169138,
+		"distance": 8078.5,
+		"latitude": 41.988925,
+		"longitude": -97.493808
+	},
+	{
+		"segment_name": "BC Road - 548th to 550th Ave",
+		"strava_id": 15169153,
+		"distance": 3206.89990234375,
+		"latitude": 42.003508,
+		"longitude": -97.562196
 	},
 	{
 		"segment_name": "Willow Lap - Counter Clockwise - All Trail",
@@ -966,6 +805,34 @@
 		"longitude": -97.554934
 	},
 	{
+		"segment_name": "Willow Lake - West Climb - 547th parking lot to 2nd tree line",
+		"strava_id": 15224276,
+		"distance": 1309.800048828125,
+		"latitude": 42.183457,
+		"longitude": -97.58386
+	},
+	{
+		"segment_name": "Downhill Run 37th",
+		"strava_id": 15235246,
+		"distance": 1523.4000244140625,
+		"latitude": 42.046816,
+		"longitude": -97.465578
+	},
+	{
+		"segment_name": "Taha to Northwestern on 1st",
+		"strava_id": 15279526,
+		"distance": 1352.0999755859375,
+		"latitude": 42.003504,
+		"longitude": -97.407043
+	},
+	{
+		"segment_name": "Calling Indiana's Bluff",
+		"strava_id": 15279651,
+		"distance": 608.5,
+		"latitude": 42.019389,
+		"longitude": -97.406991
+	},
+	{
 		"segment_name": "Benjamin Sprint 37th-25th",
 		"strava_id": 15356022,
 		"distance": 1650.699951171875,
@@ -973,179 +840,11 @@
 		"longitude": -97.465451
 	},
 	{
-		"segment_name": "Secret CX training grounds",
-		"strava_id": 756949,
-		"distance": 681.385009765625,
-		"latitude": 42.03508,
-		"longitude": -97.406484
-	},
-	{
-		"segment_name": "Stanton Hill Climb",
-		"strava_id": 4659311,
-		"distance": 839.2000122070312,
-		"latitude": 41.95135,
-		"longitude": -97.223761
-	},
-	{
-		"segment_name": "Pierce Loop",
-		"strava_id": 701578,
-		"distance": 44301.30078125,
-		"latitude": 42.061885,
-		"longitude": -97.426544
-	},
-	{
-		"segment_name": "BC loop from Cleveland Bike",
-		"strava_id": 707787,
-		"distance": 36918.80078125,
-		"latitude": 42.032258,
-		"longitude": -97.41266
-	},
-	{
-		"segment_name": "Watch for UnLeashed DOGS Here!!",
-		"strava_id": 37886102,
-		"distance": 536.7000122070312,
-		"latitude": 42.009017,
-		"longitude": -97.445607
-	},
-	{
-		"segment_name": "Beware of Mud in Underpass",
-		"strava_id": 37885927,
-		"distance": 511.79998779296875,
-		"latitude": 42.019335,
-		"longitude": -97.390141
-	},
-	{
-		"segment_name": "Come On Chief!",
-		"strava_id": 37736071,
-		"distance": 1049.5999755859375,
-		"latitude": 42.017804,
-		"longitude": -97.48005
-	},
-	{
-		"segment_name": "Gravel segment 1",
-		"strava_id": 1453037,
-		"distance": 3181.830078125,
-		"latitude": 42.061649,
-		"longitude": -97.446031
-	},
-	{
-		"segment_name": " 25th St. hill",
-		"strava_id": 3729514,
-		"distance": 475.8030090332031,
-		"latitude": 42.042001,
-		"longitude": -97.44608
-	},
-	{
-		"segment_name": "gravel hill lead in",
-		"strava_id": 7351262,
-		"distance": 426.20001220703125,
-		"latitude": 41.984076,
-		"longitude": -97.23965
-	},
-	{
-		"segment_name": "South 1st Loop",
-		"strava_id": 7009044,
-		"distance": 38394.5,
-		"latitude": 42.031476,
-		"longitude": -97.407132
-	},
-	{
-		"segment_name": "I'm Down with the Lost Boys",
-		"strava_id": 37546785,
-		"distance": 1008.7000122070312,
-		"latitude": 42.046532,
-		"longitude": -97.441362
-	},
-	{
-		"segment_name": "High Point to High Point Road",
-		"strava_id": 36837451,
-		"distance": 1559.800048828125,
-		"latitude": 42.053147,
-		"longitude": -97.387749
-	},
-	{
-		"segment_name": "Access the Levee",
-		"strava_id": 36814929,
-		"distance": 580.5999755859375,
-		"latitude": 42.011333,
-		"longitude": -97.38762
-	},
-	{
-		"segment_name": "Dover a Roundabout to the Lodge",
-		"strava_id": 36814973,
-		"distance": 810.0999755859375,
-		"latitude": 42.051929,
-		"longitude": -97.446075
-	},
-	{
-		"segment_name": "Mic Drop",
-		"strava_id": 34484284,
-		"distance": 4183.39990234375,
-		"latitude": 42.015646,
-		"longitude": -97.387688
-	},
-	{
-		"segment_name": "2018 full lap",
-		"strava_id": 18419647,
-		"distance": 10187.900390625,
-		"latitude": 41.982797,
-		"longitude": -97.242615
-	},
-	{
-		"segment_name": "Knight Curves SE",
-		"strava_id": 18327917,
-		"distance": 331.6000061035156,
-		"latitude": 42.0381,
-		"longitude": -97.40918
-	},
-	{
-		"segment_name": "Georgia climb ",
-		"strava_id": 24687617,
-		"distance": 808.4000244140625,
-		"latitude": 42.043598,
-		"longitude": -97.414833
-	},
-	{
-		"segment_name": "First Downhill",
-		"strava_id": 25493654,
-		"distance": 674.5,
-		"latitude": 41.98282,
-		"longitude": -97.242691
-	},
-	{
-		"segment_name": "549th Uphill",
-		"strava_id": 17858206,
-		"distance": 741.4000244140625,
-		"latitude": 42.192299,
-		"longitude": -97.544598
-	},
-	{
-		"segment_name": "Out to Willow",
-		"strava_id": 17857916,
-		"distance": 2484.699951171875,
-		"latitude": 42.195537,
-		"longitude": -97.532557
-	},
-	{
-		"segment_name": "RiverPointe Underpass South",
-		"strava_id": 17586963,
-		"distance": 400.29998779296875,
-		"latitude": 42.033842,
-		"longitude": -97.40411
-	},
-	{
-		"segment_name": "Top of Meadow Lane",
-		"strava_id": 17220805,
-		"distance": 648.7999877929688,
-		"latitude": 42.055244,
-		"longitude": -97.348703
-	},
-	{
-		"segment_name": "Nucor Water Tower Climb",
-		"strava_id": 23977255,
-		"distance": 467.29998779296875,
-		"latitude": 42.069344,
-		"longitude": -97.356018
+		"segment_name": "Sheridan hill",
+		"strava_id": 15505724,
+		"distance": 541.0999755859375,
+		"latitude": 42.053656,
+		"longitude": -97.426896
 	},
 	{
 		"segment_name": "2017 CX Practice",
@@ -1155,32 +854,32 @@
 		"longitude": -97.440457
 	},
 	{
-		"segment_name": "37th street climb",
-		"strava_id": 23581242,
-		"distance": 1630.0999755859375,
-		"latitude": 42.02985,
-		"longitude": -97.465594
+		"segment_name": "Skyview Banker",
+		"strava_id": 15891506,
+		"distance": 368.5,
+		"latitude": 42.043444,
+		"longitude": -97.445702
 	},
 	{
-		"segment_name": "2018 Loop 1 (north)",
-		"strava_id": 18419667,
-		"distance": 4411.2998046875,
-		"latitude": 41.982845,
-		"longitude": -97.24231
+		"segment_name": "Dinkel Bottoms",
+		"strava_id": 16003066,
+		"distance": 1291.199951171875,
+		"latitude": 42.018845,
+		"longitude": -97.465562
 	},
 	{
-		"segment_name": "Break the Legs over Broken Bridge",
-		"strava_id": 17979425,
-		"distance": 1592.0999755859375,
-		"latitude": 42.003172,
-		"longitude": -97.482446
+		"segment_name": "Red Bull Rising",
+		"strava_id": 16331402,
+		"distance": 669.4000244140625,
+		"latitude": 42.058693,
+		"longitude": -97.353748
 	},
 	{
-		"segment_name": "Back from Willow",
-		"strava_id": 17857801,
-		"distance": 2589.39990234375,
-		"latitude": 42.191894,
-		"longitude": -97.562685
+		"segment_name": "Sherwood - 1st to 81",
+		"strava_id": 17182875,
+		"distance": 1488,
+		"latitude": 41.989253,
+		"longitude": -97.407234
 	},
 	{
 		"segment_name": "Airliner Forty-Niner",
@@ -1190,11 +889,249 @@
 		"longitude": -97.427155
 	},
 	{
-		"segment_name": "Sherwood - 1st to 81",
-		"strava_id": 17182875,
-		"distance": 1488,
-		"latitude": 41.989253,
-		"longitude": -97.407234
+		"segment_name": "Top of Meadow Lane",
+		"strava_id": 17220805,
+		"distance": 648.7999877929688,
+		"latitude": 42.055244,
+		"longitude": -97.348703
+	},
+	{
+		"segment_name": "RiverPointe Underpass South",
+		"strava_id": 17586963,
+		"distance": 400.29998779296875,
+		"latitude": 42.033842,
+		"longitude": -97.40411
+	},
+	{
+		"segment_name": "RiverPointe Underpass North",
+		"strava_id": 17587059,
+		"distance": 392.8999938964844,
+		"latitude": 42.030789,
+		"longitude": -97.402072
+	},
+	{
+		"segment_name": "Back from Willow",
+		"strava_id": 17857801,
+		"distance": 2589.39990234375,
+		"latitude": 42.191894,
+		"longitude": -97.562685
+	},
+	{
+		"segment_name": "Out to Willow",
+		"strava_id": 17857916,
+		"distance": 2484.699951171875,
+		"latitude": 42.195537,
+		"longitude": -97.532557
+	},
+	{
+		"segment_name": "549th Uphill",
+		"strava_id": 17858206,
+		"distance": 741.4000244140625,
+		"latitude": 42.192299,
+		"longitude": -97.544598
+	},
+	{
+		"segment_name": "Break the Legs over Broken Bridge",
+		"strava_id": 17979425,
+		"distance": 1592.0999755859375,
+		"latitude": 42.003172,
+		"longitude": -97.482446
+	},
+	{
+		"segment_name": "Knight Curves SE",
+		"strava_id": 18327917,
+		"distance": 331.6000061035156,
+		"latitude": 42.0381,
+		"longitude": -97.40918
+	},
+	{
+		"segment_name": "2018 full lap",
+		"strava_id": 18419647,
+		"distance": 10187.900390625,
+		"latitude": 41.982797,
+		"longitude": -97.242615
+	},
+	{
+		"segment_name": "2018 Loop 1 (north)",
+		"strava_id": 18419667,
+		"distance": 4411.2998046875,
+		"latitude": 41.982845,
+		"longitude": -97.24231
+	},
+	{
+		"segment_name": "Shake Rattle and Roll",
+		"strava_id": 18687812,
+		"distance": 594.9000244140625,
+		"latitude": 41.996103,
+		"longitude": -97.484359
+	},
+	{
+		"segment_name": "Signpost Trail",
+		"strava_id": 19009624,
+		"distance": 687.9000244140625,
+		"latitude": 42.021264,
+		"longitude": -97.39303
+	},
+	{
+		"segment_name": "Coolidge",
+		"strava_id": 19009644,
+		"distance": 1438.5,
+		"latitude": 42.003985,
+		"longitude": -97.369983
+	},
+	{
+		"segment_name": "Victory Curve N",
+		"strava_id": 19009696,
+		"distance": 811.5999755859375,
+		"latitude": 42.011221,
+		"longitude": -97.387576
+	},
+	{
+		"segment_name": "to the forest quick",
+		"strava_id": 19247057,
+		"distance": 902.2999877929688,
+		"latitude": 41.982528,
+		"longitude": -97.242888
+	},
+	{
+		"segment_name": "Willow Creek Rec. Blacktop",
+		"strava_id": 21632579,
+		"distance": 21738.30078125,
+		"latitude": 42.187188,
+		"longitude": -97.543357
+	},
+	{
+		"segment_name": "Norfolk Express",
+		"strava_id": 21637229,
+		"distance": 457.70001220703125,
+		"latitude": 42.032606,
+		"longitude": -97.424666
+	},
+	{
+		"segment_name": "Willow Creek Rec. Blacktop (via trail)",
+		"strava_id": 21716136,
+		"distance": 11436.599609375,
+		"latitude": 42.173671,
+		"longitude": -97.556141
+	},
+	{
+		"segment_name": "Victory Hill Sprint",
+		"strava_id": 22935052,
+		"distance": 1184,
+		"latitude": 42.062218,
+		"longitude": -97.387795
+	},
+	{
+		"segment_name": "Home Stretch",
+		"strava_id": 22935188,
+		"distance": 310.79998779296875,
+		"latitude": 42.055717,
+		"longitude": -97.440613
+	},
+	{
+		"segment_name": "Norfolk to Stanton",
+		"strava_id": 22935267,
+		"distance": 16108.400390625,
+		"latitude": 42.018188,
+		"longitude": -97.381279
+	},
+	{
+		"segment_name": "Final Climb Prairie to Trail head Loop 2",
+		"strava_id": 23269018,
+		"distance": 807.7000122070312,
+		"latitude": 41.978582,
+		"longitude": -97.240147
+	},
+	{
+		"segment_name": "Pierce to Hadar",
+		"strava_id": 23561702,
+		"distance": 10491.2001953125,
+		"latitude": 42.187676,
+		"longitude": -97.514038
+	},
+	{
+		"segment_name": "Don't Get Bit by Willy",
+		"strava_id": 23561984,
+		"distance": 3994,
+		"latitude": 42.101143,
+		"longitude": -97.450844
+	},
+	{
+		"segment_name": "Norfolk TT",
+		"strava_id": 23581169,
+		"distance": 28977.900390625,
+		"latitude": 42.032218,
+		"longitude": -97.41193
+	},
+	{
+		"segment_name": "Roundabout rodeo",
+		"strava_id": 23581200,
+		"distance": 4953.60009765625,
+		"latitude": 42.017914,
+		"longitude": -97.465714
+	},
+	{
+		"segment_name": "37th street climb",
+		"strava_id": 23581242,
+		"distance": 1630.0999755859375,
+		"latitude": 42.02985,
+		"longitude": -97.465594
+	},
+	{
+		"segment_name": "25th water tower climb",
+		"strava_id": 23581327,
+		"distance": 600,
+		"latitude": 42.032568,
+		"longitude": -97.445797
+	},
+	{
+		"segment_name": "25th st rolling hills",
+		"strava_id": 23581342,
+		"distance": 1749.800048828125,
+		"latitude": 42.032568,
+		"longitude": -97.445797
+	},
+	{
+		"segment_name": "Dinkel Bottoms South",
+		"strava_id": 23837853,
+		"distance": 1463,
+		"latitude": 42.031425,
+		"longitude": -97.465683
+	},
+	{
+		"segment_name": "Nucor Water Tower Climb",
+		"strava_id": 23977255,
+		"distance": 467.29998779296875,
+		"latitude": 42.069344,
+		"longitude": -97.356018
+	},
+	{
+		"segment_name": "lead out sprint to orange top tubes",
+		"strava_id": 24001269,
+		"distance": 1991.199951171875,
+		"latitude": 42.001348,
+		"longitude": -97.407105
+	},
+	{
+		"segment_name": "Intercontinental ",
+		"strava_id": 24001362,
+		"distance": 2727.60009765625,
+		"latitude": 42.017815,
+		"longitude": -97.478842
+	},
+	{
+		"segment_name": "Georgia climb ",
+		"strava_id": 24687617,
+		"distance": 808.4000244140625,
+		"latitude": 42.043598,
+		"longitude": -97.414833
+	},
+	{
+		"segment_name": "Full throttle to roundabout",
+		"strava_id": 24720335,
+		"distance": 420.3999938964844,
+		"latitude": 42.032822,
+		"longitude": -97.392265
 	},
 	{
 		"segment_name": "The Wicken trail",
@@ -1211,228 +1148,32 @@
 		"longitude": -97.564842
 	},
 	{
-		"segment_name": "lead out sprint to orange top tubes",
-		"strava_id": 24001269,
-		"distance": 1991.199951171875,
-		"latitude": 42.001348,
-		"longitude": -97.407105
+		"segment_name": "Homestretch",
+		"strava_id": 24904269,
+		"distance": 1343.5,
+		"latitude": 42.175377,
+		"longitude": -97.575317
 	},
 	{
-		"segment_name": "Skyview Banker",
-		"strava_id": 15891506,
-		"distance": 368.5,
-		"latitude": 42.043444,
-		"longitude": -97.445702
+		"segment_name": "First Downhill",
+		"strava_id": 25493654,
+		"distance": 674.5,
+		"latitude": 41.98282,
+		"longitude": -97.242691
 	},
 	{
-		"segment_name": "25th st rolling hills",
-		"strava_id": 23581342,
-		"distance": 1749.800048828125,
-		"latitude": 42.032568,
-		"longitude": -97.445797
+		"segment_name": "Bridge to Nucor",
+		"strava_id": 26440702,
+		"distance": 3763.10009765625,
+		"latitude": 42.068428,
+		"longitude": -97.421048
 	},
 	{
-		"segment_name": "25th water tower climb",
-		"strava_id": 23581327,
-		"distance": 600,
-		"latitude": 42.032568,
-		"longitude": -97.445797
-	},
-	{
-		"segment_name": "Pierce to Hadar",
-		"strava_id": 23561702,
-		"distance": 10491.2001953125,
-		"latitude": 42.187676,
-		"longitude": -97.514038
-	},
-	{
-		"segment_name": "Sheridan hill",
-		"strava_id": 15505724,
-		"distance": 541.0999755859375,
-		"latitude": 42.053656,
-		"longitude": -97.426896
-	},
-	{
-		"segment_name": "Final Climb Prairie to Trail head Loop 2",
-		"strava_id": 23269018,
-		"distance": 807.7000122070312,
-		"latitude": 41.978582,
-		"longitude": -97.240147
-	},
-	{
-		"segment_name": "Calling Indiana's Bluff",
-		"strava_id": 15279651,
-		"distance": 608.5,
-		"latitude": 42.019389,
-		"longitude": -97.406991
-	},
-	{
-		"segment_name": "Downhill Run 37th",
-		"strava_id": 15235246,
-		"distance": 1523.4000244140625,
-		"latitude": 42.046816,
-		"longitude": -97.465578
-	},
-	{
-		"segment_name": "Willow Lake - West Climb - 547th parking lot to 2nd tree line",
-		"strava_id": 15224276,
-		"distance": 1309.800048828125,
-		"latitude": 42.183457,
-		"longitude": -97.58386
-	},
-	{
-		"segment_name": "W Sherwood Road to BC",
-		"strava_id": 15169138,
-		"distance": 8078.5,
-		"latitude": 41.988925,
-		"longitude": -97.493808
-	},
-	{
-		"segment_name": "Continental Drift",
-		"strava_id": 15141300,
-		"distance": 1351.5999755859375,
-		"latitude": 42.018021,
-		"longitude": -97.447433
-	},
-	{
-		"segment_name": "Softball Alley",
-		"strava_id": 15141268,
-		"distance": 1149.699951171875,
-		"latitude": 42.002542,
-		"longitude": -97.410805
-	},
-	{
-		"segment_name": "Up and down and all around",
-		"strava_id": 15096389,
-		"distance": 22427.30078125,
-		"latitude": 42.182541,
-		"longitude": -97.554847
-	},
-	{
-		"segment_name": "Norfolk to Stanton",
-		"strava_id": 22935267,
-		"distance": 16108.400390625,
-		"latitude": 42.018188,
-		"longitude": -97.381279
-	},
-	{
-		"segment_name": "East Cowboy Cruise",
-		"strava_id": 14788311,
-		"distance": 3843,
-		"latitude": 42.010835,
-		"longitude": -97.445941
-	},
-	{
-		"segment_name": "Valley View Drive",
-		"strava_id": 14666502,
-		"distance": 336.29998779296875,
-		"latitude": 42.032754,
-		"longitude": -97.443896
-	},
-	{
-		"segment_name": "25th Cowboy U-Turn",
-		"strava_id": 14623981,
-		"distance": 1419,
-		"latitude": 42.013289,
-		"longitude": -97.446266
-	},
-	{
-		"segment_name": "Dam Straight - North to South",
-		"strava_id": 14557673,
-		"distance": 744.0999755859375,
-		"latitude": 42.182037,
-		"longitude": -97.554857
-	},
-	{
-		"segment_name": "W. Pierce St. Uphill",
-		"strava_id": 14557908,
-		"distance": 631.7999877929688,
-		"latitude": 42.200949,
-		"longitude": -97.532294
-	},
-	{
-		"segment_name": "Prospective Discomfort",
-		"strava_id": 14548023,
-		"distance": 856.7999877929688,
-		"latitude": 42.036176,
-		"longitude": -97.433905
-	},
-	{
-		"segment_name": "The Pinnacle",
-		"strava_id": 14389216,
-		"distance": 383.3999938964844,
-		"latitude": 42.047274,
-		"longitude": -97.456358
-	},
-	{
-		"segment_name": "Industrial Revolutions",
-		"strava_id": 14222677,
-		"distance": 539.0999755859375,
-		"latitude": 42.069031,
-		"longitude": -97.349459
-	},
-	{
-		"segment_name": "Enola to Madison",
-		"strava_id": 14175989,
-		"distance": 6932,
-		"latitude": 41.900956,
-		"longitude": -97.465435
-	},
-	{
-		"segment_name": "Meadow Grove to Battle Creek",
-		"strava_id": 14175654,
-		"distance": 12706.900390625,
-		"latitude": 42.032225,
-		"longitude": -97.722536
-	},
-	{
-		"segment_name": "Willow Creek Rec. Blacktop (via trail)",
-		"strava_id": 21716136,
-		"distance": 11436.599609375,
-		"latitude": 42.173671,
-		"longitude": -97.556141
-	},
-	{
-		"segment_name": "81 North Enola to Sherwood",
-		"strava_id": 13118812,
-		"distance": 12848.599609375,
-		"latitude": 41.874279,
-		"longitude": -97.426193
-	},
-	{
-		"segment_name": "ridge road climb",
-		"strava_id": 12834350,
-		"distance": 738.2999877929688,
-		"latitude": 42.053611,
-		"longitude": -97.233888
-	},
-	{
-		"segment_name": "Jingle Cross Race Prep",
-		"strava_id": 12826306,
-		"distance": 1623.5,
-		"latitude": 42.043394,
-		"longitude": -97.443959
-	},
-	{
-		"segment_name": "Coolidge",
-		"strava_id": 19009644,
-		"distance": 1438.5,
-		"latitude": 42.003985,
-		"longitude": -97.369983
-	},
-	{
-		"segment_name": "1st Street to Enola Cut-off",
-		"strava_id": 12826196,
-		"distance": 11132.7998046875,
-		"latitude": 42.002623,
-		"longitude": -97.407086
-	},
-	{
-		"segment_name": "River Raid",
-		"strava_id": 12535382,
-		"distance": 3551.10009765625,
-		"latitude": 42.01908,
-		"longitude": -97.390246
+		"segment_name": "Decline of the Benjamin",
+		"strava_id": 26441044,
+		"distance": 466.8999938964844,
+		"latitude": 42.047096,
+		"longitude": -97.426751
 	},
 	{
 		"segment_name": "Koenigstein Klimb",
@@ -1440,13 +1181,6 @@
 		"distance": 972.7000122070312,
 		"latitude": 42.033903,
 		"longitude": -97.42703
-	},
-	{
-		"segment_name": "to the forest quick",
-		"strava_id": 19247057,
-		"distance": 902.2999877929688,
-		"latitude": 41.982528,
-		"longitude": -97.242888
 	},
 	{
 		"segment_name": "Mow That Lawn",
@@ -1484,11 +1218,39 @@
 		"longitude": -97.456929
 	},
 	{
+		"segment_name": "Porterhouse Pit",
+		"strava_id": 29391111,
+		"distance": 584.5999755859375,
+		"latitude": 42.010136,
+		"longitude": -97.387672
+	},
+	{
+		"segment_name": "Channel it!",
+		"strava_id": 29391583,
+		"distance": 815.2000122070312,
+		"latitude": 42.006661,
+		"longitude": -97.370082
+	},
+	{
+		"segment_name": "Skyfall",
+		"strava_id": 29461616,
+		"distance": 685.2000122070312,
+		"latitude": 42.043691,
+		"longitude": -97.434363
+	},
+	{
 		"segment_name": "Lost Boy Incline",
 		"strava_id": 29557366,
 		"distance": 934.2999877929688,
 		"latitude": 42.04443,
 		"longitude": -97.430833
+	},
+	{
+		"segment_name": "Rabid Dog on the Right",
+		"strava_id": 29557628,
+		"distance": 825.7999877929688,
+		"latitude": 42.003951,
+		"longitude": -97.3515
 	},
 	{
 		"segment_name": "Urgent Urgent Emergency!",
@@ -1498,18 +1260,25 @@
 		"longitude": -97.453264
 	},
 	{
+		"segment_name": "The Bradford Exchange",
+		"strava_id": 29570428,
+		"distance": 699.0999755859375,
+		"latitude": 42.018106,
+		"longitude": -97.462029
+	},
+	{
+		"segment_name": "Hadar Hill",
+		"strava_id": 29750145,
+		"distance": 380.79998779296875,
+		"latitude": 42.101609,
+		"longitude": -97.451143
+	},
+	{
 		"segment_name": "Tara Heights",
 		"strava_id": 29750292,
 		"distance": 323.20001220703125,
 		"latitude": 42.041423,
 		"longitude": -97.473358
-	},
-	{
-		"segment_name": "Couboy trail east to west from 37th",
-		"strava_id": 10300451,
-		"distance": 4723.60009765625,
-		"latitude": 42.012613,
-		"longitude": -97.468217
 	},
 	{
 		"segment_name": "Meadow Grove to Elkhorn River via CT",
@@ -1526,13 +1295,6 @@
 		"longitude": -97.44615
 	},
 	{
-		"segment_name": "121 N Zoom to Evergreen Hills",
-		"strava_id": 32434988,
-		"distance": 534,
-		"latitude": 41.938715,
-		"longitude": -97.600655
-	},
-	{
 		"segment_name": "Race to Old Glory",
 		"strava_id": 30479612,
 		"distance": 12198.599609375,
@@ -1540,11 +1302,60 @@
 		"longitude": -97.595544
 	},
 	{
+		"segment_name": "Y Not",
+		"strava_id": 30481402,
+		"distance": 570.0999755859375,
+		"latitude": 42.04706,
+		"longitude": -97.413352
+	},
+	{
+		"segment_name": "Methodist speedway",
+		"strava_id": 31817536,
+		"distance": 691.5999755859375,
+		"latitude": 42.034978,
+		"longitude": -97.407316
+	},
+	{
+		"segment_name": "I used the wind to get this crown!",
+		"strava_id": 31817567,
+		"distance": 1638.300048828125,
+		"latitude": 42.042408,
+		"longitude": -97.423553
+	},
+	{
+		"segment_name": "The good feel crown",
+		"strava_id": 31817626,
+		"distance": 874.5,
+		"latitude": 42.018211,
+		"longitude": -97.390343
+	},
+	{
+		"segment_name": "Kit Kat Club",
+		"strava_id": 31817636,
+		"distance": 1432.800048828125,
+		"latitude": 42.029385,
+		"longitude": -97.394112
+	},
+	{
+		"segment_name": "Let’s get some crowns.",
+		"strava_id": 31817684,
+		"distance": 1012.2999877929688,
+		"latitude": 42.031673,
+		"longitude": -97.402924
+	},
+	{
 		"segment_name": "The right smell at the right time!",
 		"strava_id": 31817704,
 		"distance": 753,
 		"latitude": 42.010914,
 		"longitude": -97.406792
+	},
+	{
+		"segment_name": "Requesting permission for flyby",
+		"strava_id": 31823581,
+		"distance": 3391.89990234375,
+		"latitude": 42.047963,
+		"longitude": -97.401706
 	},
 	{
 		"segment_name": "Johnson Park express",
@@ -1561,11 +1372,11 @@
 		"longitude": -97.396173
 	},
 	{
-		"segment_name": "Eisenhower up from 13th",
-		"strava_id": 8025292,
-		"distance": 698,
-		"latitude": 42.061652,
-		"longitude": -97.42863
+		"segment_name": "TaHa Loop",
+		"strava_id": 31865612,
+		"distance": 15238.099609375,
+		"latitude": 42.003346,
+		"longitude": -97.4073
 	},
 	{
 		"segment_name": "Woodland Park weeeeeeeeeeeeeeeeee!!!!",
@@ -1573,6 +1384,13 @@
 		"distance": 4562.7998046875,
 		"latitude": 42.062519,
 		"longitude": -97.348887
+	},
+	{
+		"segment_name": "Toes in the Water",
+		"strava_id": 32023563,
+		"distance": 504.70001220703125,
+		"latitude": 42.043443,
+		"longitude": -97.440886
 	},
 	{
 		"segment_name": "2-inches of Gravel",
@@ -1589,6 +1407,13 @@
 		"longitude": -97.385153
 	},
 	{
+		"segment_name": "Ethanol Alley",
+		"strava_id": 32146936,
+		"distance": 1125.699951171875,
+		"latitude": 42.066522,
+		"longitude": -97.371903
+	},
+	{
 		"segment_name": "25th up to Roundabout",
 		"strava_id": 32147000,
 		"distance": 504.70001220703125,
@@ -1596,11 +1421,53 @@
 		"longitude": -97.445959
 	},
 	{
+		"segment_name": "Valli Hi Sprint",
+		"strava_id": 32380443,
+		"distance": 657.9000244140625,
+		"latitude": 42.047955,
+		"longitude": -97.441338
+	},
+	{
+		"segment_name": "East Poo Flats",
+		"strava_id": 32394229,
+		"distance": 1353.199951171875,
+		"latitude": 42.011017,
+		"longitude": -97.405471
+	},
+	{
+		"segment_name": "Hose Plant East",
+		"strava_id": 32394317,
+		"distance": 1373.699951171875,
+		"latitude": 42.017899,
+		"longitude": -97.464252
+	},
+	{
+		"segment_name": "25th South to Cowboy Trail",
+		"strava_id": 32394383,
+		"distance": 504.79998779296875,
+		"latitude": 42.017952,
+		"longitude": -97.446035
+	},
+	{
+		"segment_name": "TaHa to Monroe on 1st",
+		"strava_id": 32394462,
+		"distance": 785.5999755859375,
+		"latitude": 42.003554,
+		"longitude": -97.406969
+	},
+	{
 		"segment_name": "A Little Fenrir Fun",
 		"strava_id": 32434947,
 		"distance": 1123.5,
 		"latitude": 41.870813,
 		"longitude": -97.600449
+	},
+	{
+		"segment_name": "121 N Zoom to Evergreen Hills",
+		"strava_id": 32434988,
+		"distance": 534,
+		"latitude": 41.938715,
+		"longitude": -97.600655
 	},
 	{
 		"segment_name": "SW 35 Woodland Park Climb",
@@ -1617,11 +1484,53 @@
 		"longitude": -97.409261
 	},
 	{
+		"segment_name": "Georgia Jam",
+		"strava_id": 32496556,
+		"distance": 500.79998779296875,
+		"latitude": 42.043599,
+		"longitude": -97.419971
+	},
+	{
+		"segment_name": "100-Dollar Bill Blvd",
+		"strava_id": 32497594,
+		"distance": 505.20001220703125,
+		"latitude": 42.032492,
+		"longitude": -97.446083
+	},
+	{
+		"segment_name": "Sam Walton Way",
+		"strava_id": 32497702,
+		"distance": 504.3999938964844,
+		"latitude": 42.027796,
+		"longitude": -97.446936
+	},
+	{
+		"segment_name": "Sobering Battle Btwn the Churches",
+		"strava_id": 32573929,
+		"distance": 635.7999877929688,
+		"latitude": 42.038206,
+		"longitude": -97.378167
+	},
+	{
+		"segment_name": "Top of Forest Drive",
+		"strava_id": 32711172,
+		"distance": 535.7999877929688,
+		"latitude": 42.058042,
+		"longitude": -97.34881
+	},
+	{
 		"segment_name": "Hey Sugar Plum!",
 		"strava_id": 32724651,
 		"distance": 505.20001220703125,
 		"latitude": 42.034672,
 		"longitude": -97.462026
+	},
+	{
+		"segment_name": "Stone Cold Finish",
+		"strava_id": 32826659,
+		"distance": 505.70001220703125,
+		"latitude": 42.013266,
+		"longitude": -97.446105
 	},
 	{
 		"segment_name": "Dover East",
@@ -1631,11 +1540,39 @@
 		"longitude": -97.454041
 	},
 	{
+		"segment_name": "1st South to TaHa",
+		"strava_id": 32827884,
+		"distance": 697.9000244140625,
+		"latitude": 42.010426,
+		"longitude": -97.407097
+	},
+	{
+		"segment_name": "2022 NICA Maskenthine Loop",
+		"strava_id": 32892936,
+		"distance": 5463.5,
+		"latitude": 41.976009,
+		"longitude": -97.240492
+	},
+	{
+		"segment_name": "Monarchs to  Old Glory ",
+		"strava_id": 33010018,
+		"distance": 676.7000122070312,
+		"latitude": 42.013351,
+		"longitude": -97.446388
+	},
+	{
 		"segment_name": "Motorists Like To Buzz Cyclists Here!",
 		"strava_id": 33102646,
 		"distance": 533.5,
 		"latitude": 42.024739,
 		"longitude": -97.385384
+	},
+	{
+		"segment_name": "Don't Get Clipped On HiWay 24 Curve",
+		"strava_id": 33102682,
+		"distance": 575.5,
+		"latitude": 42.018047,
+		"longitude": -97.381241
 	},
 	{
 		"segment_name": "Don't Forget Your Underpass",
@@ -1659,32 +1596,32 @@
 		"longitude": -97.375423
 	},
 	{
-		"segment_name": "2015 FULL LAP",
-		"strava_id": 9835425,
-		"distance": 9392.400390625,
-		"latitude": 41.982913,
-		"longitude": -97.242687
+		"segment_name": "Put Some Corn in Your Tank",
+		"strava_id": 33242111,
+		"distance": 1625.0999755859375,
+		"latitude": 42.066562,
+		"longitude": -97.386369
 	},
 	{
-		"segment_name": "2014 Skyview",
-		"strava_id": 7797830,
-		"distance": 3062,
-		"latitude": 42.042581,
-		"longitude": -97.439562
+		"segment_name": "College Curves",
+		"strava_id": 33242150,
+		"distance": 710.4000244140625,
+		"latitude": 42.049166,
+		"longitude": -97.398687
 	},
 	{
-		"segment_name": "Nice Southerly Climb",
-		"strava_id": 7754805,
-		"distance": 2957.5,
-		"latitude": 42.297937,
-		"longitude": -97.601204
+		"segment_name": "Kami's Hill",
+		"strava_id": 33824239,
+		"distance": 501.1000061035156,
+		"latitude": 42.052855,
+		"longitude": -97.454916
 	},
 	{
-		"segment_name": "Eisenhower Block",
-		"strava_id": 7558128,
-		"distance": 1552.199951171875,
-		"latitude": 42.06177,
-		"longitude": -97.40677
+		"segment_name": "Woodland Park Connector West",
+		"strava_id": 33942214,
+		"distance": 1367.5,
+		"latitude": 42.047577,
+		"longitude": -97.370257
 	},
 	{
 		"segment_name": "Chill-Out Alaska!",
@@ -1694,11 +1631,60 @@
 		"longitude": -97.433512
 	},
 	{
+		"segment_name": "South in a Roundabout Way",
+		"strava_id": 34080560,
+		"distance": 507.70001220703125,
+		"latitude": 42.052077,
+		"longitude": -97.446071
+	},
+	{
+		"segment_name": "Nicole's Hill",
+		"strava_id": 34080620,
+		"distance": 505.79998779296875,
+		"latitude": 42.04483,
+		"longitude": -97.449112
+	},
+	{
+		"segment_name": "Sleepy Hollow",
+		"strava_id": 34133725,
+		"distance": 506.70001220703125,
+		"latitude": 42.005982,
+		"longitude": -97.442044
+	},
+	{
+		"segment_name": "the Fanta-stic Fairway",
+		"strava_id": 34141185,
+		"distance": 1063.4000244140625,
+		"latitude": 42.034183,
+		"longitude": -97.387878
+	},
+	{
+		"segment_name": "The Dreaded Dale!",
+		"strava_id": 34141256,
+		"distance": 570.2999877929688,
+		"latitude": 42.047859,
+		"longitude": -97.387746
+	},
+	{
+		"segment_name": "Pierce to Plainview",
+		"strava_id": 34195461,
+		"distance": 26588.099609375,
+		"latitude": 42.206787,
+		"longitude": -97.536186
+	},
+	{
 		"segment_name": "Where All The Lights Are Bright: Downtown!",
 		"strava_id": 34245709,
 		"distance": 1285.699951171875,
 		"latitude": 42.033314,
 		"longitude": -97.388023
+	},
+	{
+		"segment_name": "Mic Drop",
+		"strava_id": 34484284,
+		"distance": 4183.39990234375,
+		"latitude": 42.015646,
+		"longitude": -97.387688
 	},
 	{
 		"segment_name": "Do you wanna climb 25th street? Cool, me neither.",
@@ -1708,6 +1694,13 @@
 		"longitude": -97.450978
 	},
 	{
+		"segment_name": "Wildfire!",
+		"strava_id": 35000008,
+		"distance": 691.2999877929688,
+		"latitude": 42.047295,
+		"longitude": -97.406817
+	},
+	{
 		"segment_name": "Give it the Old College Try",
 		"strava_id": 35000047,
 		"distance": 697.7000122070312,
@@ -1715,11 +1708,25 @@
 		"longitude": -97.395076
 	},
 	{
+		"segment_name": "Cowboy Trail Paved portion West",
+		"strava_id": 35167857,
+		"distance": 4965.2998046875,
+		"latitude": 42.00303,
+		"longitude": -97.407476
+	},
+	{
 		"segment_name": "River Raid Full",
 		"strava_id": 35167894,
 		"distance": 4072,
 		"latitude": 42.016072,
 		"longitude": -97.386929
+	},
+	{
+		"segment_name": "Woodland Parkway Eastward",
+		"strava_id": 35360006,
+		"distance": 1452.9000244140625,
+		"latitude": 42.0476,
+		"longitude": -97.387659
 	},
 	{
 		"segment_name": "NSNE West",
@@ -1734,6 +1741,13 @@
 		"distance": 554.7999877929688,
 		"latitude": 42.005932,
 		"longitude": -97.387611
+	},
+	{
+		"segment_name": "560 rd. to 845 rd.",
+		"strava_id": 35820556,
+		"distance": 1551.5999755859375,
+		"latitude": 42.062007,
+		"longitude": -97.329926
 	},
 	{
 		"segment_name": "Flood Control Sprint South",
@@ -1757,6 +1771,34 @@
 		"longitude": -97.387793
 	},
 	{
+		"segment_name": "Riverside to 1st on Benjamin",
+		"strava_id": 36814867,
+		"distance": 733.7000122070312,
+		"latitude": 42.047192,
+		"longitude": -97.416701
+	},
+	{
+		"segment_name": "Access the Levee",
+		"strava_id": 36814929,
+		"distance": 580.5999755859375,
+		"latitude": 42.011333,
+		"longitude": -97.38762
+	},
+	{
+		"segment_name": "Dover a Roundabout to the Lodge",
+		"strava_id": 36814973,
+		"distance": 810.0999755859375,
+		"latitude": 42.051929,
+		"longitude": -97.446075
+	},
+	{
+		"segment_name": "Criminally Insane Segment",
+		"strava_id": 36815017,
+		"distance": 1484.0999755859375,
+		"latitude": 42.050471,
+		"longitude": -97.387871
+	},
+	{
 		"segment_name": "It's Fun to Ride by the Y-M-C-A",
 		"strava_id": 36837398,
 		"distance": 502,
@@ -1764,11 +1806,25 @@
 		"longitude": -97.407241
 	},
 	{
+		"segment_name": "High Point to High Point Road",
+		"strava_id": 36837451,
+		"distance": 1559.800048828125,
+		"latitude": 42.053147,
+		"longitude": -97.387749
+	},
+	{
 		"segment_name": "Clausen Curve",
 		"strava_id": 36856965,
 		"distance": 693.5999755859375,
 		"latitude": 42.022623,
 		"longitude": -97.4649
+	},
+	{
+		"segment_name": "Underpass to Sara",
+		"strava_id": 37284107,
+		"distance": 505.3999938964844,
+		"latitude": 42.00619,
+		"longitude": -97.442709
 	},
 	{
 		"segment_name": "Omaha - 61st to 49th",
@@ -1785,6 +1841,13 @@
 		"longitude": -97.481427
 	},
 	{
+		"segment_name": "Posts-Gravel-and-Posts South",
+		"strava_id": 37514602,
+		"distance": 1240.300048828125,
+		"latitude": 42.013138,
+		"longitude": -97.4505
+	},
+	{
 		"segment_name": "We Need a Bike Trail Here - East",
 		"strava_id": 37546694,
 		"distance": 739.7999877929688,
@@ -1792,109 +1855,32 @@
 		"longitude": -97.390229
 	},
 	{
-		"segment_name": "Skyview Lake Loop: Clockwise",
-		"strava_id": 7462116,
-		"distance": 3172.699951171875,
-		"latitude": 42.038715,
-		"longitude": -97.441061
+		"segment_name": "We Need a Bike Trail Here - West",
+		"strava_id": 37546713,
+		"distance": 713.7000122070312,
+		"latitude": 42.018703,
+		"longitude": -97.381482
 	},
 	{
-		"segment_name": "prarie to trailhead",
-		"strava_id": 7351335,
-		"distance": 1112.199951171875,
-		"latitude": 41.980141,
-		"longitude": -97.242409
+		"segment_name": "The Georgia Downs",
+		"strava_id": 37546754,
+		"distance": 943.7999877929688,
+		"latitude": 42.043522,
+		"longitude": -97.426204
 	},
 	{
-		"segment_name": "dark forest",
-		"strava_id": 7351326,
-		"distance": 1412.300048828125,
-		"latitude": 41.976471,
-		"longitude": -97.241536
+		"segment_name": "I'm Down with the Lost Boys",
+		"strava_id": 37546785,
+		"distance": 1008.7000122070312,
+		"latitude": 42.046532,
+		"longitude": -97.441362
 	},
 	{
-		"segment_name": "pine forest",
-		"strava_id": 7351300,
-		"distance": 836.7000122070312,
-		"latitude": 41.974898,
-		"longitude": -97.242797
-	},
-	{
-		"segment_name": "tech section",
-		"strava_id": 7351273,
-		"distance": 819,
-		"latitude": 41.983028,
-		"longitude": -97.242261
-	},
-	{
-		"segment_name": "Tahazouka CX",
-		"strava_id": 5403933,
-		"distance": 2609.10009765625,
-		"latitude": 42.003293,
-		"longitude": -97.419462
-	},
-	{
-		"segment_name": "275 Maskentine Valley: East Side",
-		"strava_id": 5055037,
-		"distance": 657.4000244140625,
-		"latitude": 42.018227,
-		"longitude": -97.23378
-	},
-	{
-		"segment_name": "37th St.",
-		"strava_id": 5033192,
-		"distance": 766.2000122070312,
-		"latitude": 42.037322,
-		"longitude": -97.465581
-	},
-	{
-		"segment_name": "Norfolk TT",
-		"strava_id": 4644718,
-		"distance": 16092.5,
-		"latitude": 42.018066,
-		"longitude": -97.445079
-	},
-	{
-		"segment_name": "2013 Maskenthine Race Loop",
-		"strava_id": 4194447,
-		"distance": 10614.7998046875,
-		"latitude": 41.982941,
-		"longitude": -97.242264
-	},
-	{
-		"segment_name": "Home to Battle Creek Ride",
-		"strava_id": 4161720,
-		"distance": 11911.400390625,
-		"latitude": 42.013004,
-		"longitude": -97.445972
-	},
-	{
-		"segment_name": "N 81 ramp up",
-		"strava_id": 3618736,
-		"distance": 2010.3599853515625,
-		"latitude": 42.109152,
-		"longitude": -97.426335
-	},
-	{
-		"segment_name": "2012 Maskenthine full loop",
-		"strava_id": 1680000,
-		"distance": 10195.400390625,
-		"latitude": 41.988197,
-		"longitude": -97.241238
-	},
-	{
-		"segment_name": "SS segment 2",
-		"strava_id": 1276403,
-		"distance": 9562.8603515625,
-		"latitude": 42.02511,
-		"longitude": -97.598675
-	},
-	{
-		"segment_name": "NW Hill loop",
-		"strava_id": 1218625,
-		"distance": 6466.919921875,
-		"latitude": 42.046968,
-		"longitude": -97.445857
+		"segment_name": "Welcome to Northeast!",
+		"strava_id": 37610477,
+		"distance": 556.7999877929688,
+		"latitude": 42.047467,
+		"longitude": -97.394876
 	},
 	{
 		"segment_name": "Low road gravel",
@@ -1918,24 +1904,38 @@
 		"longitude": -97.465662
 	},
 	{
-		"segment_name": "Hill Loop",
-		"strava_id": 806401,
-		"distance": 1903.3699951171875,
-		"latitude": 42.036099,
-		"longitude": -97.446034
+		"segment_name": "Private Benjamin West - South Side",
+		"strava_id": 37735973,
+		"distance": 505.6000061035156,
+		"latitude": 42.047016,
+		"longitude": -97.426906
 	},
 	{
-		"segment_name": "NRS TT ",
-		"strava_id": 714653,
-		"distance": 7999.41015625,
-		"latitude": 42.018064,
-		"longitude": -97.44613
+		"segment_name": "Come On Chief!",
+		"strava_id": 37736071,
+		"distance": 1049.5999755859375,
+		"latitude": 42.017804,
+		"longitude": -97.48005
 	},
 	{
-		"segment_name": "Stanton Loop",
-		"strava_id": 702607,
-		"distance": 38792.80078125,
-		"latitude": 42.018489,
-		"longitude": -97.381092
+		"segment_name": "Beware of Mud in Underpass",
+		"strava_id": 37885927,
+		"distance": 511.79998779296875,
+		"latitude": 42.019335,
+		"longitude": -97.390141
+	},
+	{
+		"segment_name": "Wait For The Green Light",
+		"strava_id": 37886026,
+		"distance": 501.8999938964844,
+		"latitude": 42.047096,
+		"longitude": -97.424107
+	},
+	{
+		"segment_name": "Watch for UnLeashed DOGS Here!!",
+		"strava_id": 37886102,
+		"distance": 536.7000122070312,
+		"latitude": 42.009017,
+		"longitude": -97.445607
 	}
 ]
