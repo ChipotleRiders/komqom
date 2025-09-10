@@ -131,6 +131,14 @@
                 <div class="lg:col-span-4">
                     <div class="flex flex-col sm:flex-row gap-3">
                         <label class="flex-1">
+                            <select id="leaderboardFilter"
+                                class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
+                                <option value="all">All Leaderboards</option>
+                                <option value="KOM">KOM Only</option>
+                                <option value="QOM">QOM Only</option>
+                            </select>
+                        </label>
+                        <label class="flex-1">
                             <select id="sortSelect"
                                 class="w-full rounded-lg border border-slate-300 bg-white px-3 py-2.5 shadow-sm focus:outline-none focus:ring-2 focus:ring-orange-500">
                                 <option value="name-asc">Sort: Segment name (A→Z)</option>
@@ -225,6 +233,7 @@
         const els = {
             year: document.getElementById('year'),
             searchInput: document.getElementById('searchInput'),
+            leaderboardFilter: document.getElementById('leaderboardFilter'),
             sortSelect: document.getElementById('sortSelect'),
             resetBtn: document.getElementById('resetBtn'),
             woodburyFilterBtn: document.getElementById('woodburyFilterBtn'),
@@ -303,25 +312,25 @@
                     });
                 }
                 const time = Number(row.timing);
+                const overallRank = Number(row.overall_rank);
+                const leaderboardRank = Number(row.leaderboard_rank);
                 byId.get(stravaId).entries.push({
                     person_name: row.person_name ?? 'Unknown',
-                    timing: Number.isFinite(time) ? time : null
+                    timing: Number.isFinite(time) ? time : null,
+                    overall_rank: Number.isFinite(overallRank) ? overallRank : null,
+                    leaderboard_rank: Number.isFinite(leaderboardRank) ? leaderboardRank : null,
+                    leaderboard: row.leaderboard ?? null
                 });
             }
             const grouped = Array.from(byId.values()).map((g) => {
-                // Sort by timing ascending (fastest first)
+                // Sort by leaderboard_rank (1 = best, 2 = second best, etc.)
                 g.entries.sort((a, b) => {
-                    if (Number.isFinite(a.timing) && Number.isFinite(b.timing)) {
-                        return a.timing - b.timing;
+                    if (Number.isFinite(a.leaderboard_rank) && Number.isFinite(b.leaderboard_rank)) {
+                        return a.leaderboard_rank - b.leaderboard_rank;
                     }
-                    if (Number.isFinite(a.timing)) return -1;
-                    if (Number.isFinite(b.timing)) return 1;
+                    if (Number.isFinite(a.leaderboard_rank)) return -1;
+                    if (Number.isFinite(b.leaderboard_rank)) return 1;
                     return 0;
-                });
-
-                // Calculate ranks dynamically (1 = fastest, 2 = second fastest, etc.)
-                g.entries.forEach((entry, index) => {
-                    entry.leaderboard_rank = Number.isFinite(entry.timing) ? index + 1 : null;
                 });
 
                 g.best_time = g.entries.find((e) => Number.isFinite(e.timing))?.timing ?? null;
@@ -334,12 +343,19 @@
         function applyFiltersAndSort(groups) {
             const q = els.searchInput.value.trim().toLowerCase();
             const sort = els.sortSelect.value;
+            const leaderboardFilter = els.leaderboardFilter.value;
 
             let filtered = groups.filter((g) => {
-                // Woodbury filter: only show segments where Michael Woodbury is #1
+                // Leaderboard filter: KOM, QOM, or All
+                if (leaderboardFilter !== 'all') {
+                    const hasMatchingLeaderboard = g.entries.some((e) => e.leaderboard === leaderboardFilter);
+                    if (!hasMatchingLeaderboard) return false;
+                }
+
+                // Woodbury filter: only show segments where Michael Woodbury is #1 in his leaderboard
                 if (state.woodburyFilterActive) {
-                    const firstEntry = g.entries[0];
-                    if (!firstEntry || firstEntry.person_name !== 'Michael Woodbury' || firstEntry.leaderboard_rank !== 1) {
+                    const woodburyEntry = g.entries.find((e) => e.person_name === 'Michael Woodbury');
+                    if (!woodburyEntry || woodburyEntry.leaderboard_rank !== 1) {
                         return false;
                     }
                 }
@@ -651,6 +667,10 @@
                 state.currentPage = 1; // Reset to first page on search
                 render();
             }, 200));
+            els.leaderboardFilter.addEventListener('change', () => {
+                state.currentPage = 1; // Reset to first page on filter change
+                render();
+            });
             els.sortSelect.addEventListener('change', () => {
                 state.currentPage = 1; // Reset to first page on sort
                 render();
@@ -664,6 +684,7 @@
 
             els.resetBtn.addEventListener('click', () => {
                 els.searchInput.value = '';
+                els.leaderboardFilter.value = 'all';
                 els.sortSelect.value = 'name-asc';
                 state.woodburyFilterActive = false;
                 state.currentPage = 1;
