@@ -10,8 +10,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkfKTSdI4ZtOBaY1zJ8N9GMWvYIq1vE5bY8Z6Qx4Ck7q0gqUNShypHbFw=="
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Leaflet CSS/JS -->
@@ -141,6 +141,11 @@
                             </select>
                         </label>
 
+                        <button id="woodburyFilterBtn"
+                            class="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm shadow-sm hover:bg-slate-50">
+                            <i class="fa-solid fa-hand-back-fist"></i>
+                            Woodbury
+                        </button>
                         <button id="resetBtn"
                             class="inline-flex items-center justify-center gap-2 rounded-lg border border-slate-300 bg-white px-3 py-2.5 text-sm shadow-sm hover:bg-slate-50">
                             <i class="fa-solid fa-rotate"></i>
@@ -213,7 +218,8 @@
             map: null,
             markersLayer: null,
             currentPage: 1,
-            itemsPerPage: 12
+            itemsPerPage: 12,
+            woodburyFilterActive: false
         };
 
         const els = {
@@ -221,6 +227,7 @@
             searchInput: document.getElementById('searchInput'),
             sortSelect: document.getElementById('sortSelect'),
             resetBtn: document.getElementById('resetBtn'),
+            woodburyFilterBtn: document.getElementById('woodburyFilterBtn'),
             segmentsContainer: document.getElementById('segmentsContainer'),
             resultsInfo: document.getElementById('resultsInfo'),
             mapStatus: document.getElementById('mapStatus'),
@@ -329,6 +336,14 @@
             const sort = els.sortSelect.value;
 
             let filtered = groups.filter((g) => {
+                // Woodbury filter: only show segments where Michael Woodbury is #1
+                if (state.woodburyFilterActive) {
+                    const firstEntry = g.entries[0];
+                    if (!firstEntry || firstEntry.person_name !== 'Michael Woodbury' || firstEntry.leaderboard_rank !== 1) {
+                        return false;
+                    }
+                }
+
                 // Text match: segment or rider
                 const matchesText = q.length === 0 ||
                     g.segment_name?.toLowerCase().includes(q) ||
@@ -590,6 +605,16 @@
             }
         }
 
+        function updateWoodburyButton() {
+            if (state.woodburyFilterActive) {
+                els.woodburyFilterBtn.classList.add('bg-orange-500', 'text-white', 'border-orange-500');
+                els.woodburyFilterBtn.classList.remove('border-slate-300', 'bg-white', 'text-slate-700');
+            } else {
+                els.woodburyFilterBtn.classList.remove('bg-orange-500', 'text-white', 'border-orange-500');
+                els.woodburyFilterBtn.classList.add('border-slate-300', 'bg-white', 'text-slate-700');
+            }
+        }
+
         function escapeHtml(str) {
             return String(str)
                 .replaceAll('&', '&amp;')
@@ -630,10 +655,19 @@
                 state.currentPage = 1; // Reset to first page on sort
                 render();
             });
+            els.woodburyFilterBtn.addEventListener('click', () => {
+                state.woodburyFilterActive = !state.woodburyFilterActive;
+                state.currentPage = 1;
+                updateWoodburyButton();
+                render();
+            });
+
             els.resetBtn.addEventListener('click', () => {
                 els.searchInput.value = '';
                 els.sortSelect.value = 'name-asc';
+                state.woodburyFilterActive = false;
                 state.currentPage = 1;
+                updateWoodburyButton();
                 render();
             });
 
