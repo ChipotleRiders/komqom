@@ -1,0 +1,54 @@
+name: Update Leaderboard
+
+on:
+  schedule:
+    # Run Monday and Thursday at 7 AM US Central Time (12 PM UTC)
+    - cron: '0 12 * * 1,4'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-leaderboard:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+        cache: 'npm'
+        cache-dependency-path: lib/package-lock.json
+    
+    - name: Install dependencies
+      run: |
+        cd lib
+        npm install
+    
+    - name: Run updateLeaderboard script
+      run: |
+        cd lib
+        node updateLeaderboard.js
+      env:
+        STRAVA_HEADERS: ${{ secrets.STRAVA_HEADERS }}
+    
+    - name: Check for changes
+      id: check-changes
+      run: |
+        if [ -n "$(git status --porcelain komqom.json)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+        fi
+    
+    - name: Commit and push changes
+      if: steps.check-changes.outputs.changes == 'true'
+      run: |
+        git config --local user.email "bot@kom.qom"
+        git config --local user.name "Kombot"
+        git add komqom.json
+        git commit -m "Update leaderboard data"
+        git push
