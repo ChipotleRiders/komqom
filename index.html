@@ -318,12 +318,12 @@
                     });
                 }
                 const time = Number(row.timing);
-                const overallRank = Number(row.overall_rank);
+                // const overallRank = Number(row.overall_rank);
                 const leaderboardRank = Number(row.leaderboard_rank);
                 byId.get(stravaId).entries.push({
                     person_name: row.person_name ?? 'Unknown',
                     timing: Number.isFinite(time) ? time : null,
-                    overall_rank: Number.isFinite(overallRank) ? overallRank : null,
+                    // overall_rank: Number.isFinite(overallRank) ? overallRank : null,
                     leaderboard_rank: Number.isFinite(leaderboardRank) ? leaderboardRank : null,
                     leaderboard: row.leaderboard ?? null
                 });
