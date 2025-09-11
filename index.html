@@ -411,6 +411,24 @@
                 displayedEntries = group.entries.filter(entry => entry.leaderboard === state.selectedLeaderboard);
             }
 
+            // Calculate dynamic ranks for "All Leaderboards" view
+            if (state.selectedLeaderboard === 'all') {
+                // Sort by timing for dynamic ranking and display order
+                displayedEntries = [...displayedEntries].sort((a, b) => {
+                    if (Number.isFinite(a.timing) && Number.isFinite(b.timing)) {
+                        return a.timing - b.timing;
+                    }
+                    if (Number.isFinite(a.timing)) return -1;
+                    if (Number.isFinite(b.timing)) return 1;
+                    return 0;
+                });
+
+                // Assign dynamic ranks based on sorted order
+                displayedEntries.forEach((entry, index) => {
+                    entry.dynamicRank = Number.isFinite(entry.timing) ? index + 1 : null;
+                });
+            }
+
             const card = document.createElement('article');
             card.className = 'rounded-xl border border-slate-200 bg-white shadow-sm overflow-hidden flex flex-col';
             card.dataset.stravaId = group.strava_id;
@@ -468,8 +486,8 @@
                 tdName.className = 'py-2 pr-3 text-slate-800';
                 tdTime.className = 'py-2 text-slate-700';
 
-                // Use overall_rank for "All Leaderboards", leaderboard_rank for KOM/QOM
-                const rankToShow = state.selectedLeaderboard === 'all' ? e.overall_rank : e.leaderboard_rank;
+                // Use dynamic rank for "All Leaderboards", leaderboard_rank for KOM/QOM
+                const rankToShow = state.selectedLeaderboard === 'all' ? e.dynamicRank : e.leaderboard_rank;
                 tdRank.textContent = Number.isFinite(rankToShow) ? `#${rankToShow}` : '—';
 
                 tdName.textContent = e.person_name ?? 'Unknown';
