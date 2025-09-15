@@ -16407,25 +16407,25 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Heidi Berg",
+        "person_name": "Grace Wapelhorst",
         "segment_name": "Taha to Northwestern on 1st",
-        "timing": 170,
+        "timing": 167,
         "leaderboard_rank": 8,
         "strava_id": 15279526,
         "distance": 1352.0999755859375,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Nancy Polodna",
+        "person_name": "Heidi Berg",
         "segment_name": "Taha to Northwestern on 1st",
-        "timing": 181,
+        "timing": 170,
         "leaderboard_rank": 9,
         "strava_id": 15279526,
         "distance": 1352.0999755859375,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Grace Wapelhorst",
+        "person_name": "Nancy Polodna",
         "segment_name": "Taha to Northwestern on 1st",
         "timing": 181,
         "leaderboard_rank": 10,
@@ -16587,25 +16587,25 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Nicole Bauer",
+        "person_name": "Grace Wapelhorst",
         "segment_name": "Calling Indiana's Bluff",
-        "timing": 85,
+        "timing": 84,
         "leaderboard_rank": 8,
         "strava_id": 15279651,
         "distance": 608.5,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Terry Martin",
+        "person_name": "Nicole Bauer",
         "segment_name": "Calling Indiana's Bluff",
-        "timing": 86,
+        "timing": 85,
         "leaderboard_rank": 9,
         "strava_id": 15279651,
         "distance": 608.5,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Grace Wapelhorst",
+        "person_name": "Terry Martin",
         "segment_name": "Calling Indiana's Bluff",
         "timing": 86,
         "leaderboard_rank": 10,
@@ -18990,19 +18990,10 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Andrew Suhr",
-        "segment_name": "2018 Loop 1 (north)",
-        "timing": 971,
-        "leaderboard_rank": 9,
-        "strava_id": 18419667,
-        "distance": 4411.2998046875,
-        "leaderboard": "KOM"
-    },
-    {
         "person_name": "Jamie Wright",
         "segment_name": "2018 Loop 1 (north)",
         "timing": 988,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 9,
         "strava_id": 18419667,
         "distance": 4411.2998046875,
         "leaderboard": "KOM"
@@ -33795,16 +33786,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Jim Albin",
+        "person_name": "Michael Francavilla",
         "segment_name": "Woodland Park Connector West",
-        "timing": 142,
+        "timing": 137,
         "leaderboard_rank": 4,
         "strava_id": 33942214,
         "distance": 1367.5,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Matt Binsfeld",
+        "person_name": "Jim Albin",
         "segment_name": "Woodland Park Connector West",
         "timing": 142,
         "leaderboard_rank": 5,
@@ -33813,10 +33804,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Matt Binsfeld",
+        "segment_name": "Woodland Park Connector West",
+        "timing": 142,
+        "leaderboard_rank": 6,
+        "strava_id": 33942214,
+        "distance": 1367.5,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Ryan Rabe",
         "segment_name": "Woodland Park Connector West",
         "timing": 144,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 33942214,
         "distance": 1367.5,
         "leaderboard": "KOM"
@@ -33825,7 +33825,7 @@
         "person_name": "Timothy Metcalf",
         "segment_name": "Woodland Park Connector West",
         "timing": 146,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 33942214,
         "distance": 1367.5,
         "leaderboard": "KOM"
@@ -33834,7 +33834,7 @@
         "person_name": "Benjamin Spray",
         "segment_name": "Woodland Park Connector West",
         "timing": 147,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 33942214,
         "distance": 1367.5,
         "leaderboard": "KOM"
@@ -33843,15 +33843,6 @@
         "person_name": "Addison Albin",
         "segment_name": "Woodland Park Connector West",
         "timing": 161,
-        "leaderboard_rank": 9,
-        "strava_id": 33942214,
-        "distance": 1367.5,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Jordan Judt",
-        "segment_name": "Woodland Park Connector West",
-        "timing": 164,
         "leaderboard_rank": 10,
         "strava_id": 33942214,
         "distance": 1367.5,
