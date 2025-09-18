@@ -11610,10 +11610,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Grace Wapelhorst",
+        "segment_name": "TaHa Elkhorn West",
+        "timing": 390,
+        "leaderboard_rank": 6,
+        "strava_id": 14508505,
+        "distance": 2806.5,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "TaHa Elkhorn West",
         "timing": 394,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 14508505,
         "distance": 2806.5,
         "leaderboard": "QOM"
@@ -11622,7 +11631,7 @@
         "person_name": "Jill Godfrey",
         "segment_name": "TaHa Elkhorn West",
         "timing": 395,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 14508505,
         "distance": 2806.5,
         "leaderboard": "QOM"
@@ -11631,7 +11640,7 @@
         "person_name": "Linda Lawhorn",
         "segment_name": "TaHa Elkhorn West",
         "timing": 396,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 14508505,
         "distance": 2806.5,
         "leaderboard": "QOM"
@@ -11640,15 +11649,6 @@
         "person_name": "Leslie Fanta",
         "segment_name": "TaHa Elkhorn West",
         "timing": 400,
-        "leaderboard_rank": 9,
-        "strava_id": 14508505,
-        "distance": 2806.5,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Stacey Rabe",
-        "segment_name": "TaHa Elkhorn West",
-        "timing": 401,
         "leaderboard_rank": 10,
         "strava_id": 14508505,
         "distance": 2806.5,
@@ -31941,10 +31941,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Grace Wapelhorst",
+        "segment_name": "1st South to TaHa",
+        "timing": 62,
+        "leaderboard_rank": 1,
+        "strava_id": 32827884,
+        "distance": 697.9000244140625,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Nicole Bauer",
         "segment_name": "1st South to TaHa",
         "timing": 73,
-        "leaderboard_rank": 1,
+        "leaderboard_rank": 2,
         "strava_id": 32827884,
         "distance": 697.9000244140625,
         "leaderboard": "QOM"
@@ -31953,15 +31962,6 @@
         "person_name": "Megan Albin",
         "segment_name": "1st South to TaHa",
         "timing": 80,
-        "leaderboard_rank": 2,
-        "strava_id": 32827884,
-        "distance": 697.9000244140625,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Grace Wapelhorst",
-        "segment_name": "1st South to TaHa",
-        "timing": 81,
         "leaderboard_rank": 3,
         "strava_id": 32827884,
         "distance": 697.9000244140625,
@@ -33912,10 +33912,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Niki Hinz",
+        "segment_name": "Woodland Park Connector West",
+        "timing": 210,
+        "leaderboard_rank": 8,
+        "strava_id": 33942214,
+        "distance": 1367.5,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Leslie Fanta",
         "segment_name": "Woodland Park Connector West",
         "timing": 216,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 33942214,
         "distance": 1367.5,
         "leaderboard": "QOM"
@@ -33924,15 +33933,6 @@
         "person_name": "Kate Trindle",
         "segment_name": "Woodland Park Connector West",
         "timing": 218,
-        "leaderboard_rank": 9,
-        "strava_id": 33942214,
-        "distance": 1367.5,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Cindy Means",
-        "segment_name": "Woodland Park Connector West",
-        "timing": 221,
         "leaderboard_rank": 10,
         "strava_id": 33942214,
         "distance": 1367.5,
@@ -36009,10 +36009,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Grace Wapelhorst",
+        "segment_name": "Cowboy Trail Paved portion West",
+        "timing": 721,
+        "leaderboard_rank": 4,
+        "strava_id": 35167857,
+        "distance": 4965.2998046875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Lindsay Mouw",
         "segment_name": "Cowboy Trail Paved portion West",
         "timing": 722,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 35167857,
         "distance": 4965.2998046875,
         "leaderboard": "QOM"
@@ -36021,7 +36030,7 @@
         "person_name": "Tricia Akerlund Moyer",
         "segment_name": "Cowboy Trail Paved portion West",
         "timing": 728,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 35167857,
         "distance": 4965.2998046875,
         "leaderboard": "QOM"
@@ -36030,7 +36039,7 @@
         "person_name": "Jill Godfrey",
         "segment_name": "Cowboy Trail Paved portion West",
         "timing": 731,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 35167857,
         "distance": 4965.2998046875,
         "leaderboard": "QOM"
@@ -36039,7 +36048,7 @@
         "person_name": "Linda Lawhorn",
         "segment_name": "Cowboy Trail Paved portion West",
         "timing": 732,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 35167857,
         "distance": 4965.2998046875,
         "leaderboard": "QOM"
@@ -36048,7 +36057,7 @@
         "person_name": "Rebecca Cabrera",
         "segment_name": "Cowboy Trail Paved portion West",
         "timing": 738,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 35167857,
         "distance": 4965.2998046875,
         "leaderboard": "QOM"
@@ -36057,15 +36066,6 @@
         "person_name": "Leann Hilgert",
         "segment_name": "Cowboy Trail Paved portion West",
         "timing": 739,
-        "leaderboard_rank": 9,
-        "strava_id": 35167857,
-        "distance": 4965.2998046875,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Andrea Troester",
-        "segment_name": "Cowboy Trail Paved portion West",
-        "timing": 742,
         "leaderboard_rank": 10,
         "strava_id": 35167857,
         "distance": 4965.2998046875,
