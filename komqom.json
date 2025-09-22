@@ -13446,10 +13446,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Niki Hinz",
+        "segment_name": "25th Cowboy U-Turn",
+        "timing": 233,
+        "leaderboard_rank": 7,
+        "strava_id": 14623981,
+        "distance": 1419,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Stacy H",
         "segment_name": "25th Cowboy U-Turn",
         "timing": 236,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 14623981,
         "distance": 1419,
         "leaderboard": "QOM"
@@ -13458,7 +13467,7 @@
         "person_name": "Leann Hilgert",
         "segment_name": "25th Cowboy U-Turn",
         "timing": 242,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 14623981,
         "distance": 1419,
         "leaderboard": "QOM"
@@ -13467,15 +13476,6 @@
         "person_name": "Danielle Wells",
         "segment_name": "25th Cowboy U-Turn",
         "timing": 245,
-        "leaderboard_rank": 9,
-        "strava_id": 14623981,
-        "distance": 1419,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Heather Biszantz-Meehan",
-        "segment_name": "25th Cowboy U-Turn",
-        "timing": 246,
         "leaderboard_rank": 10,
         "strava_id": 14623981,
         "distance": 1419,
@@ -17262,10 +17262,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Jim Albin",
+        "segment_name": "Red Bull Rising",
+        "timing": 78,
+        "leaderboard_rank": 7,
+        "strava_id": 16331402,
+        "distance": 669.4000244140625,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "TeJai Clausen",
         "segment_name": "Red Bull Rising",
         "timing": 80,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 16331402,
         "distance": 669.4000244140625,
         "leaderboard": "KOM"
@@ -17274,7 +17283,7 @@
         "person_name": "Christopher Vincent",
         "segment_name": "Red Bull Rising",
         "timing": 81,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 16331402,
         "distance": 669.4000244140625,
         "leaderboard": "KOM"
@@ -17283,15 +17292,6 @@
         "person_name": "Timothy Metcalf",
         "segment_name": "Red Bull Rising",
         "timing": 82,
-        "leaderboard_rank": 9,
-        "strava_id": 16331402,
-        "distance": 669.4000244140625,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Jeramie Lippman",
-        "segment_name": "Red Bull Rising",
-        "timing": 83,
         "leaderboard_rank": 10,
         "strava_id": 16331402,
         "distance": 669.4000244140625,
@@ -27117,19 +27117,10 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Jason Tollefson",
+        "person_name": "Daniel Janke",
         "segment_name": "Let’s get some crowns.",
-        "timing": 142,
+        "timing": 138,
         "leaderboard_rank": 10,
-        "strava_id": 31817684,
-        "distance": 1012.2999877929688,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Jerry Hoff",
-        "segment_name": "Let’s get some crowns.",
-        "timing": 142,
-        "leaderboard_rank": 11,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
