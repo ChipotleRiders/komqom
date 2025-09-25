@@ -5751,9 +5751,9 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Karen Becker",
+        "person_name": "Grace Wapelhorst",
         "segment_name": "Final few miles back to Norfolk",
-        "timing": 821,
+        "timing": 802,
         "leaderboard_rank": 10,
         "strava_id": 7754842,
         "distance": 5774.7001953125,
@@ -7330,15 +7330,6 @@
         "segment_name": "Highway 35 on trail",
         "timing": 376,
         "leaderboard_rank": 9,
-        "strava_id": 9859006,
-        "distance": 3117.39990234375,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "roy srymanske",
-        "segment_name": "Highway 35 on trail",
-        "timing": 387,
-        "leaderboard_rank": 10,
         "strava_id": 9859006,
         "distance": 3117.39990234375,
         "leaderboard": "KOM"
