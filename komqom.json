@@ -1935,10 +1935,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "K Emry",
+        "segment_name": "Ta Ha Zouka To Battle Creek Ride",
+        "timing": 2495,
+        "leaderboard_rank": 5,
+        "strava_id": 2622253,
+        "distance": 15684.099609375,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Kat Baum",
         "segment_name": "Ta Ha Zouka To Battle Creek Ride",
         "timing": 2509,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 2622253,
         "distance": 15684.099609375,
         "leaderboard": "QOM"
@@ -1947,7 +1956,7 @@
         "person_name": "Taylor Miller",
         "segment_name": "Ta Ha Zouka To Battle Creek Ride",
         "timing": 2519,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 2622253,
         "distance": 15684.099609375,
         "leaderboard": "QOM"
@@ -1956,7 +1965,7 @@
         "person_name": "Kayla Meyer",
         "segment_name": "Ta Ha Zouka To Battle Creek Ride",
         "timing": 2522,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 2622253,
         "distance": 15684.099609375,
         "leaderboard": "QOM"
@@ -1965,7 +1974,7 @@
         "person_name": "Karen Becker",
         "segment_name": "Ta Ha Zouka To Battle Creek Ride",
         "timing": 2543,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 2622253,
         "distance": 15684.099609375,
         "leaderboard": "QOM"
@@ -1974,15 +1983,6 @@
         "person_name": "Tricia Akerlund Moyer",
         "segment_name": "Ta Ha Zouka To Battle Creek Ride",
         "timing": 2672,
-        "leaderboard_rank": 9,
-        "strava_id": 2622253,
-        "distance": 15684.099609375,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Victoria Golden",
-        "segment_name": "Ta Ha Zouka To Battle Creek Ride",
-        "timing": 2682,
         "leaderboard_rank": 10,
         "strava_id": 2622253,
         "distance": 15684.099609375,
@@ -2646,18 +2646,18 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Tricia Akerlund Moyer",
+        "person_name": "K Emry",
         "segment_name": "Home to Battle Creek Ride",
-        "timing": 1913,
+        "timing": 1893,
         "leaderboard_rank": 9,
         "strava_id": 4161720,
         "distance": 11911.400390625,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Taylor Miller",
+        "person_name": "Tricia Akerlund Moyer",
         "segment_name": "Home to Battle Creek Ride",
-        "timing": 1944,
+        "timing": 1913,
         "leaderboard_rank": 10,
         "strava_id": 4161720,
         "distance": 11911.400390625,
@@ -8046,10 +8046,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "K Emry",
+        "segment_name": "Cowboy Trail west to east",
+        "timing": 894,
+        "leaderboard_rank": 3,
+        "strava_id": 10300459,
+        "distance": 6767.7998046875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Nicole Bauer",
         "segment_name": "Cowboy Trail west to east",
         "timing": 914,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 10300459,
         "distance": 6767.7998046875,
         "leaderboard": "QOM"
@@ -8058,7 +8067,7 @@
         "person_name": "Tricia Akerlund Moyer",
         "segment_name": "Cowboy Trail west to east",
         "timing": 944,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 10300459,
         "distance": 6767.7998046875,
         "leaderboard": "QOM"
@@ -8067,7 +8076,7 @@
         "person_name": "Kat Baum",
         "segment_name": "Cowboy Trail west to east",
         "timing": 957,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 10300459,
         "distance": 6767.7998046875,
         "leaderboard": "QOM"
@@ -8076,7 +8085,7 @@
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "Cowboy Trail west to east",
         "timing": 968,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 10300459,
         "distance": 6767.7998046875,
         "leaderboard": "QOM"
@@ -8085,7 +8094,7 @@
         "person_name": "Amber Bargstadt",
         "segment_name": "Cowboy Trail west to east",
         "timing": 977,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 10300459,
         "distance": 6767.7998046875,
         "leaderboard": "QOM"
@@ -8094,7 +8103,7 @@
         "person_name": "Kendra Thiem",
         "segment_name": "Cowboy Trail west to east",
         "timing": 1005,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 10300459,
         "distance": 6767.7998046875,
         "leaderboard": "QOM"
@@ -8103,15 +8112,6 @@
         "person_name": "Stacey Rabe",
         "segment_name": "Cowboy Trail west to east",
         "timing": 1010,
-        "leaderboard_rank": 9,
-        "strava_id": 10300459,
-        "distance": 6767.7998046875,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Emma Beckman",
-        "segment_name": "Cowboy Trail west to east",
-        "timing": 1011,
         "leaderboard_rank": 10,
         "strava_id": 10300459,
         "distance": 6767.7998046875,
@@ -18567,16 +18567,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Jamie Wright",
+        "person_name": "Ben Kortbein",
         "segment_name": "Knight Curves SE",
-        "timing": 32,
+        "timing": 31,
         "leaderboard_rank": 4,
         "strava_id": 18327917,
         "distance": 331.6000061035156,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Ben Kortbein",
+        "person_name": "Jamie Wright",
         "segment_name": "Knight Curves SE",
         "timing": 32,
         "leaderboard_rank": 5,
@@ -21528,10 +21528,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Brian Porn",
+        "segment_name": "25th water tower climb",
+        "timing": 99,
+        "leaderboard_rank": 8,
+        "strava_id": 23581327,
+        "distance": 600,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Dan Spray",
         "segment_name": "25th water tower climb",
         "timing": 101,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 23581327,
         "distance": 600,
         "leaderboard": "KOM"
@@ -21540,15 +21549,6 @@
         "person_name": "Nic Beckman",
         "segment_name": "25th water tower climb",
         "timing": 102,
-        "leaderboard_rank": 9,
-        "strava_id": 23581327,
-        "distance": 600,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Brian Porn",
-        "segment_name": "25th water tower climb",
-        "timing": 104,
         "leaderboard_rank": 10,
         "strava_id": 23581327,
         "distance": 600,
@@ -26154,10 +26154,28 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "K Emry",
+        "segment_name": "Race to Old Glory",
+        "timing": 1645,
+        "leaderboard_rank": 3,
+        "strava_id": 30479612,
+        "distance": 12198.599609375,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Tricia Akerlund Moyer",
         "segment_name": "Race to Old Glory",
         "timing": 1745,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
+        "strava_id": 30479612,
+        "distance": 12198.599609375,
+        "leaderboard": "QOM"
+    },
+    {
+        "person_name": "Nicole Bauer",
+        "segment_name": "Race to Old Glory",
+        "timing": 1765,
+        "leaderboard_rank": 5,
         "strava_id": 30479612,
         "distance": 12198.599609375,
         "leaderboard": "QOM"
@@ -26166,7 +26184,7 @@
         "person_name": "Kat Baum",
         "segment_name": "Race to Old Glory",
         "timing": 1768,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 6,
         "strava_id": 30479612,
         "distance": 12198.599609375,
         "leaderboard": "QOM"
@@ -26175,7 +26193,7 @@
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "Race to Old Glory",
         "timing": 1831,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 7,
         "strava_id": 30479612,
         "distance": 12198.599609375,
         "leaderboard": "QOM"
@@ -26184,7 +26202,7 @@
         "person_name": "Amber Bargstadt",
         "segment_name": "Race to Old Glory",
         "timing": 1834,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 8,
         "strava_id": 30479612,
         "distance": 12198.599609375,
         "leaderboard": "QOM"
@@ -26193,7 +26211,7 @@
         "person_name": "Sharon Harthoorn",
         "segment_name": "Race to Old Glory",
         "timing": 1853,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 9,
         "strava_id": 30479612,
         "distance": 12198.599609375,
         "leaderboard": "QOM"
@@ -26202,24 +26220,6 @@
         "person_name": "Kendra Thiem",
         "segment_name": "Race to Old Glory",
         "timing": 1866,
-        "leaderboard_rank": 8,
-        "strava_id": 30479612,
-        "distance": 12198.599609375,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Nicole Bauer",
-        "segment_name": "Race to Old Glory",
-        "timing": 1928,
-        "leaderboard_rank": 9,
-        "strava_id": 30479612,
-        "distance": 12198.599609375,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Stacey Rabe",
-        "segment_name": "Race to Old Glory",
-        "timing": 1948,
         "leaderboard_rank": 10,
         "strava_id": 30479612,
         "distance": 12198.599609375,
@@ -28053,16 +28053,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Corey Harthoorn",
+        "person_name": "Ben Kortbein",
         "segment_name": "Toes in the Water",
-        "timing": 52,
+        "timing": 51,
         "leaderboard_rank": 8,
         "strava_id": 32023563,
         "distance": 504.70001220703125,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Gringhetti 23",
+        "person_name": "Corey Harthoorn",
         "segment_name": "Toes in the Water",
         "timing": 52,
         "leaderboard_rank": 9,
@@ -28071,19 +28071,10 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Jason Judt",
+        "person_name": "Gringhetti 23",
         "segment_name": "Toes in the Water",
-        "timing": 53,
+        "timing": 52,
         "leaderboard_rank": 10,
-        "strava_id": 32023563,
-        "distance": 504.70001220703125,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Ryan Rabe",
-        "segment_name": "Toes in the Water",
-        "timing": 53,
-        "leaderboard_rank": 11,
         "strava_id": 32023563,
         "distance": 504.70001220703125,
         "leaderboard": "KOM"
@@ -30746,7 +30737,7 @@
     {
         "person_name": "Daniel Janke",
         "segment_name": "100-Dollar Bill Blvd",
-        "timing": 39,
+        "timing": 38,
         "leaderboard_rank": 8,
         "strava_id": 32497594,
         "distance": 505.20001220703125,
