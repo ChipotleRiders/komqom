@@ -81,9 +81,9 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Benjamin Spray",
+        "person_name": "K Moe",
         "segment_name": "Stanton to Norfolk",
-        "timing": 1582,
+        "timing": 1567,
         "leaderboard_rank": 10,
         "strava_id": 675157,
         "distance": 16492.19921875,
@@ -1521,10 +1521,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Brian Porn",
+        "segment_name": "Gravel segment 1",
+        "timing": 444,
+        "leaderboard_rank": 6,
+        "strava_id": 1453037,
+        "distance": 3181.830078125,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "roy srymanske",
         "segment_name": "Gravel segment 1",
         "timing": 447,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 1453037,
         "distance": 3181.830078125,
         "leaderboard": "KOM"
@@ -1533,7 +1542,7 @@
         "person_name": "Nic Beckman",
         "segment_name": "Gravel segment 1",
         "timing": 454,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 1453037,
         "distance": 3181.830078125,
         "leaderboard": "KOM"
@@ -1542,15 +1551,6 @@
         "person_name": "Jon M Downey",
         "segment_name": "Gravel segment 1",
         "timing": 460,
-        "leaderboard_rank": 8,
-        "strava_id": 1453037,
-        "distance": 3181.830078125,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Brian Porn",
-        "segment_name": "Gravel segment 1",
-        "timing": 485,
         "leaderboard_rank": 9,
         "strava_id": 1453037,
         "distance": 3181.830078125,
@@ -4392,16 +4392,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Jeremiah Grell",
+        "person_name": "Jason Tollefson",
         "segment_name": "pine forest",
-        "timing": 139,
+        "timing": 138,
         "leaderboard_rank": 3,
         "strava_id": 7351300,
         "distance": 836.7000122070312,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Nic Meyer",
+        "person_name": "Jeremiah Grell",
         "segment_name": "pine forest",
         "timing": 139,
         "leaderboard_rank": 4,
@@ -4410,10 +4410,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Nic Meyer",
+        "segment_name": "pine forest",
+        "timing": 139,
+        "leaderboard_rank": 5,
+        "strava_id": 7351300,
+        "distance": 836.7000122070312,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Aaron Tredway",
         "segment_name": "pine forest",
         "timing": 141,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 7351300,
         "distance": 836.7000122070312,
         "leaderboard": "KOM"
@@ -4422,7 +4431,7 @@
         "person_name": "# BoooNoah",
         "segment_name": "pine forest",
         "timing": 142,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 7351300,
         "distance": 836.7000122070312,
         "leaderboard": "KOM"
@@ -4431,7 +4440,7 @@
         "person_name": "Ryan Legg",
         "segment_name": "pine forest",
         "timing": 142,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351300,
         "distance": 836.7000122070312,
         "leaderboard": "KOM"
@@ -4440,22 +4449,13 @@
         "person_name": "Brian Porn",
         "segment_name": "pine forest",
         "timing": 143,
-        "leaderboard_rank": 8,
-        "strava_id": 7351300,
-        "distance": 836.7000122070312,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Kevin Bratetic",
-        "segment_name": "pine forest",
-        "timing": 144,
         "leaderboard_rank": 9,
         "strava_id": 7351300,
         "distance": 836.7000122070312,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Jason Tollefson",
+        "person_name": "Kevin Bratetic",
         "segment_name": "pine forest",
         "timing": 144,
         "leaderboard_rank": 10,
@@ -4655,7 +4655,7 @@
     {
         "person_name": "Tara Sueper",
         "segment_name": "dark forest",
-        "timing": 345,
+        "timing": 330,
         "leaderboard_rank": 2,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
@@ -4833,10 +4833,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Tara Sueper",
+        "segment_name": "prarie to trailhead",
+        "timing": 197,
+        "leaderboard_rank": 2,
+        "strava_id": 7351335,
+        "distance": 1112.199951171875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Whitney Porn",
         "segment_name": "prarie to trailhead",
         "timing": 199,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4845,15 +4854,6 @@
         "person_name": "Emma Zakaras",
         "segment_name": "prarie to trailhead",
         "timing": 202,
-        "leaderboard_rank": 3,
-        "strava_id": 7351335,
-        "distance": 1112.199951171875,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Tara Sueper",
-        "segment_name": "prarie to trailhead",
-        "timing": 203,
         "leaderboard_rank": 4,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
@@ -6201,18 +6201,18 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Whitney Porn",
+        "person_name": "Tara Sueper",
         "segment_name": "Loop 2",
-        "timing": 1138,
+        "timing": 1082,
         "leaderboard_rank": 2,
         "strava_id": 7802748,
         "distance": 5325.2998046875,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Tara Sueper",
+        "person_name": "Whitney Porn",
         "segment_name": "Loop 2",
-        "timing": 1142,
+        "timing": 1138,
         "leaderboard_rank": 3,
         "strava_id": 7802748,
         "distance": 5325.2998046875,
@@ -7173,10 +7173,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Tara Sueper",
+        "segment_name": "2015 FULL LAP",
+        "timing": 1973,
+        "leaderboard_rank": 2,
+        "strava_id": 9835425,
+        "distance": 9392.400390625,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Whitney Porn",
         "segment_name": "2015 FULL LAP",
         "timing": 2019,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 9835425,
         "distance": 9392.400390625,
         "leaderboard": "QOM"
@@ -7185,7 +7194,7 @@
         "person_name": "Amber Bargstadt",
         "segment_name": "2015 FULL LAP",
         "timing": 2219,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 9835425,
         "distance": 9392.400390625,
         "leaderboard": "QOM"
@@ -7194,15 +7203,6 @@
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "2015 FULL LAP",
         "timing": 2242,
-        "leaderboard_rank": 4,
-        "strava_id": 9835425,
-        "distance": 9392.400390625,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Tara Sueper",
-        "segment_name": "2015 FULL LAP",
-        "timing": 2287,
         "leaderboard_rank": 5,
         "strava_id": 9835425,
         "distance": 9392.400390625,
@@ -18828,18 +18828,18 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Whitney Porn",
+        "person_name": "Tara Sueper",
         "segment_name": "2018 full lap",
-        "timing": 2129,
+        "timing": 1973,
         "leaderboard_rank": 2,
         "strava_id": 18419647,
         "distance": 10187.900390625,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Tara Sueper",
+        "person_name": "Whitney Porn",
         "segment_name": "2018 full lap",
-        "timing": 2188,
+        "timing": 2129,
         "leaderboard_rank": 3,
         "strava_id": 18419647,
         "distance": 10187.900390625,
@@ -18999,10 +18999,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Tara Sueper",
+        "segment_name": "2018 Loop 1 (north)",
+        "timing": 889,
+        "leaderboard_rank": 2,
+        "strava_id": 18419667,
+        "distance": 4411.2998046875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Whitney Porn",
         "segment_name": "2018 Loop 1 (north)",
         "timing": 1002,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 18419667,
         "distance": 4411.2998046875,
         "leaderboard": "QOM"
@@ -19011,7 +19020,7 @@
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "2018 Loop 1 (north)",
         "timing": 1039,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 18419667,
         "distance": 4411.2998046875,
         "leaderboard": "QOM"
@@ -19020,15 +19029,6 @@
         "person_name": "Kalea Mills",
         "segment_name": "2018 Loop 1 (north)",
         "timing": 1127,
-        "leaderboard_rank": 4,
-        "strava_id": 18419667,
-        "distance": 4411.2998046875,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Tara Sueper",
-        "segment_name": "2018 Loop 1 (north)",
-        "timing": 1128,
         "leaderboard_rank": 5,
         "strava_id": 18419667,
         "distance": 4411.2998046875,
@@ -20819,7 +20819,7 @@
     {
         "person_name": "Tara Sueper",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
-        "timing": 157,
+        "timing": 156,
         "leaderboard_rank": 3,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
@@ -25488,10 +25488,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "K Moe",
+        "segment_name": "The Bradford Exchange",
+        "timing": 71,
+        "leaderboard_rank": 6,
+        "strava_id": 29570428,
+        "distance": 699.0999755859375,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Michael Moyer",
         "segment_name": "The Bradford Exchange",
         "timing": 83,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 29570428,
         "distance": 699.0999755859375,
         "leaderboard": "KOM"
@@ -25500,7 +25509,7 @@
         "person_name": "Scotty Clark",
         "segment_name": "The Bradford Exchange",
         "timing": 84,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 29570428,
         "distance": 699.0999755859375,
         "leaderboard": "KOM"
@@ -25509,7 +25518,7 @@
         "person_name": "Daniel Janke",
         "segment_name": "The Bradford Exchange",
         "timing": 85,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 29570428,
         "distance": 699.0999755859375,
         "leaderboard": "KOM"
@@ -25518,15 +25527,6 @@
         "person_name": "Chad Jensen",
         "segment_name": "The Bradford Exchange",
         "timing": 89,
-        "leaderboard_rank": 9,
-        "strava_id": 29570428,
-        "distance": 699.0999755859375,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Kyle Lentz",
-        "segment_name": "The Bradford Exchange",
-        "timing": 92,
         "leaderboard_rank": 10,
         "strava_id": 29570428,
         "distance": 699.0999755859375,
@@ -29745,15 +29745,6 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Andrea Borgman",
-        "segment_name": "TaHa to Monroe on 1st",
-        "timing": 94,
-        "leaderboard_rank": 10,
-        "strava_id": 32394462,
-        "distance": 785.5999755859375,
-        "leaderboard": "QOM"
-    },
-    {
         "person_name": "Addison Albin",
         "segment_name": "A Little Fenrir Fun",
         "timing": 79,
@@ -32949,10 +32940,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Larry Sohler",
+        "segment_name": "No Sam Walton Way!",
+        "timing": 45,
+        "leaderboard_rank": 1,
+        "strava_id": 33209469,
+        "distance": 629.2999877929688,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Michael Francavilla",
         "segment_name": "No Sam Walton Way!",
         "timing": 46,
-        "leaderboard_rank": 1,
+        "leaderboard_rank": 2,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -32961,7 +32961,7 @@
         "person_name": "Larry Wenzl",
         "segment_name": "No Sam Walton Way!",
         "timing": 54,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -32970,7 +32970,7 @@
         "person_name": "Brian Porn",
         "segment_name": "No Sam Walton Way!",
         "timing": 55,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -32979,7 +32979,7 @@
         "person_name": "Timothy Metcalf",
         "segment_name": "No Sam Walton Way!",
         "timing": 62,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -32988,7 +32988,7 @@
         "person_name": "Brian Misfeldt",
         "segment_name": "No Sam Walton Way!",
         "timing": 63,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -32997,7 +32997,7 @@
         "person_name": "kyle hotchkin",
         "segment_name": "No Sam Walton Way!",
         "timing": 63,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -33006,7 +33006,7 @@
         "person_name": "Corey Harthoorn",
         "segment_name": "No Sam Walton Way!",
         "timing": 65,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -33015,7 +33015,7 @@
         "person_name": "Dan Spray",
         "segment_name": "No Sam Walton Way!",
         "timing": 65,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
@@ -33024,25 +33024,7 @@
         "person_name": "roy srymanske",
         "segment_name": "No Sam Walton Way!",
         "timing": 67,
-        "leaderboard_rank": 9,
-        "strava_id": 33209469,
-        "distance": 629.2999877929688,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Jon M Downey",
-        "segment_name": "No Sam Walton Way!",
-        "timing": 68,
         "leaderboard_rank": 10,
-        "strava_id": 33209469,
-        "distance": 629.2999877929688,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Jason Tollefson",
-        "segment_name": "No Sam Walton Way!",
-        "timing": 68,
-        "leaderboard_rank": 11,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
         "leaderboard": "KOM"
