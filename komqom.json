@@ -5058,10 +5058,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "April Mozer",
+        "segment_name": "Skyview Lake Loop: Clockwise",
+        "timing": 746,
+        "leaderboard_rank": 7,
+        "strava_id": 7462116,
+        "distance": 3172.699951171875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Nicole Bauer",
         "segment_name": "Skyview Lake Loop: Clockwise",
         "timing": 952,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7462116,
         "distance": 3172.699951171875,
         "leaderboard": "QOM"
@@ -5070,7 +5079,7 @@
         "person_name": "Nancy Polodna",
         "segment_name": "Skyview Lake Loop: Clockwise",
         "timing": 1747,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7462116,
         "distance": 3172.699951171875,
         "leaderboard": "QOM"
@@ -17118,10 +17127,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Rhonda Wright",
+        "segment_name": "Dinkel Bottoms",
+        "timing": 116,
+        "leaderboard_rank": 2,
+        "strava_id": 16003066,
+        "distance": 1291.199951171875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Tricia Akerlund Moyer",
         "segment_name": "Dinkel Bottoms",
         "timing": 117,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 16003066,
         "distance": 1291.199951171875,
         "leaderboard": "QOM"
@@ -17130,7 +17148,7 @@
         "person_name": "Sharon Harthoorn",
         "segment_name": "Dinkel Bottoms",
         "timing": 134,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 16003066,
         "distance": 1291.199951171875,
         "leaderboard": "QOM"
@@ -17139,15 +17157,6 @@
         "person_name": "Rebecca Munson",
         "segment_name": "Dinkel Bottoms",
         "timing": 147,
-        "leaderboard_rank": 4,
-        "strava_id": 16003066,
-        "distance": 1291.199951171875,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Rhonda Wright",
-        "segment_name": "Dinkel Bottoms",
-        "timing": 153,
         "leaderboard_rank": 5,
         "strava_id": 16003066,
         "distance": 1291.199951171875,
@@ -19161,10 +19170,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Nicole Bauer",
+        "segment_name": "Shake Rattle and Roll",
+        "timing": 51,
+        "leaderboard_rank": 1,
+        "strava_id": 18687812,
+        "distance": 594.9000244140625,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Megan Albin",
         "segment_name": "Shake Rattle and Roll",
         "timing": 55,
-        "leaderboard_rank": 1,
+        "leaderboard_rank": 2,
         "strava_id": 18687812,
         "distance": 594.9000244140625,
         "leaderboard": "QOM"
@@ -19173,7 +19191,7 @@
         "person_name": "Sharon Harthoorn",
         "segment_name": "Shake Rattle and Roll",
         "timing": 56,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 18687812,
         "distance": 594.9000244140625,
         "leaderboard": "QOM"
@@ -19182,15 +19200,6 @@
         "person_name": "Kate Placzek",
         "segment_name": "Shake Rattle and Roll",
         "timing": 59,
-        "leaderboard_rank": 3,
-        "strava_id": 18687812,
-        "distance": 594.9000244140625,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Nicole Bauer",
-        "segment_name": "Shake Rattle and Roll",
-        "timing": 66,
         "leaderboard_rank": 4,
         "strava_id": 18687812,
         "distance": 594.9000244140625,
@@ -19732,6 +19741,15 @@
         "segment_name": "Victory Curve N",
         "timing": 64,
         "leaderboard_rank": 10,
+        "strava_id": 19009696,
+        "distance": 811.5999755859375,
+        "leaderboard": "KOM"
+    },
+    {
+        "person_name": "Kurt Bogner",
+        "segment_name": "Victory Curve N",
+        "timing": 64,
+        "leaderboard_rank": 11,
         "strava_id": 19009696,
         "distance": 811.5999755859375,
         "leaderboard": "KOM"
@@ -27054,10 +27072,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Andy Winter",
+        "segment_name": "Let’s get some crowns.",
+        "timing": 133,
+        "leaderboard_rank": 4,
+        "strava_id": 31817684,
+        "distance": 1012.2999877929688,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Brian Porn",
         "segment_name": "Let’s get some crowns.",
         "timing": 137,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
@@ -27066,7 +27093,7 @@
         "person_name": "Jeff Pape",
         "segment_name": "Let’s get some crowns.",
         "timing": 138,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
@@ -27075,7 +27102,7 @@
         "person_name": "Jordan Judt",
         "segment_name": "Let’s get some crowns.",
         "timing": 138,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
@@ -27084,7 +27111,7 @@
         "person_name": "Bob Rose",
         "segment_name": "Let’s get some crowns.",
         "timing": 138,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
@@ -27093,7 +27120,7 @@
         "person_name": "Derrick Praeuner",
         "segment_name": "Let’s get some crowns.",
         "timing": 138,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
@@ -27102,7 +27129,7 @@
         "person_name": "Rodney Godfrey",
         "segment_name": "Let’s get some crowns.",
         "timing": 138,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
@@ -27111,7 +27138,7 @@
         "person_name": "Daniel Janke",
         "segment_name": "Let’s get some crowns.",
         "timing": 138,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 11,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
         "leaderboard": "KOM"
@@ -28838,7 +28865,7 @@
     {
         "person_name": "Rebecca Munson",
         "segment_name": "25th up to Roundabout",
-        "timing": 107,
+        "timing": 100,
         "leaderboard_rank": 5,
         "strava_id": 32147000,
         "distance": 504.70001220703125,
@@ -28944,10 +28971,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Brian Porn",
+        "segment_name": "Valli Hi Sprint",
+        "timing": 82,
+        "leaderboard_rank": 7,
+        "strava_id": 32380443,
+        "distance": 657.9000244140625,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Andrew Suhr",
         "segment_name": "Valli Hi Sprint",
         "timing": 84,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 32380443,
         "distance": 657.9000244140625,
         "leaderboard": "KOM"
@@ -28956,7 +28992,7 @@
         "person_name": "Timothy Metcalf",
         "segment_name": "Valli Hi Sprint",
         "timing": 85,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 32380443,
         "distance": 657.9000244140625,
         "leaderboard": "KOM"
@@ -28965,15 +29001,6 @@
         "person_name": "Michael Moyer",
         "segment_name": "Valli Hi Sprint",
         "timing": 91,
-        "leaderboard_rank": 9,
-        "strava_id": 32380443,
-        "distance": 657.9000244140625,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Brian Porn",
-        "segment_name": "Valli Hi Sprint",
-        "timing": 94,
         "leaderboard_rank": 10,
         "strava_id": 32380443,
         "distance": 657.9000244140625,
@@ -30672,16 +30699,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Jamie Wright",
+        "person_name": "Daniel Janke",
         "segment_name": "100-Dollar Bill Blvd",
-        "timing": 35,
+        "timing": 34,
         "leaderboard_rank": 2,
         "strava_id": 32497594,
         "distance": 505.20001220703125,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Larry Wenzl",
+        "person_name": "Jamie Wright",
         "segment_name": "100-Dollar Bill Blvd",
         "timing": 35,
         "leaderboard_rank": 3,
@@ -30690,16 +30717,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Michael Moyer",
+        "person_name": "Larry Wenzl",
         "segment_name": "100-Dollar Bill Blvd",
-        "timing": 36,
+        "timing": 35,
         "leaderboard_rank": 4,
         "strava_id": 32497594,
         "distance": 505.20001220703125,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Andrew Suhr",
+        "person_name": "Michael Moyer",
         "segment_name": "100-Dollar Bill Blvd",
         "timing": 36,
         "leaderboard_rank": 5,
@@ -30708,25 +30735,25 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "roy srymanske",
+        "person_name": "Andrew Suhr",
         "segment_name": "100-Dollar Bill Blvd",
-        "timing": 37,
+        "timing": 36,
         "leaderboard_rank": 6,
         "strava_id": 32497594,
         "distance": 505.20001220703125,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Kyle Lentz",
+        "person_name": "roy srymanske",
         "segment_name": "100-Dollar Bill Blvd",
-        "timing": 38,
+        "timing": 37,
         "leaderboard_rank": 7,
         "strava_id": 32497594,
         "distance": 505.20001220703125,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Daniel Janke",
+        "person_name": "Kyle Lentz",
         "segment_name": "100-Dollar Bill Blvd",
         "timing": 38,
         "leaderboard_rank": 8,
@@ -36954,10 +36981,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Kurt Bogner",
+        "segment_name": "Questionable Motives Hill",
+        "timing": 69,
+        "leaderboard_rank": 3,
+        "strava_id": 36659850,
+        "distance": 528.5,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Scott Matson",
         "segment_name": "Questionable Motives Hill",
         "timing": 81,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 36659850,
         "distance": 528.5,
         "leaderboard": "KOM"
@@ -36966,7 +37002,7 @@
         "person_name": "David Carter",
         "segment_name": "Questionable Motives Hill",
         "timing": 94,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 36659850,
         "distance": 528.5,
         "leaderboard": "KOM"
@@ -36975,7 +37011,7 @@
         "person_name": "Jim Albin",
         "segment_name": "Questionable Motives Hill",
         "timing": 100,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 36659850,
         "distance": 528.5,
         "leaderboard": "KOM"
@@ -36984,7 +37020,7 @@
         "person_name": "Jon M Downey",
         "segment_name": "Questionable Motives Hill",
         "timing": 102,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 36659850,
         "distance": 528.5,
         "leaderboard": "KOM"
@@ -36993,7 +37029,7 @@
         "person_name": "Jason Tollefson",
         "segment_name": "Questionable Motives Hill",
         "timing": 103,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 36659850,
         "distance": 528.5,
         "leaderboard": "KOM"
@@ -37002,7 +37038,7 @@
         "person_name": "Larry Wenzl",
         "segment_name": "Questionable Motives Hill",
         "timing": 117,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 36659850,
         "distance": 528.5,
         "leaderboard": "KOM"
@@ -37011,15 +37047,6 @@
         "person_name": "Ryan Rabe",
         "segment_name": "Questionable Motives Hill",
         "timing": 126,
-        "leaderboard_rank": 9,
-        "strava_id": 36659850,
-        "distance": 528.5,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "BayLee Colfack",
-        "segment_name": "Questionable Motives Hill",
-        "timing": 186,
         "leaderboard_rank": 10,
         "strava_id": 36659850,
         "distance": 528.5,
@@ -37028,7 +37055,7 @@
     {
         "person_name": "Nicole Bauer",
         "segment_name": "Questionable Motives Hill",
-        "timing": 83,
+        "timing": 68,
         "leaderboard_rank": 1,
         "strava_id": 36659850,
         "distance": 528.5,
@@ -40473,16 +40500,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Megan Albin",
+        "person_name": "Nicole Bauer",
         "segment_name": "Come On Chief!",
-        "timing": 106,
+        "timing": 104,
         "leaderboard_rank": 1,
         "strava_id": 37736071,
         "distance": 1049.5999755859375,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Nicole Bauer",
+        "person_name": "Megan Albin",
         "segment_name": "Come On Chief!",
         "timing": 106,
         "leaderboard_rank": 2,
