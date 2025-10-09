@@ -35444,7 +35444,7 @@
     {
         "person_name": "Michael Francavilla",
         "segment_name": "Do you wanna climb 25th street? Cool, me neither.",
-        "timing": 132,
+        "timing": 128,
         "leaderboard_rank": 7,
         "strava_id": 34761698,
         "distance": 704.0999755859375,
@@ -36328,6 +36328,15 @@
         "segment_name": "Woodland Parkway Eastward",
         "timing": 215,
         "leaderboard_rank": 11,
+        "strava_id": 35360006,
+        "distance": 1452.9000244140625,
+        "leaderboard": "KOM"
+    },
+    {
+        "person_name": "Troy Goetz",
+        "segment_name": "Woodland Parkway Eastward",
+        "timing": 215,
+        "leaderboard_rank": 12,
         "strava_id": 35360006,
         "distance": 1452.9000244140625,
         "leaderboard": "KOM"
