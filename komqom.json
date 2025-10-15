@@ -4113,10 +4113,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Olive Lind",
+        "segment_name": "tech section",
+        "timing": 143,
+        "leaderboard_rank": 2,
+        "strava_id": 7351273,
+        "distance": 819,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Whitney Porn",
         "segment_name": "tech section",
         "timing": 156,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4125,7 +4134,7 @@
         "person_name": "Julia Sueper",
         "segment_name": "tech section",
         "timing": 163,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4133,8 +4142,8 @@
     {
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "tech section",
-        "timing": 164,
-        "leaderboard_rank": 4,
+        "timing": 163,
+        "leaderboard_rank": 5,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4143,7 +4152,7 @@
         "person_name": "Tara Sueper",
         "segment_name": "tech section",
         "timing": 164,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4152,7 +4161,7 @@
         "person_name": "Evie Racette",
         "segment_name": "tech section",
         "timing": 176,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4161,7 +4170,7 @@
         "person_name": "Amber Bargstadt",
         "segment_name": "tech section",
         "timing": 176,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4170,7 +4179,7 @@
         "person_name": "Kalea Mills",
         "segment_name": "tech section",
         "timing": 179,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4179,7 +4188,7 @@
         "person_name": "Emi Mills",
         "segment_name": "tech section",
         "timing": 180,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4188,7 +4197,7 @@
         "person_name": "Jennifer Cowan",
         "segment_name": "tech section",
         "timing": 180,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 11,
         "strava_id": 7351273,
         "distance": 819,
         "leaderboard": "QOM"
@@ -4662,10 +4671,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Olive Lind",
+        "segment_name": "dark forest",
+        "timing": 340,
+        "leaderboard_rank": 3,
+        "strava_id": 7351326,
+        "distance": 1412.300048828125,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Whitney Porn",
         "segment_name": "dark forest",
         "timing": 361,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
         "leaderboard": "QOM"
@@ -4674,7 +4692,7 @@
         "person_name": "Emma Zakaras",
         "segment_name": "dark forest",
         "timing": 369,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
         "leaderboard": "QOM"
@@ -4683,7 +4701,7 @@
         "person_name": "Claire Burton",
         "segment_name": "dark forest",
         "timing": 371,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
         "leaderboard": "QOM"
@@ -4692,7 +4710,7 @@
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "dark forest",
         "timing": 376,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
         "leaderboard": "QOM"
@@ -4701,7 +4719,7 @@
         "person_name": "Amber Bargstadt",
         "segment_name": "dark forest",
         "timing": 384,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
         "leaderboard": "QOM"
@@ -4710,7 +4728,7 @@
         "person_name": "Amy Collison",
         "segment_name": "dark forest",
         "timing": 406,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
         "leaderboard": "QOM"
@@ -4719,15 +4737,6 @@
         "person_name": "Kallie Krugman",
         "segment_name": "dark forest",
         "timing": 408,
-        "leaderboard_rank": 9,
-        "strava_id": 7351326,
-        "distance": 1412.300048828125,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Emi Mills",
-        "segment_name": "dark forest",
-        "timing": 415,
         "leaderboard_rank": 10,
         "strava_id": 7351326,
         "distance": 1412.300048828125,
@@ -4788,10 +4797,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Parker Powell",
+        "segment_name": "prarie to trailhead",
+        "timing": 172,
+        "leaderboard_rank": 7,
+        "strava_id": 7351335,
+        "distance": 1112.199951171875,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Kevin Gilinsky",
         "segment_name": "prarie to trailhead",
         "timing": 174,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4800,7 +4818,7 @@
         "person_name": "Aaron Tredway",
         "segment_name": "prarie to trailhead",
         "timing": 175,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4809,7 +4827,7 @@
         "person_name": "Ted Lechnowsky",
         "segment_name": "prarie to trailhead",
         "timing": 175,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4818,7 +4836,7 @@
         "person_name": "Wyatt Michaelis",
         "segment_name": "prarie to trailhead",
         "timing": 175,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 11,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4833,10 +4851,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Olive Lind",
+        "segment_name": "prarie to trailhead",
+        "timing": 194,
+        "leaderboard_rank": 2,
+        "strava_id": 7351335,
+        "distance": 1112.199951171875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Tara Sueper",
         "segment_name": "prarie to trailhead",
         "timing": 197,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4845,7 +4872,7 @@
         "person_name": "Whitney Porn",
         "segment_name": "prarie to trailhead",
         "timing": 199,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4854,7 +4881,7 @@
         "person_name": "Emma Zakaras",
         "segment_name": "prarie to trailhead",
         "timing": 202,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4863,7 +4890,7 @@
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "prarie to trailhead",
         "timing": 206,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4872,7 +4899,7 @@
         "person_name": "Sara Wiese Johnson",
         "segment_name": "prarie to trailhead",
         "timing": 218,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4881,7 +4908,7 @@
         "person_name": "Evie Racette",
         "segment_name": "prarie to trailhead",
         "timing": 231,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4890,7 +4917,7 @@
         "person_name": "Kalea Mills",
         "segment_name": "prarie to trailhead",
         "timing": 238,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "QOM"
@@ -4899,15 +4926,6 @@
         "person_name": "Claire Burton",
         "segment_name": "prarie to trailhead",
         "timing": 239,
-        "leaderboard_rank": 9,
-        "strava_id": 7351335,
-        "distance": 1112.199951171875,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "allison burton",
-        "segment_name": "prarie to trailhead",
-        "timing": 242,
         "leaderboard_rank": 10,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
@@ -19971,10 +19989,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Olive Lind",
+        "segment_name": "to the forest quick",
+        "timing": 191,
+        "leaderboard_rank": 5,
+        "strava_id": 19247057,
+        "distance": 902.2999877929688,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "to the forest quick",
         "timing": 192,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 19247057,
         "distance": 902.2999877929688,
         "leaderboard": "QOM"
@@ -19983,7 +20010,7 @@
         "person_name": "Amber Bargstadt",
         "segment_name": "to the forest quick",
         "timing": 197,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 19247057,
         "distance": 902.2999877929688,
         "leaderboard": "QOM"
@@ -19992,7 +20019,7 @@
         "person_name": "allison burton",
         "segment_name": "to the forest quick",
         "timing": 198,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 19247057,
         "distance": 902.2999877929688,
         "leaderboard": "QOM"
@@ -20001,7 +20028,7 @@
         "person_name": "Emma Zakaras",
         "segment_name": "to the forest quick",
         "timing": 198,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 19247057,
         "distance": 902.2999877929688,
         "leaderboard": "QOM"
@@ -20010,7 +20037,7 @@
         "person_name": "Sara Wiese Johnson",
         "segment_name": "to the forest quick",
         "timing": 202,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 19247057,
         "distance": 902.2999877929688,
         "leaderboard": "QOM"
@@ -20019,7 +20046,7 @@
         "person_name": "Claire Burton",
         "segment_name": "to the forest quick",
         "timing": 202,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 11,
         "strava_id": 19247057,
         "distance": 902.2999877929688,
         "leaderboard": "QOM"
@@ -20790,16 +20817,16 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Kevin Gilinsky",
+        "person_name": "Asher Pfeifer",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
-        "timing": 130,
+        "timing": 128,
         "leaderboard_rank": 8,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Aaron Tredway",
+        "person_name": "Kevin Gilinsky",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 130,
         "leaderboard_rank": 9,
@@ -20808,9 +20835,9 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Mark Schafer",
+        "person_name": "Aaron Tredway",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
-        "timing": 138,
+        "timing": 130,
         "leaderboard_rank": 10,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
@@ -20835,10 +20862,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Olive Lind",
+        "segment_name": "Final Climb Prairie to Trail head Loop 2",
+        "timing": 148,
+        "leaderboard_rank": 3,
+        "strava_id": 23269018,
+        "distance": 807.7000122070312,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Tara Sueper",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 156,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "QOM"
@@ -20847,7 +20883,7 @@
         "person_name": "Emma Zakaras",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 164,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "QOM"
@@ -20856,7 +20892,7 @@
         "person_name": "Heather Biszantz-Meehan",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 171,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "QOM"
@@ -20865,7 +20901,7 @@
         "person_name": "Sara Wiese Johnson",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 173,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "QOM"
@@ -20874,15 +20910,6 @@
         "person_name": "Evie Racette",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 176,
-        "leaderboard_rank": 7,
-        "strava_id": 23269018,
-        "distance": 807.7000122070312,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Trisha Sonksen",
-        "segment_name": "Final Climb Prairie to Trail head Loop 2",
-        "timing": 183,
         "leaderboard_rank": 8,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
@@ -23130,16 +23157,16 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Evie Racette",
+        "person_name": "Olive Lind",
         "segment_name": "First Downhill",
-        "timing": 90,
+        "timing": 89,
         "leaderboard_rank": 3,
         "strava_id": 25493654,
         "distance": 674.5,
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Heather Biszantz-Meehan",
+        "person_name": "Evie Racette",
         "segment_name": "First Downhill",
         "timing": 90,
         "leaderboard_rank": 4,
@@ -23148,10 +23175,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Heather Biszantz-Meehan",
+        "segment_name": "First Downhill",
+        "timing": 90,
+        "leaderboard_rank": 5,
+        "strava_id": 25493654,
+        "distance": 674.5,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Whitney Porn",
         "segment_name": "First Downhill",
         "timing": 91,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 25493654,
         "distance": 674.5,
         "leaderboard": "QOM"
@@ -23160,7 +23196,7 @@
         "person_name": "allison burton",
         "segment_name": "First Downhill",
         "timing": 94,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 25493654,
         "distance": 674.5,
         "leaderboard": "QOM"
@@ -23169,7 +23205,16 @@
         "person_name": "Claire Burton",
         "segment_name": "First Downhill",
         "timing": 95,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
+        "strava_id": 25493654,
+        "distance": 674.5,
+        "leaderboard": "QOM"
+    },
+    {
+        "person_name": "Paula Renner",
+        "segment_name": "First Downhill",
+        "timing": 98,
+        "leaderboard_rank": 9,
         "strava_id": 25493654,
         "distance": 674.5,
         "leaderboard": "QOM"
@@ -23178,7 +23223,7 @@
         "person_name": "Amy Collison",
         "segment_name": "First Downhill",
         "timing": 100,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 10,
         "strava_id": 25493654,
         "distance": 674.5,
         "leaderboard": "QOM"
@@ -23187,24 +23232,6 @@
         "person_name": "Sara Wiese Johnson",
         "segment_name": "First Downhill",
         "timing": 100,
-        "leaderboard_rank": 9,
-        "strava_id": 25493654,
-        "distance": 674.5,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Emi Mills",
-        "segment_name": "First Downhill",
-        "timing": 102,
-        "leaderboard_rank": 10,
-        "strava_id": 25493654,
-        "distance": 674.5,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Nicole Weinhold",
-        "segment_name": "First Downhill",
-        "timing": 102,
         "leaderboard_rank": 11,
         "strava_id": 25493654,
         "distance": 674.5,
@@ -25929,10 +25956,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Brian Porn",
+        "segment_name": "Squiggle",
+        "timing": 50,
+        "leaderboard_rank": 6,
+        "strava_id": 30460525,
+        "distance": 440.6000061035156,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Jordan Judt",
         "segment_name": "Squiggle",
         "timing": 52,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 30460525,
         "distance": 440.6000061035156,
         "leaderboard": "KOM"
@@ -25941,7 +25977,7 @@
         "person_name": "Jay Nordeen",
         "segment_name": "Squiggle",
         "timing": 53,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 30460525,
         "distance": 440.6000061035156,
         "leaderboard": "KOM"
@@ -25950,7 +25986,7 @@
         "person_name": "Corey Harthoorn",
         "segment_name": "Squiggle",
         "timing": 53,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 30460525,
         "distance": 440.6000061035156,
         "leaderboard": "KOM"
@@ -25959,7 +25995,7 @@
         "person_name": "Jason Judt",
         "segment_name": "Squiggle",
         "timing": 53,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 30460525,
         "distance": 440.6000061035156,
         "leaderboard": "KOM"
@@ -25968,7 +26004,7 @@
         "person_name": "Andrew Smith",
         "segment_name": "Squiggle",
         "timing": 53,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 11,
         "strava_id": 30460525,
         "distance": 440.6000061035156,
         "leaderboard": "KOM"
@@ -32996,7 +33032,7 @@
     {
         "person_name": "Brian Porn",
         "segment_name": "No Sam Walton Way!",
-        "timing": 55,
+        "timing": 54,
         "leaderboard_rank": 4,
         "strava_id": 33209469,
         "distance": 629.2999877929688,
