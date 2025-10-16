@@ -1287,10 +1287,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Caitlin Duffy",
+        "segment_name": "SS segment",
+        "timing": 1381,
+        "leaderboard_rank": 7,
+        "strava_id": 1276390,
+        "distance": 8173.39013671875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Sharon Johnson",
         "segment_name": "SS segment",
         "timing": 1494,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 1276390,
         "distance": 8173.39013671875,
         "leaderboard": "QOM"
@@ -8757,10 +8766,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Caitlin Duffy",
+        "segment_name": "Battle Creek to Meadow Grove",
+        "timing": 2067,
+        "leaderboard_rank": 8,
+        "strava_id": 12529358,
+        "distance": 10908.2001953125,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Kim Beurskens",
         "segment_name": "Battle Creek to Meadow Grove",
         "timing": 2094,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 12529358,
         "distance": 10908.2001953125,
         "leaderboard": "QOM"
@@ -9099,10 +9117,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Caitlin Duffy",
+        "segment_name": "HWY275 to Battle Creek",
+        "timing": 1571,
+        "leaderboard_rank": 8,
+        "strava_id": 12535372,
+        "distance": 9698.2001953125,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Nancy Polodna",
         "segment_name": "HWY275 to Battle Creek",
         "timing": 1614,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 12535372,
         "distance": 9698.2001953125,
         "leaderboard": "QOM"
@@ -9111,15 +9138,6 @@
         "person_name": "Phyllis Cleveland",
         "segment_name": "HWY275 to Battle Creek",
         "timing": 1765,
-        "leaderboard_rank": 9,
-        "strava_id": 12535372,
-        "distance": 9698.2001953125,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Heidi Berg",
-        "segment_name": "HWY275 to Battle Creek",
-        "timing": 1773,
         "leaderboard_rank": 10,
         "strava_id": 12535372,
         "distance": 9698.2001953125,
@@ -36342,37 +36360,19 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Reese Clark",
+        "person_name": "Jason Busch",
         "segment_name": "Woodland Parkway Eastward",
-        "timing": 212,
+        "timing": 211,
         "leaderboard_rank": 9,
         "strava_id": 35360006,
         "distance": 1452.9000244140625,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Joe Sinegra",
+        "person_name": "Reese Clark",
         "segment_name": "Woodland Parkway Eastward",
-        "timing": 215,
+        "timing": 212,
         "leaderboard_rank": 10,
-        "strava_id": 35360006,
-        "distance": 1452.9000244140625,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Andrew Smith",
-        "segment_name": "Woodland Parkway Eastward",
-        "timing": 215,
-        "leaderboard_rank": 11,
-        "strava_id": 35360006,
-        "distance": 1452.9000244140625,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Troy Goetz",
-        "segment_name": "Woodland Parkway Eastward",
-        "timing": 215,
-        "leaderboard_rank": 12,
         "strava_id": 35360006,
         "distance": 1452.9000244140625,
         "leaderboard": "KOM"
