@@ -4806,10 +4806,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Asher Pfeifer",
+        "segment_name": "prarie to trailhead",
+        "timing": 171,
+        "leaderboard_rank": 7,
+        "strava_id": 7351335,
+        "distance": 1112.199951171875,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Parker Powell",
         "segment_name": "prarie to trailhead",
         "timing": 172,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4818,7 +4827,7 @@
         "person_name": "Kevin Gilinsky",
         "segment_name": "prarie to trailhead",
         "timing": 174,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4827,7 +4836,7 @@
         "person_name": "Aaron Tredway",
         "segment_name": "prarie to trailhead",
         "timing": 175,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4836,7 +4845,7 @@
         "person_name": "Ted Lechnowsky",
         "segment_name": "prarie to trailhead",
         "timing": 175,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 11,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4845,7 +4854,7 @@
         "person_name": "Wyatt Michaelis",
         "segment_name": "prarie to trailhead",
         "timing": 175,
-        "leaderboard_rank": 11,
+        "leaderboard_rank": 12,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -13086,9 +13095,9 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Sue Burns",
+        "person_name": "Cindy Means",
         "segment_name": "Willow Lake - West Climb",
-        "timing": 193,
+        "timing": 190,
         "leaderboard_rank": 10,
         "strava_id": 14557813,
         "distance": 745.7000122070312,
@@ -18396,10 +18405,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Cindy Means",
+        "segment_name": "549th Uphill",
+        "timing": 194,
+        "leaderboard_rank": 3,
+        "strava_id": 17858206,
+        "distance": 741.4000244140625,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Alexus Sindelar",
         "segment_name": "549th Uphill",
         "timing": 215,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 17858206,
         "distance": 741.4000244140625,
         "leaderboard": "QOM"
@@ -18408,7 +18426,7 @@
         "person_name": "Michelle Meier",
         "segment_name": "549th Uphill",
         "timing": 215,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 17858206,
         "distance": 741.4000244140625,
         "leaderboard": "QOM"
@@ -25812,10 +25830,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Brian Porn",
+        "segment_name": "Meadow Grove to Elkhorn River via CT",
+        "timing": 2840,
+        "leaderboard_rank": 8,
+        "strava_id": 30115446,
+        "distance": 21476.80078125,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Larry Wenzl",
         "segment_name": "Meadow Grove to Elkhorn River via CT",
         "timing": 2844,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 30115446,
         "distance": 21476.80078125,
         "leaderboard": "KOM"
@@ -25824,15 +25851,6 @@
         "person_name": "Dylan Page",
         "segment_name": "Meadow Grove to Elkhorn River via CT",
         "timing": 2863,
-        "leaderboard_rank": 9,
-        "strava_id": 30115446,
-        "distance": 21476.80078125,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Paul Boots",
-        "segment_name": "Meadow Grove to Elkhorn River via CT",
-        "timing": 2912,
         "leaderboard_rank": 10,
         "strava_id": 30115446,
         "distance": 21476.80078125,
@@ -35298,18 +35316,18 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Daniel Janke",
+        "person_name": "Ben Kortbein",
         "segment_name": "Mic Drop",
-        "timing": 425,
+        "timing": 421,
         "leaderboard_rank": 6,
         "strava_id": 34484284,
         "distance": 4183.39990234375,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Ben Kortbein",
+        "person_name": "Daniel Janke",
         "segment_name": "Mic Drop",
-        "timing": 432,
+        "timing": 425,
         "leaderboard_rank": 7,
         "strava_id": 34484284,
         "distance": 4183.39990234375,
@@ -36144,18 +36162,18 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Daniel Janke",
+        "person_name": "Ben Kortbein",
         "segment_name": "River Raid Full",
-        "timing": 407,
+        "timing": 405,
         "leaderboard_rank": 5,
         "strava_id": 35167894,
         "distance": 4072,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Ben Kortbein",
+        "person_name": "Daniel Janke",
         "segment_name": "River Raid Full",
-        "timing": 416,
+        "timing": 407,
         "leaderboard_rank": 6,
         "strava_id": 35167894,
         "distance": 4072,
@@ -38486,7 +38504,7 @@
     {
         "person_name": "Rhonda Wright",
         "segment_name": "Underpass to Sara",
-        "timing": 65,
+        "timing": 63,
         "leaderboard_rank": 2,
         "strava_id": 37284107,
         "distance": 505.3999938964844,
