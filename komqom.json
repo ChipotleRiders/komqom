@@ -81,7 +81,7 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "K Moe",
+        "person_name": "Kirk Moe",
         "segment_name": "Stanton to Norfolk",
         "timing": 1567,
         "leaderboard_rank": 10,
@@ -4248,10 +4248,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Jerry Hoff",
+        "segment_name": "tight and tangly",
+        "timing": 142,
+        "leaderboard_rank": 5,
+        "strava_id": 7351284,
+        "distance": 679.2999877929688,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Ryan Legg",
         "segment_name": "tight and tangly",
         "timing": 145,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 7351284,
         "distance": 679.2999877929688,
         "leaderboard": "KOM"
@@ -4260,7 +4269,7 @@
         "person_name": "Brian Porn",
         "segment_name": "tight and tangly",
         "timing": 152,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 7351284,
         "distance": 679.2999877929688,
         "leaderboard": "KOM"
@@ -4269,7 +4278,7 @@
         "person_name": "Ted Lechnowsky",
         "segment_name": "tight and tangly",
         "timing": 153,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351284,
         "distance": 679.2999877929688,
         "leaderboard": "KOM"
@@ -4278,7 +4287,7 @@
         "person_name": "Jeremiah Grell",
         "segment_name": "tight and tangly",
         "timing": 155,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7351284,
         "distance": 679.2999877929688,
         "leaderboard": "KOM"
@@ -4287,15 +4296,6 @@
         "person_name": "Nic Meyer",
         "segment_name": "tight and tangly",
         "timing": 155,
-        "leaderboard_rank": 9,
-        "strava_id": 7351284,
-        "distance": 679.2999877929688,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Jerry Hoff",
-        "segment_name": "tight and tangly",
-        "timing": 156,
         "leaderboard_rank": 10,
         "strava_id": 7351284,
         "distance": 679.2999877929688,
@@ -4464,18 +4464,18 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Brian Porn",
+        "person_name": "Jerry Hoff",
         "segment_name": "pine forest",
-        "timing": 143,
+        "timing": 142,
         "leaderboard_rank": 9,
         "strava_id": 7351300,
         "distance": 836.7000122070312,
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Kevin Bratetic",
+        "person_name": "Brian Porn",
         "segment_name": "pine forest",
-        "timing": 144,
+        "timing": 143,
         "leaderboard_rank": 10,
         "strava_id": 7351300,
         "distance": 836.7000122070312,
@@ -4770,10 +4770,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Jerry Hoff",
+        "segment_name": "prarie to trailhead",
+        "timing": 156,
+        "leaderboard_rank": 3,
+        "strava_id": 7351335,
+        "distance": 1112.199951171875,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Brad Auen",
         "segment_name": "prarie to trailhead",
         "timing": 157,
-        "leaderboard_rank": 3,
+        "leaderboard_rank": 4,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4782,7 +4791,7 @@
         "person_name": "Ryan Legg",
         "segment_name": "prarie to trailhead",
         "timing": 160,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4791,7 +4800,7 @@
         "person_name": "Jeremiah Grell",
         "segment_name": "prarie to trailhead",
         "timing": 163,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4800,7 +4809,7 @@
         "person_name": "Ryan Feagan",
         "segment_name": "prarie to trailhead",
         "timing": 170,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4809,7 +4818,7 @@
         "person_name": "Asher Pfeifer",
         "segment_name": "prarie to trailhead",
         "timing": 171,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4818,7 +4827,7 @@
         "person_name": "Parker Powell",
         "segment_name": "prarie to trailhead",
         "timing": 172,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -4827,34 +4836,7 @@
         "person_name": "Kevin Gilinsky",
         "segment_name": "prarie to trailhead",
         "timing": 174,
-        "leaderboard_rank": 9,
-        "strava_id": 7351335,
-        "distance": 1112.199951171875,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Aaron Tredway",
-        "segment_name": "prarie to trailhead",
-        "timing": 175,
         "leaderboard_rank": 10,
-        "strava_id": 7351335,
-        "distance": 1112.199951171875,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Ted Lechnowsky",
-        "segment_name": "prarie to trailhead",
-        "timing": 175,
-        "leaderboard_rank": 11,
-        "strava_id": 7351335,
-        "distance": 1112.199951171875,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Wyatt Michaelis",
-        "segment_name": "prarie to trailhead",
-        "timing": 175,
-        "leaderboard_rank": 12,
         "strava_id": 7351335,
         "distance": 1112.199951171875,
         "leaderboard": "KOM"
@@ -6228,9 +6210,9 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Travis Anderson",
+        "person_name": "Jerry Hoff",
         "segment_name": "Loop 2",
-        "timing": 970,
+        "timing": 965,
         "leaderboard_rank": 10,
         "strava_id": 7802748,
         "distance": 5325.2998046875,
@@ -7139,7 +7121,7 @@
     {
         "person_name": "Jerry Hoff",
         "segment_name": "2015 FULL LAP",
-        "timing": 1839,
+        "timing": 1716,
         "leaderboard_rank": 3,
         "strava_id": 9835425,
         "distance": 9392.400390625,
@@ -18801,10 +18783,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Jerry Hoff",
+        "segment_name": "2018 full lap",
+        "timing": 1716,
+        "leaderboard_rank": 2,
+        "strava_id": 18419647,
+        "distance": 10187.900390625,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Brad Auen",
         "segment_name": "2018 full lap",
         "timing": 1861,
-        "leaderboard_rank": 2,
+        "leaderboard_rank": 3,
         "strava_id": 18419647,
         "distance": 10187.900390625,
         "leaderboard": "KOM"
@@ -18813,15 +18804,6 @@
         "person_name": "Brian Porn",
         "segment_name": "2018 full lap",
         "timing": 1893,
-        "leaderboard_rank": 3,
-        "strava_id": 18419647,
-        "distance": 10187.900390625,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Jerry Hoff",
-        "segment_name": "2018 full lap",
-        "timing": 1920,
         "leaderboard_rank": 4,
         "strava_id": 18419647,
         "distance": 10187.900390625,
@@ -20817,10 +20799,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Jerry Hoff",
+        "segment_name": "Final Climb Prairie to Trail head Loop 2",
+        "timing": 116,
+        "leaderboard_rank": 4,
+        "strava_id": 23269018,
+        "distance": 807.7000122070312,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Nic Meyer",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 118,
-        "leaderboard_rank": 4,
+        "leaderboard_rank": 5,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
@@ -20829,7 +20820,7 @@
         "person_name": "Jeremiah Grell",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 119,
-        "leaderboard_rank": 5,
+        "leaderboard_rank": 6,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
@@ -20838,7 +20829,7 @@
         "person_name": "Ryan Feagan",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 127,
-        "leaderboard_rank": 6,
+        "leaderboard_rank": 7,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
@@ -20847,7 +20838,7 @@
         "person_name": "Ted Lechnowsky",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 128,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
@@ -20856,7 +20847,7 @@
         "person_name": "Asher Pfeifer",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 128,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
@@ -20865,7 +20856,7 @@
         "person_name": "Kevin Gilinsky",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 130,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
@@ -20874,7 +20865,7 @@
         "person_name": "Aaron Tredway",
         "segment_name": "Final Climb Prairie to Trail head Loop 2",
         "timing": 130,
-        "leaderboard_rank": 10,
+        "leaderboard_rank": 11,
         "strava_id": 23269018,
         "distance": 807.7000122070312,
         "leaderboard": "KOM"
@@ -25569,7 +25560,7 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "K Moe",
+        "person_name": "Kirk Moe",
         "segment_name": "The Bradford Exchange",
         "timing": 71,
         "leaderboard_rank": 6,
@@ -36990,10 +36981,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Niki Hinz",
+        "segment_name": "Flood Control Sprint South",
+        "timing": 543,
+        "leaderboard_rank": 7,
+        "strava_id": 36600061,
+        "distance": 3966.199951171875,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Margie Goracke",
         "segment_name": "Flood Control Sprint South",
         "timing": 549,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 36600061,
         "distance": 3966.199951171875,
         "leaderboard": "QOM"
@@ -37002,7 +37002,7 @@
         "person_name": "Nell Votruba",
         "segment_name": "Flood Control Sprint South",
         "timing": 552,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 36600061,
         "distance": 3966.199951171875,
         "leaderboard": "QOM"
@@ -37011,15 +37011,6 @@
         "person_name": "Jill Godfrey",
         "segment_name": "Flood Control Sprint South",
         "timing": 554,
-        "leaderboard_rank": 9,
-        "strava_id": 36600061,
-        "distance": 3966.199951171875,
-        "leaderboard": "QOM"
-    },
-    {
-        "person_name": "Niki Hinz",
-        "segment_name": "Flood Control Sprint South",
-        "timing": 571,
         "leaderboard_rank": 10,
         "strava_id": 36600061,
         "distance": 3966.199951171875,
@@ -40844,7 +40835,7 @@
     {
         "person_name": "Daniel Janke",
         "segment_name": "Wait For The Green Light",
-        "timing": 35,
+        "timing": 34,
         "leaderboard_rank": 1,
         "strava_id": 37886026,
         "distance": 501.8999938964844,
