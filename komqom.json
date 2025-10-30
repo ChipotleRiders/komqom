@@ -29547,10 +29547,19 @@
         "leaderboard": "KOM"
     },
     {
+        "person_name": "Jason Tollefson",
+        "segment_name": "25th South to Cowboy Trail",
+        "timing": 51,
+        "leaderboard_rank": 7,
+        "strava_id": 32394383,
+        "distance": 504.79998779296875,
+        "leaderboard": "KOM"
+    },
+    {
         "person_name": "Jon M Downey",
         "segment_name": "25th South to Cowboy Trail",
         "timing": 53,
-        "leaderboard_rank": 7,
+        "leaderboard_rank": 8,
         "strava_id": 32394383,
         "distance": 504.79998779296875,
         "leaderboard": "KOM"
@@ -29559,7 +29568,7 @@
         "person_name": "Benjamin Spray",
         "segment_name": "25th South to Cowboy Trail",
         "timing": 54,
-        "leaderboard_rank": 8,
+        "leaderboard_rank": 9,
         "strava_id": 32394383,
         "distance": 504.79998779296875,
         "leaderboard": "KOM"
@@ -29568,15 +29577,6 @@
         "person_name": "Daniel Janke",
         "segment_name": "25th South to Cowboy Trail",
         "timing": 54,
-        "leaderboard_rank": 9,
-        "strava_id": 32394383,
-        "distance": 504.79998779296875,
-        "leaderboard": "KOM"
-    },
-    {
-        "person_name": "Andy Winter",
-        "segment_name": "25th South to Cowboy Trail",
-        "timing": 55,
         "leaderboard_rank": 10,
         "strava_id": 32394383,
         "distance": 504.79998779296875,
