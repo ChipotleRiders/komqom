@@ -684,7 +684,7 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Annika Johanson",
+        "person_name": "Annika Buckley",
         "segment_name": "NRS TT ",
         "timing": 1260,
         "leaderboard_rank": 7,
@@ -3411,7 +3411,7 @@
         "leaderboard": "KOM"
     },
     {
-        "person_name": "Tom Woods (Slowtwitch Good Life Racing)",
+        "person_name": "Tom Woods (LRC Nebraska)",
         "segment_name": "275 Maskentine Valley: East Side",
         "timing": 99,
         "leaderboard_rank": 10,
@@ -23562,10 +23562,19 @@
         "leaderboard": "QOM"
     },
     {
+        "person_name": "Presley Marnach",
+        "segment_name": "Decline of the Benjamin",
+        "timing": 135,
+        "leaderboard_rank": 9,
+        "strava_id": 26441044,
+        "distance": 466.8999938964844,
+        "leaderboard": "QOM"
+    },
+    {
         "person_name": "Jordan Aschoff",
         "segment_name": "Decline of the Benjamin",
         "timing": 150,
-        "leaderboard_rank": 9,
+        "leaderboard_rank": 10,
         "strava_id": 26441044,
         "distance": 466.8999938964844,
         "leaderboard": "QOM"
@@ -27155,7 +27164,7 @@
     {
         "person_name": "Brian Porn",
         "segment_name": "Let’s get some crowns.",
-        "timing": 137,
+        "timing": 136,
         "leaderboard_rank": 5,
         "strava_id": 31817684,
         "distance": 1012.2999877929688,
@@ -39078,7 +39087,7 @@
         "leaderboard": "QOM"
     },
     {
-        "person_name": "Tom Woods (Slowtwitch Good Life Racing)",
+        "person_name": "Tom Woods (LRC Nebraska)",
         "segment_name": "We Need a Bike Trail Here - East",
         "timing": 65,
         "leaderboard_rank": 1,
